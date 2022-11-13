@@ -37,7 +37,7 @@ export default function HowIsWork() {
             <h2 className="tool-title">Які інструменти для зручного навчання ми Вам пропонуємо:</h2>
             <ul>
               {toolsLearning.map((t) => (
-                <li>
+                <li key={t.id}>
                   <Image alt={`image-${t.id}`} className={`${t.isFirst ? '' : 'low-opacity'}`} src={PlusIcon} />
                   <span>{t.text}</span>
                 </li>
