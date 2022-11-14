@@ -122,3 +122,212 @@ export const forWhomData = {
         "Запропонуйте роботу, яку одразу помітять сотні студентів"
     ]
 }
+
+
+export const formatlearningData = [
+    {
+        id: 1,
+        purchaseTitle: 'Єдина покупка',
+        purchaseText: 'Лише 1 курс',
+        format: 'Стандарт',
+        isActive: false,
+        price: 12,
+        devise: '$',
+        description: 'Оберіть опцію зручну для Вас:',
+        plan: 'Стандарт',
+        color: '#FF8001',
+        descriptions: [
+            {
+                id: 1,
+                description: "Доступ до курсу 24/7"
+            },
+            {
+                id: 2,
+                description: "Доступ до курсу протягом місяця"
+            },
+            {
+                id: 3,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 4,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 5,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 6,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 7,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 8,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 9,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 10,
+                description: "Доступ до курсу протягом місяця"
+            }
+        ]
+    },  {
+        id: 2,
+        purchaseTitle: 'Підписка',
+        purchaseText: '1 спеціальність',
+        format: 'Стандарт',
+        price: 20,
+        devise: '$',
+        description: 'Оберіть опцію зручну для Вас:',
+        plan: 'Місяць',
+        color: '#FF5600',
+        isActive: true,
+        descriptions: [
+            {
+                id: 1,
+                description: "Доступ до курсу 24/7"
+            },
+            {
+                id: 2,
+                description: "Доступ до курсу протягом місяця"
+            },
+            {
+                id: 3,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 4,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 5,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 6,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 7,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 8,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 9,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 10,
+                description: "Доступ до курсу протягом місяця"
+            }
+        ]
+    },  {
+        id: 3,
+        purchaseTitle: 'Підписка',
+        purchaseText: '1 ментор',
+        format: 'Стандарт',
+        price: 100,
+        devise: '$',
+        description: 'Оберіть опцію зручну для Вас:',
+        plan: 'Місяць',
+        color: '#FF5600',
+        isActive: false,
+        descriptions: [
+            {
+                id: 1,
+                description: "Доступ до курсу 24/7"
+            },
+            {
+                id: 2,
+                description: "Доступ до курсу протягом місяця"
+            },
+            {
+                id: 3,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 4,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 5,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 6,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 7,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 8,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 9,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 10,
+                description: "Доступ до курсу протягом місяця"
+            }
+        ]
+    },  {
+        id: 4,
+        purchaseTitle: 'Підписка',
+        purchaseText: 'всі курси',
+        format: 'Стандарт',
+        isActive: false,
+        price: 1000,
+        devise: '$',
+        description: 'Оберіть опцію зручну для Вас:',
+        plan: 'Місяць',
+        color: '#8E1010',
+        descriptions: [
+            {
+                id: 1,
+                description: "Доступ до курсу 24/7"
+            },
+            {
+                id: 2,
+                description: "Доступ до курсу протягом місяця"
+            },
+            {
+                id: 3,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 4,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 5,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 6,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 7,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 8,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 9,
+                description: "Доступ до курсу протягом місяця"
+            },{
+                id: 10,
+                description: "Доступ до курсу протягом місяця"
+            }
+        ]
+    }
+]
+
+
+export const questions = [
+    {
+        id: 1,
+        question: "Введіть свій номер телефону"
+    },
+    {
+        id: 2,
+        question: "Введіть свій номер телефону"
+    },
+    {
+        id: 3,
+        question: "Введіть свій номер телефону"
+    },
+    {
+        id: 4,
+        question: "Введіть свій номер телефону"
+    }
+]

@@ -1,0 +1,167 @@
+.format-learning {
+  padding: 0 145px;
+
+  &-sign-title{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;   
+    color: #EDEDED;
+    margin: 65px 0;
+  }
+
+  .active {
+    background: #ededed !important;
+    p,
+    h3,
+    h4,
+    li {
+      color: #0f0f0f !important;
+    }
+  }
+
+  &-title {
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #ededed;
+    margin-bottom: 95px;
+  }
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+  }
+
+  &-col {
+    background: #131313;
+    border-radius: 30px 30px 0 0;
+    padding: 54px 41px;
+    &-header {
+      text-align: center;
+      color: #ededed;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      position: relative;
+      padding-bottom: 59px;
+
+      &::after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #1e1e1e;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      h3 {
+        text-transform: uppercase;
+      }
+    }
+
+    &.format-plan-col {
+      border-radius: 0 0 30px 30px;
+      padding: 0;
+      .format-plan-content {
+        background: #131313;
+        border-radius: 0 0 30px 30px;
+        padding: 54px 41px;
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+
+        .format-plan-price {
+            font-weight: 300;
+            font-size: 48px;
+            line-height: 58px;
+            text-align: center;
+            color: #ff8001;
+            width: 231px;
+          }
+  
+          .format-plan-description {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 30px;
+            color: #ededed;
+            width: 200px;
+          }
+  
+          .format-plan-plan {
+            display: flex;
+            justify-content: space-between;
+            p {
+              font-weight: 100;
+              font-size: 20px;
+              line-height: 24px;
+              color: #ededed;
+            }
+
+            img{
+                width: 30px;
+            }
+          }
+      }
+
+      .btn-content {
+        display: flex;
+        justify-content: center;
+        margin: 34px 0 50px 0;
+
+        button {
+          border: none;
+          font-weight: 100;
+          font-size: 30px;
+          line-height: 36px;
+          text-align: center;
+          color: #ededed;
+          background-color: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &-plan {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+    margin-bottom: 46px;
+    img {
+      width: 29px;
+      height: 29px;
+    }
+
+    p {
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ededed;
+      margin: 0;
+    }
+  }
+
+  .description-content {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    .description-plan {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      p {
+        margin: 0;
+        max-width: 150px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ededed;
+      }
+    }
+  }
+}

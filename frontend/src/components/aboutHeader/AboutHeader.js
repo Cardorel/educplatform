@@ -2,6 +2,7 @@ import React from "react";
 import { Image, Row } from "react-bootstrap";
 import { headerData } from "../../assets/consts/data";
 import PlusIcon from "../../assets/svg/plusIconRose.svg";
+import BgColor from '../../assets/svg/bgColor.svg'
 import './aboutHeader.scss'
 
 export default function AboutHeader() {
@@ -31,6 +32,9 @@ export default function AboutHeader() {
             alt="image-header"
           />
         </div>
+      </div>
+      <div className="bg-color">
+        <Image src={BgColor} alt="bg-color"/>
       </div>
     </Row>
   );
