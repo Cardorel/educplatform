@@ -1,0 +1,129 @@
+.sign-in {
+  padding: 245px 426px;
+
+  &-content {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+
+    h4 {
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ff5600;
+    }
+
+    button {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    .label-input {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      & + & {
+        margin-top: 1em;
+      }
+
+      input[type="checkbox"] {
+        -webkit-appearance: none;
+        appearance: none;
+        background-color: transparent;
+        margin: 0;
+
+        font: inherit;
+        color: currentColor;
+        width: 1.15em !important;
+        height: 1.15em !important;
+        border: 0.15em solid #ff5600;
+        border-radius: 0.15em;
+        transform: translateY(-0.075em);
+
+        display: grid;
+        place-content: center;
+      }
+
+      input[type="checkbox"]::before {
+        content: "";
+        width: 0.65em;
+        height: 0.65em;
+        clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+        transform: scale(0);
+        transform-origin: bottom left;
+        transition: 120ms transform ease-in-out;
+        box-shadow: inset 1em 1em #ff5600;
+        /* Windows High Contrast Mode */
+        background-color: CanvasText;
+      }
+
+      input[type="checkbox"]:checked::before {
+        transform: scale(1);
+      }
+
+      input[type="checkbox"]:focus {
+        outline: max(2px, 0.15em) solid #ff5600;
+      }
+
+      input[type="checkbox"]:disabled {
+        --form-control-color: #ff5600;
+        color: #959495;
+        cursor: not-allowed;
+      }
+
+      span {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ededed;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  &-left {
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+
+    .reset-password {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #ff5600;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      height: 100%;
+      width: 1px;
+      background-color: #ff5600;
+    }
+
+    input {
+      width: 435px !important;
+    }
+  }
+
+  &-right {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    &-para {
+      width: 432px;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      color: #808080;
+      margin-bottom: 35px;
+    }
+  }
+}

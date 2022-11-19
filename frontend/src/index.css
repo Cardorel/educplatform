@@ -13,3 +13,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.try-btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background: #ff5600;
+  border-radius: 10px;
+  color: #EDEDED;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content:center
+}
+
+.logo-text {
+  color: #ededed;
+  background: #1e1e1e;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding: 25px 75px;
+}
+
+.logo-content {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-content h3.logo-text {
+  background: #0f0f0f;
+  width: max-content;
+}

@@ -1,6 +1,9 @@
 .input-content {
-    padding-bottom: 3px;
-    border-radius: 0px 0px 20px 20px;
+  padding-bottom: 3px;
+  border-radius: 0px 0px 20px 20px;
+  margin: 0;
+  position: relative;
+  width: max-content;
   .input-text {
     outline: none;
     padding: 27px 50px;
@@ -8,5 +11,36 @@
     position: relative;
     border: none;
     border-radius: 0px 0px 20px 20px;
+    background-color: #131313;
+  }
+
+  .image-search {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+  }
+
+  .input-text-content {
+    h4 {
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      color: #ededed;
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.input-text-content {
+  h4 {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #ededed;
+    margin-bottom: 5px;
   }
 }

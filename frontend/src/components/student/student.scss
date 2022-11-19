@@ -1,0 +1,133 @@
+.student {
+  &-row {
+    display: flex;
+    gap: 178px;
+    margin-top: 113px;
+    padding: 0 145px 271px 133px;
+    position: relative;
+
+    .bg-bottom {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+
+    .univ-text {
+      background: linear-gradient(
+          270deg,
+          #10788e 32.17%,
+          #ededed 43.97%,
+          #ff5600 59.78%
+        ),
+        linear-gradient(
+          270.29deg,
+          #10788e 72.81%,
+          #ededed 87.87%,
+          #ff5600 102.31%
+        ),
+        linear-gradient(0deg, #ededed, #ededed);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 5px;
+    }
+  }
+
+  &-col {
+    display: grid;
+
+    &:first-child {
+      width: 717px;
+    }
+
+    .student-title {
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 48px;
+      color: #ededed;
+    }
+
+    .student-header {
+      &-paragraph {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 34px;
+        display: flex;
+        align-items: center;
+        color: #ededed;
+      }
+
+      &-image {
+        width: 539px;
+        height: 436px;
+      }
+    }
+  }
+
+  .student-recommandation {
+    position: relative;
+    padding: 303px 145px 89px 133px;
+    display: grid;
+    align-items: center;
+    gap: 44px;
+    background: rgba(237, 237, 237, 0.02);
+
+    .btn-content {
+      display: flex;
+      justify-content: flex-end;
+      gap: 50px;
+      margin-top: 59px;
+      & > .try-btn:first-child {
+        background-color: transparent !important;
+        border: 1px solid #ff5600;
+      }
+    }
+
+    .recommandation-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .header-text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 87px;
+      padding: 0 100px;
+
+      width: 1521px;
+      margin: auto;
+
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 43px;
+      display: flex;
+      align-items: center;
+
+      color: #ededed;
+    }
+
+    .recommandation-row {
+      .recommandation-title {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        color: #ededed;
+      }
+
+      .recommandation-col {
+        display: flex;
+        gap: 108px;
+
+        input {
+          max-width: 435px !important;
+        }
+      }
+    }
+  }
+}

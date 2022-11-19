@@ -2,8 +2,9 @@ import React from "react";
 import { Image, Row } from "react-bootstrap";
 import { headerData } from "../../assets/consts/data";
 import PlusIcon from "../../assets/svg/plusIconRose.svg";
-import BgColor from '../../assets/svg/bgColor.svg'
-import './aboutHeader.scss'
+import BgColor from "../../assets/svg/bgColor.svg";
+import "./aboutHeader.scss";
+import Button from "../common/Button";
 
 export default function AboutHeader() {
   const { title, abouts } = headerData;
@@ -23,8 +24,11 @@ export default function AboutHeader() {
                   </p>
                 </li>
               ))}
-                  </ul>
-                  <button className="try-btn">Спробуйте безкоштовний 30-денний пробний період</button>
+          </ul>
+          <Button
+            text="Спробуйте безкоштовний 30-денний пробний період"
+            padding="33px 91px"
+          />
         </div>
         <div className="header-about-right">
           <Image
@@ -34,7 +38,7 @@ export default function AboutHeader() {
         </div>
       </div>
       <div className="bg-color">
-        <Image src={BgColor} alt="bg-color"/>
+        <Image src={BgColor} alt="bg-color" />
       </div>
     </Row>
   );

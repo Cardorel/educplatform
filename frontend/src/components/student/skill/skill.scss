@@ -1,0 +1,42 @@
+.skill-container {
+  padding: 43px 145px;
+  background: linear-gradient(
+    180deg,
+    #040404 3.07%,
+    #040404 50.81%,
+    #040404 100%
+  );
+
+  .skill-title {
+    margin-bottom: 66px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ededed;
+    padding: 0 290px;
+  }
+
+  .skill-row {
+    display: flex;
+    gap: 144px;
+    align-items: center;
+    .skill-col {
+      display: flex;
+      align-items: center;
+      gap: 34px;
+
+      p {
+        width: 350px;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #ededed;
+      }
+    }
+  }
+}

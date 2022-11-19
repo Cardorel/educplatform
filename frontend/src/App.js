@@ -1,28 +1,35 @@
-import React from 'react'
-import AboutHeader from './components/aboutHeader/AboutHeader';
-import HomeContact from './components/contact/HomeContact';
-import Footer from './components/footer/Footer';
-import FormatLearning from './components/formatLearning/FormatLearning';
-import ForWhom from './components/forWhom/ForWhom';
-import Header from './components/header/header';
-import HowIsWork from './components/main/howIsWork/HowIsWork';
-import Specialties from './components/specialtiesBlock/Specialties';
-import Statistic from './components/statistic/Statistic';
+import React from "react";
+import "swiper/css";
+import Home from "./components/home/Home";
+import Registration from "./components/registration/Registration";
+import ResetPassword from "./components/resetPassword/ResetPassword";
+import SignIn from "./components/signIn/SignIn";
+import StudentPage from "./pages/Student";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  createRoutesFromElements,
+} from "react-router-dom";
+import AuthLayout from "./components/auth/AuthLayout";
+import WithHeader from "./components/hoc/WithHeader";
 
-function App() {
-  return (
-    <div fluid className='mt-4'>
-      <Header />
-      <AboutHeader />
-      <HowIsWork />
-      <Specialties />
-      <ForWhom />
-      <Statistic />
-      <FormatLearning />
-      <HomeContact />
-      <Footer/>
-    </div>
-  );
-}
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route path="/" element={<WithHeader />}>
+        <Route index element={<Home />} />
+        <Route path="student" element={<StudentPage />} />
+      </Route>
+      <Route element={<AuthLayout />}>
+        <Route path="sigin" element={<SignIn />} />
+        <Route path="register" element={<Registration />} />
+        <Route path="reset-password" element={<ResetPassword />} />
+      </Route>
+    </Route>
+  )
+);
+
+const App = () => <RouterProvider router={router} />;
 
 export default App;
