@@ -12,6 +12,14 @@
       left: 0;
     }
 
+    .bg-header {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: -1;
+    }
+
     .univ-text {
       background: linear-gradient(
           270deg,
@@ -30,14 +38,13 @@
       -webkit-text-fill-color: transparent;
     }
 
-    .univ-text-course{
-      background:
-        linear-gradient(
-          70.29deg,
-          #10788e 12.81%,
-          #ededed 57.87%,
-          #ff5600 42.31%
-        );
+    .univ-text-course {
+      background: linear-gradient(
+        70.29deg,
+        #10788e 12.81%,
+        #ededed 57.87%,
+        #ff5600 42.31%
+      );
       background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -70,6 +77,9 @@
       &-image {
         width: 539px;
         height: 436px;
+        border-radius: 20px;
+        -webkit-box-shadow: 10px 8px 15px 7px rgba(60, 55, 54, 0.82);
+        box-shadow: 10px 8px 15px 7px rgba(60, 55, 54, 0.82);
       }
     }
   }

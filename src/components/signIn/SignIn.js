@@ -6,8 +6,10 @@ import Google from "../../assets/svg/google.svg";
 import "./signIn.scss";
 import Logo from "../logo/Logo";
 import { Image } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 export default function SignIn() {
+  const navigate = useNavigate();
   return (
     <div className="sign-in">
       <div className="logo-content">
@@ -20,6 +22,9 @@ export default function SignIn() {
             <div className="google-content">
               <Image src={Google} alt="google" />
               <span>УВІЙТИ З GOOGLE</span>
+            </div>
+            <div className="separator-bar">
+              <p className="separator-text">або</p>
             </div>
           </div>
           <InputText
@@ -39,7 +44,9 @@ export default function SignIn() {
             <span>Запам’ятати мене</span>
           </label>
           <Button text="УВІЙТИ" padding="23px" />
-          <p className="reset-password">Забули свій пароль</p>
+          <div className="reset-btn-content">
+          <button className="btn-reset-password" onClick={()=> navigate('/reset-password')}>Забули свій пароль</button>
+          </div>
         </div>
         <div className="sign-in-right">
           <h4>... зареєструйтеся БЕЗКОШТОВНО</h4>
@@ -52,6 +59,7 @@ export default function SignIn() {
             text="ЗАРЕЄСТРУВАТИСЯ СЬОГОДНІ"
             padding="23px"
             imageUrl={ArrowBlack}
+            handleClick={()=> navigate('/register')}
           />
         </div>
       </div>

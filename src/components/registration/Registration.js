@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "../common/Button";
 import InputText from "../common/InputText";
 import Logo from "../logo/Logo";
@@ -62,7 +63,7 @@ export default function Registration() {
           <a href="/#" className="registration-link">положеннями і умовами</a> та {" "}
           <a href="/#" className="registration-link">політикою конфіденційності</a>.
         </p>
-        <p className="registration-autho">Уже маєте обліковий запис ...? <a className="registration-link" href="/#">авторизуйтеся</a></p>
+        <p className="registration-autho">Уже маєте обліковий запис ...? <Link to='/signin' className="registration-link">авторизуйтеся</Link></p>
       </div>
     </div>
   );

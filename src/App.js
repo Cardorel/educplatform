@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "swiper/css";
 import Home from "./components/home/Home";
 import Registration from "./components/registration/Registration";
@@ -22,7 +22,7 @@ const router = createBrowserRouter(
         <Route path="student" element={<StudentPage />} />
       </Route>
       <Route element={<AuthLayout />}>
-        <Route path="sigin" element={<SignIn />} />
+        <Route path="signin" element={<SignIn />} />
         <Route path="register" element={<Registration />} />
         <Route path="reset-password" element={<ResetPassword />} />
       </Route>
@@ -30,6 +30,30 @@ const router = createBrowserRouter(
   )
 );
 
-const App = () => <RouterProvider router={router} />;
+const App = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+  useEffect(() => {
+    if (window.matchMedia("(max-width: 1919px)")) {
+      setIsSmallScreen(true);
+    }
+    setIsSmallScreen(false);
+  }, []);
+
+  if (isSmallScreen)
+    return (
+      <div className="small-screen">
+        <p>
+          Please, we are not allow user to use small screen less than 1920 and
+          we are working on it!
+        </p>
+      </div>
+    );
+
+  return (
+    <div className="app-container">
+      <RouterProvider router={router} />
+    </div>
+  );
+};
 
 export default App;

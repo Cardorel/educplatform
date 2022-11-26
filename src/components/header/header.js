@@ -25,7 +25,7 @@ export default function Header() {
             <img src="languageico.png" alt="languageico" />
           </div>
         </div>
-        <Link to='/sigin' className="authBtn">
+        <Link to='/signin' className="authBtn">
           <span className="join-text">Join us</span>
           <Image src={JoinIcon} alt="JoinIcon" />
         </Link>
