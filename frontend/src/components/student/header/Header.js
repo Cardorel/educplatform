@@ -8,7 +8,9 @@ export default function HeaderStudent() {
       <div className="student-col">
         <h3 className="student-title">
           <span>Вдосконалюйте свої навички та просувайте свою кар’єру за допомогою</span>
-          <span className="univ-text">Universal Course Sharing</span>
+          <span className="univ-text"> Universal</span>
+          <span className="univ-text-course"> Course</span>
+          <span className="univ-text"> Sharing</span>
         </h3>
         <p className="student-header-paragraph">
           Enim vulputate in ultrices volutpat mattis fermentum ac tortor. Morbi

@@ -37,6 +37,17 @@
     }
   }
 
+  .product-image-content {
+    border: 1px solid #ff5600;
+    border-radius: 30px;
+    padding: 2px;
+
+    .product-image{
+      border-radius: 30px;
+    }
+  }
+
+
   .product-rating {
     display: flex;
     align-items: center;

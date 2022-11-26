@@ -89,6 +89,66 @@
     gap: 35px;
     position: relative;
 
+    .sign-title {
+      text-align: center;
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .sign-header{
+      display: flex;
+      flex-direction: column;
+      gap: 58px;
+      position: relative;
+      padding-bottom: 36px;
+
+      &::after{
+        content: '';
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        height: 1px;
+        background-color: #ff5600;
+        width: 100%;
+      }
+
+      &::before{
+        content: 'або';
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        height: 1px;
+        background-color: transparent;
+        width: max-content;
+        color: #EDEDED;
+        opacity: 0.5;
+      }
+
+    }
+
+    .google-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border: 1px solid #ff5600;
+      padding: 13px 26px;
+      width: max-content;
+      margin: auto;
+      border-radius: 20px;
+      position: relative;
+
+      span {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ffffff;
+      }
+
+    }
+
     .reset-password {
       font-weight: 300;
       font-size: 14px;

@@ -2,8 +2,7 @@
   &-row {
     display: flex;
     gap: 178px;
-    margin-top: 113px;
-    padding: 0 145px 271px 133px;
+    padding: 113px 145px 271px 133px;
     position: relative;
 
     .bg-bottom {
@@ -29,7 +28,18 @@
         linear-gradient(0deg, #ededed, #ededed);
       background-clip: text;
       -webkit-text-fill-color: transparent;
-      margin-left: 5px;
+    }
+
+    .univ-text-course{
+      background:
+        linear-gradient(
+          70.29deg,
+          #10788e 12.81%,
+          #ededed 57.87%,
+          #ff5600 42.31%
+        );
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 

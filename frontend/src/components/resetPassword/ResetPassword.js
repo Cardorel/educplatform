@@ -4,12 +4,13 @@ import Button from "../common/Button";
 import InputText from "../common/InputText";
 import ArrowBack from "../../assets/svg/arrowBack.svg";
 import "./resetPassword.scss"
+import Logo from "../logo/Logo";
 
 export default function ResetPassword() {
   return (
     <div className="reset-password">
       <div className="logo-content">
-        <h3 className="logo-text">Логотип</h3>
+        <Logo/>
       </div>
       <div className="reset-password-content">
         <h4>Увійти до особистого кабінету</h4>

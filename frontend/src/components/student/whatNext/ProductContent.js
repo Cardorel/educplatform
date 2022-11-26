@@ -12,6 +12,7 @@ export default function ProductContent({
   price,
   offerPrice,
 }) {
+  const handleClick = () => {};
   return (
     <div className="product-content" key={id}>
       <div className="product-image-content">
@@ -28,7 +29,7 @@ export default function ProductContent({
         <p className="price-offered">{offerPrice} грн</p>
       </div>
       <div className="product-btn">
-        <Button text="БЕСТСЕЛЕР" padding="15px 25px" />
+        <Button handleClick={handleClick} text="БЕСТСЕЛЕР" padding="15px 25px" />
       </div>
     </div>
   );

@@ -1,13 +1,14 @@
 import React from "react";
 import Button from "../common/Button";
 import InputText from "../common/InputText";
+import Logo from "../logo/Logo";
 import "./registration.scss";
 
 export default function Registration() {
   return (
     <div className="registration-container">
       <div className="logo-content">
-        <h3 className="logo-text">Логотип</h3>
+        <Logo/>
       </div>
       <h4 className="registration-text">Створіть Ваш новий обліковий запис</h4>
       <div className="registration-input-content">

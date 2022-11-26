@@ -2,17 +2,26 @@ import React from "react";
 import Button from "../common/Button";
 import InputText from "../common/InputText";
 import ArrowBlack from "../../assets/svg/arrowBlack.svg";
+import Google from "../../assets/svg/google.svg";
 import "./signIn.scss";
+import Logo from "../logo/Logo";
+import { Image } from "react-bootstrap";
 
 export default function SignIn() {
   return (
     <div className="sign-in">
       <div className="logo-content">
-        <h3 className="logo-text">Логотип</h3>
+        <Logo />
       </div>
       <div className="sign-in-content">
         <div className="sign-in-left">
-          <h4>Увійти до особистого кабінету</h4>
+          <div className="sign-header">
+            <h4 className="sign-title">Увійти до особистого кабінету</h4>
+            <div className="google-content">
+              <Image src={Google} alt="google" />
+              <span>УВІЙТИ З GOOGLE</span>
+            </div>
+          </div>
           <InputText
             color="#FF5600"
             placeholder="Ваше повне ім‘я"

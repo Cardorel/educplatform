@@ -4,24 +4,29 @@ export const homeImage = [
     url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     isTop: true,
     title: "Навчайтесь у вільний час",
+    color: '#FF8001'
   },
   {
     id: 2,
     url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     isTop: true,
     title: "Обирайте ментора з яким Вам цікаво вивчати предмент",
+    color: '#FF5600'
   },
   {
     id: 3,
     url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     isTop: true,
     title: "Шукайте однодумкців",
+    color: '#FF5600'
+
   },
   {
     id: 4,
     url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     isTop: true,
     title: "Налаштовуйте свій воркспейс самостійно",
+    color: '#FF8001'
   },
 ];
 
@@ -338,15 +343,15 @@ export const formatlearningData = [
 export const questions = [
   {
     id: 1,
-    question: "Введіть свій номер телефону",
+    question: "Чи можна зареєструватися лише на один курс?",
   },
   {
     id: 2,
-    question: "Введіть свій номер телефону",
+    question: "Чи можу я пройти курс безкоштовно?",
   },
   {
     id: 3,
-    question: "Введіть свій номер телефону",
+    question: "Чи це справді повністю дистанційний курс? Чи потрібно мені відвідувати якісь заняття особисто?",
   },
   {
     id: 4,
@@ -647,3 +652,10 @@ export const certificateData = [
         image: "https://i.ibb.co/y4Vb48d/user.png",
       },
 ];
+
+export const swiperImages = [
+  'https://i.ibb.co/LpHFsYS/img-sw-4.png',
+'https://i.ibb.co/TP8tW7J/img-sw-1.png',
+'https://i.ibb.co/tZ10VhP/img-sw-2.png',
+'https://i.ibb.co/Mfn7nh4/img-sw-3.png'
+]

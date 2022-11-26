@@ -1,6 +1,6 @@
 .how-work {
   display: flex;
-  column-gap: 194px;
+  column-gap: 167px;
   width: 100%;
 
   &-content {
@@ -27,34 +27,67 @@
     gap: 60px;
 
     .home-image-container {
-      background: rgba(237, 237, 237, 0.02);
+      position: relative;
 
       .image {
         width: 100%;
-        height: 350px;
+        height: 567px;
+        border-radius: 30px;
         object-fit: cover;
       }
 
       .home-work-image-content {
-        padding-bottom: 59px;
+        border-radius: 30px;
+
+        &::after {
+          content: "";
+          position: absolute;
+          border-radius: 30px;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(
+            180deg,
+            rgba(217, 217, 217, 0) 0%,
+            #ff8001 100%
+          );
+        }
+
+        &.bg-img::after {
+          background: linear-gradient(
+            180deg,
+            rgba(217, 217, 217, 0) 0%,
+            #ff5600 100%
+          ) !important;
+        }
       }
 
       .title {
-        font-weight: 100;
-        font-size: 32px;
-        line-height: 38px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 36px;
+        height: 72px;
         display: flex;
         align-items: baseline;
         justify-content: center;
         text-align: center;
         margin-top: 10px;
+        color: #ededed;
+        position: absolute;
+        bottom: 58px;
+        left: 0;
+        right: 0;
+        z-index: 1;
       }
     }
   }
 
   .tool-row {
     display: flex;
-    gap: 81px;
+    gap: 89px;
     align-items: center;
     margin-top: 100px;
 
@@ -72,11 +105,12 @@
       li {
         list-style: none;
         display: flex;
-        gap: 10px;
+        gap: 40px;
         align-items: center;
         font-weight: 100;
         font-size: 20px;
         line-height: 24px;
+        color: #ededed;
       }
     }
   }

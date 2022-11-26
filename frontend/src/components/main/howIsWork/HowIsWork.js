@@ -4,6 +4,7 @@ import { homeImage, toolsLearning } from "../../../assets/consts/data";
 import "./howIsWork.scss";
 import HowIsWorkContent from "./HowIsWorkContent";
 import PlusIcon from "../../../assets/svg/plusIcon.svg";
+import HowIsWorkSwiper from "../../swiper/HowIsWorkSwiper";
 
 export default function HowIsWork() {
   return (
@@ -27,10 +28,9 @@ export default function HowIsWork() {
           <span>?</span>
         </p>
       </div>
-      <div>
+      <div style={{width: '100%'}}>
         <div className="how-work-image">
-          {homeImage &&
-            homeImage?.map((data) => <HowIsWorkContent {...data} />)}
+          { homeImage?.map((data) => <HowIsWorkContent {...data} />)}
         </div>
         <div className="tool-row">
           <div className="tool-col">
@@ -45,12 +45,7 @@ export default function HowIsWork() {
             </ul>
           </div>
           <div className="tool-col">
-            <Image
-              alt="tool-image"
-              src={
-                "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7"
-              }
-            />
+           <HowIsWorkSwiper />
           </div>
         </div>
       </div>

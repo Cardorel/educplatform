@@ -20,6 +20,36 @@
     .statistic-top-diagram-content {
       display: flex;
       gap: 30px;
+
+      li{
+        padding-left: 32px;
+        position: relative;
+        &::after{
+          position: absolute;
+          left: 0;
+          width: 12px;
+          height: 12px;
+          border-radius: 3px;
+          content: '';
+          top: 30%;
+        }
+      }
+
+      .item-it-sphere::after{
+        background: #FF5600;
+      }
+
+      .item-right::after{
+        background: #FF8001;
+      }
+
+      .item-busness::after{
+        background: #10788E;
+      }
+
+      .item-management::after{
+        background: #EDEDED;
+      }
     }
 
     &.graphs-content {
@@ -63,7 +93,7 @@
 
     .statistic-top-quantity {
       display: flex;
-      gap: 20px;
+      gap: 40px;
       align-items: center;
       p {
         max-width: 109px;

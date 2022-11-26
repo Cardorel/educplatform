@@ -7,7 +7,7 @@ import ArrowDownRose from "../../assets/svg/arrowDown.svg";
 export default function FrequentlyQuestion() {
   return (
     <div className="frequently-question">
-      <h3>Поширені питання</h3>
+      <h3 className="frequently-question-title">Поширені питання</h3>
       <div className="frequently-question-row">
         {questions?.map(({ question, id }) => (
           <div className="frequently-question-col" key={id}>

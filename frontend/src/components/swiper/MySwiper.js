@@ -15,8 +15,8 @@ export default function MySwiper({ lists }) {
       slidesPerView={5}
       className="mySwiper"
     >
-      {lists?.map((data) => (
-        <SwiperSlide key={data.id}>
+      {lists?.map((data,index) => (
+        <SwiperSlide virtualIndex={index} key={data.id}>
           <ProductContent {...data} />
         </SwiperSlide>
       ))}

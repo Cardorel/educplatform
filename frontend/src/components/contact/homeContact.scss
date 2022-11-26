@@ -1,7 +1,7 @@
 .home-contact-container {
   margin-top: 135px;
   background: rgba(237, 237, 237, 0.02);
-  padding: 55px 145px;
+  padding: 55px 145px 83px;
   .home-contact-title {
     font-weight: 500;
     font-size: 55px;
@@ -21,16 +21,22 @@
       color: #ff5600;
     }
 
+
     .frequently-question {
       &-row {
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 33px;
+      }
+
+      &-title{
+        margin-bottom: 57px;
       }
 
       &-col {
         display: flex;
-        gap: 406px;
+        gap: 55px;
+
         & > div {
           display: flex;
           align-items: center;
@@ -42,11 +48,7 @@
             font-size: 14px;
             line-height: 17px;
             color: #ededed;
-          }
-
-          img {
-            width: 20px;
-            height: 50px;
+            width: 596px;
           }
         }
       }
@@ -55,12 +57,18 @@
     .info-contact {
       display: flex;
       flex-direction: column;
-      gap: 60px;
+      gap: 57px;
+
+      &-row{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+      }
 
       &-col {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 24px;
       }
       h5 {
         font-weight: 100;

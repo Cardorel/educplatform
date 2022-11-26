@@ -1,5 +1,11 @@
 .footer {
-  padding: 85px 105px;
+  padding: 85px 141px;
+
+  .footer-politic{
+    display: flex;
+    align-items: stretch;
+    gap: 100px;
+  }
 
   p {
     padding: 0;
@@ -60,13 +66,8 @@
 
     .network-content {
       display: flex;
+      align-items: center;
       gap: 20px;
-      .network {
-        width: 30px;
-        height: 30px;
-        background: rgba(237, 237, 237, 0.02);
-        border-radius: 50%;
-      }
     }
 
     .footer-contact-text {

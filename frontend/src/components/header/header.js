@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import JoinIcon from "../../assets/svg/joinUs.svg";
+import Logo from "../logo/Logo";
 import Search from "../search/Search";
 import "./header.scss";
 
@@ -14,7 +15,7 @@ export default function Header() {
   };
   return (
     <div className="header-container">
-      <h1 className="logo-text">Логотип</h1>
+      <Logo />
       <div className="header-right">
         <div className="search-content">
           <div className="searchBtn" onClick={handleCloseSearch}>
