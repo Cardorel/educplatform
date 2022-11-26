@@ -139,20 +139,24 @@ code {
   margin: auto;
 }
 
-@media only screen and (max-width: 1919px) {
-  .app-container{
-    display: none;
-  }
-}
-
 
 .small-screen{
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   width: 900px;
   margin: auto;
   color: #ededed;
+}
+
+@media only screen and (max-width: 1919px) {
+  .app-container{
+    display: none;
+  }
+
+  .small-screen{
+    display: flex;
+  }
 }
 
 

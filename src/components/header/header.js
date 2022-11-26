@@ -6,6 +6,8 @@ import JoinIcon from "../../assets/svg/joinUs.svg";
 import Logo from "../logo/Logo";
 import Search from "../search/Search";
 import "./header.scss";
+import SearchIco from '../../assets/images/searchico.png'
+import Language from '../../assets/images/languageico.png'
 
 export default function Header() {
   const [isSearch, setIsSearch] = useState(false);
@@ -19,10 +21,10 @@ export default function Header() {
       <div className="header-right">
         <div className="search-content">
           <div className="searchBtn" onClick={handleCloseSearch}>
-            <img src="searchico.png" alt="search" />
+            <img src={SearchIco} alt="search" />
           </div>
           <div className="languageBtn">
-            <img src="languageico.png" alt="languageico" />
+            <img src={Language} alt="languageico" />
           </div>
         </div>
         <Link to='/signin' className="authBtn">

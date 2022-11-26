@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import AuthLayout from "./components/auth/AuthLayout";
 import WithHeader from "./components/hoc/WithHeader";
+import Detail from "./components/detail/Index";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<WithHeader />}>
         <Route index element={<Home />} />
         <Route path="student" element={<StudentPage />} />
+        <Route element={<Detail />} path="student/:id" />
       </Route>
       <Route element={<AuthLayout />}>
         <Route path="signin" element={<SignIn />} />
@@ -31,28 +33,18 @@ const router = createBrowserRouter(
 );
 
 const App = () => {
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
-  useEffect(() => {
-    if (window.matchMedia("(max-width: 1919px)")) {
-      setIsSmallScreen(true);
-    }
-    setIsSmallScreen(false);
-  }, []);
-
-  if (isSmallScreen)
-    return (
+  return (
+    <>
       <div className="small-screen">
         <p>
           Please, we are not allow user to use small screen less than 1920 and
           we are working on it!
         </p>
       </div>
-    );
-
-  return (
-    <div className="app-container">
-      <RouterProvider router={router} />
-    </div>
+      <div className="app-container">
+        <RouterProvider router={router} />
+      </div>
+    </>
   );
 };
 
