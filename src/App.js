@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "swiper/css";
 import Home from "./components/home/Home";
 import Registration from "./components/registration/Registration";

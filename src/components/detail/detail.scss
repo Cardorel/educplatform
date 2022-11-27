@@ -1,0 +1,202 @@
+.detail-header-container {
+  position: relative;
+  padding-bottom: 85px;
+  height: 100%;
+
+  .detail-header-image-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+
+    img {
+      height: 1100px;
+      width: 100%;
+    }
+  }
+
+  .detail-directory {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-top: 29px;
+    padding-left: 61px;
+
+    p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      color: #ffffff;
+    }
+    img {
+      width: 14px;
+      height: 5px;
+      transform: rotate(-90deg);
+    }
+  }
+
+  .header-detail-content {
+    padding-left: 129px;
+    display: flex;
+    gap: 21px;
+    padding-top: 29px;
+
+    &-left {
+      .header-detail-content- {
+        &paras {
+          display: flex;
+          flex-direction: column;
+          gap: 51px;
+          width: 897px;
+          .price {
+            color: #ff5600;
+          }
+          P {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            padding-right: 20px;
+          }
+
+          h3 {
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 36px;
+            color: #ededed;
+            padding-right: 50px;
+          }
+
+          .paras-content {
+            display: flex;
+            flex-direction: column;
+            gap: 29px;
+            P {
+              display: flex;
+              gap: 8px;
+            }
+          }
+
+          .header-detail-content-btn {
+            width: 382px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            height: 70px;
+            border: none;
+            background: #ff5600;
+            border-radius: 20px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #ffffff;
+            .go-to-btn {
+              font-weight: 100;
+              font-size: 20px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+
+    &-right {
+      position: relative;
+      width: 694px;
+      height: 438px;
+      border-radius: 20px;
+      .header-detail-content-img {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        -webkit-box-shadow: 10px 8px 15px 7px rgb(8, 8, 8, 0.4);
+        box-shadow: 10px 8px 15px 7px rgb(8, 8, 8, 0.4);
+      }
+
+      .header-detail-content-logo {
+        position: absolute;
+        right: 14px;
+        top: 27px;
+      }
+    }
+  }
+
+  .feedback {
+    display: flex;
+    padding-left: 132px;
+    gap: 36px;
+    padding-top: 68px;
+
+    &-rating {
+      background: rgba(237, 237, 237, 0.02);
+      width: 382px;
+      border-radius: 20px 20px 0 0;
+
+      p {
+        &.feedback-title {
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 63px;
+          color: #ededed;
+          height: 63px;
+          text-align: center;
+          background: #493a33;
+          border-radius: 20px 20px 0 0;
+
+          &.time-title {
+            background: #422c29;
+          }
+
+          &.language-title {
+            background: #202425;
+          }
+
+          &.credit-title {
+            background: #222829;
+          }
+        }
+      }
+    }
+
+    &-content {
+      display: flex;
+      gap: 24px;
+      flex-direction: column;
+      padding: 24px 32px 36px;
+
+      .rating-para {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+      }
+
+      .sub-title {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      P {
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ededed;
+      }
+
+      .feedback-paras {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        P {
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+    }
+  }
+}
