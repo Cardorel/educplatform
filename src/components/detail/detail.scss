@@ -200,3 +200,122 @@
     }
   }
 }
+
+.about-certificate- {
+  &content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 114px 0 114px 132px;
+    gap: 132px;
+
+    &-left {
+      width: 1037px;
+      h3 {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 36px;
+        color: #ff5600;
+        margin-bottom: 45px;
+      }
+
+      .paragraph-content {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        p {
+          padding-right: 110px;
+          color: #ededed;
+          opacity: 0.8;
+          font-size: 14px;
+
+          &.bold-paragraph {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    &-right {
+      position: relative;
+      .about-certificate-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .ellispe-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .about-certificate-content-paras {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 36px;
+
+        .about-certificate-paragraph {
+          display: flex;
+          flex-direction: column;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 19px;
+          text-align: center;
+          color: #ededed;
+          padding-top: 45px;
+          position: relative;
+          width: 150px;
+          margin: auto;
+
+          &.left {
+            margin-right: 15px;
+          }
+
+          &.right {
+            padding-left: 8px;
+          }
+
+          span {
+            width: 150px;
+          }
+        }
+      }
+    }
+  }
+
+  &bgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
+/* 
+
+box-sizing: border-box;
+
+position: absolute;
+width: 388px;
+height: 388px;
+left: 1693px;
+top: 1296px;
+
+border: 1px solid #FF5600;
+border-radius: 10px;
+transform: matrix(-1, 0, 0, 1, 0, 0); */
