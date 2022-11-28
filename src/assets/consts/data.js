@@ -4,29 +4,28 @@ export const homeImage = [
     url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     isTop: true,
     title: "Навчайтесь у вільний час",
-    color: '#FF8001'
+    color: "#FF8001",
   },
   {
     id: 2,
     url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     isTop: true,
     title: "Обирайте ментора з яким Вам цікаво вивчати предмент",
-    color: '#FF5600'
+    color: "#FF5600",
   },
   {
     id: 3,
     url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     isTop: true,
     title: "Шукайте однодумкців",
-    color: '#FF5600'
-
+    color: "#FF5600",
   },
   {
     id: 4,
     url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     isTop: true,
     title: "Налаштовуйте свій воркспейс самостійно",
-    color: '#FF8001'
+    color: "#FF8001",
   },
 ];
 
@@ -351,7 +350,8 @@ export const questions = [
   },
   {
     id: 3,
-    question: "Чи це справді повністю дистанційний курс? Чи потрібно мені відвідувати якісь заняття особисто?",
+    question:
+      "Чи це справді повністю дистанційний курс? Чи потрібно мені відвідувати якісь заняття особисто?",
   },
   {
     id: 4,
@@ -608,54 +608,116 @@ export const certificateData = [
     startCourse: "20.01.2023",
     endCourse: "20.08.2023",
     image: "https://i.ibb.co/y4Vb48d/user.png",
-    },
-    {
-        id: 5,
-        price: 13500,
-        title: "Введення в науку про дані",
-        school: "IT Step Academy",
-        kind: "Професійна сертифікація",
-        rating: 2.4,
-        offerPrice: 0,
-        description:
-          "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
-        language: "Англійська мова",
-        subTitles: ["українська"],
-        voted: 502,
-        registred: 614,
-        earnCredit: "Заробити залікові кредити",
-        descCredit: "Залікові кредити приймаються у всіх університетах України",
-        logoUrl: "https://i.ibb.co/D8x2F77/ibn2.png",
-        startCourse: "20.01.2023",
-        endCourse: "20.08.2023",
-        image: "https://i.ibb.co/y4Vb48d/user.png",
-    },
-    {
-        id: 5,
-        price: 13500,
-        title: "Введення в науку про дані",
-        school: "IT Step Academy",
-        kind: "Професійна сертифікація",
-        rating: 2.4,
-        offerPrice: 0,
-        description:
-          "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
-        language: "Англійська мова",
-        subTitles: ["українська"],
-        voted: 502,
-        registred: 614,
-        earnCredit: "Заробити залікові кредити",
-        descCredit: "Залікові кредити приймаються у всіх університетах України",
-        logoUrl: "https://i.ibb.co/D8x2F77/ibn2.png",
-        startCourse: "20.01.2023",
-        endCourse: "20.08.2023",
-        image: "https://i.ibb.co/y4Vb48d/user.png",
-      },
+  },
+  {
+    id: 5,
+    price: 13500,
+    title: "Введення в науку про дані",
+    school: "IT Step Academy",
+    kind: "Професійна сертифікація",
+    rating: 2.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "Англійська мова",
+    subTitles: ["українська"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/D8x2F77/ibn2.png",
+    startCourse: "20.01.2023",
+    endCourse: "20.08.2023",
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+  },
+  {
+    id: 5,
+    price: 13500,
+    title: "Введення в науку про дані",
+    school: "IT Step Academy",
+    kind: "Професійна сертифікація",
+    rating: 2.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "Англійська мова",
+    subTitles: ["українська"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/D8x2F77/ibn2.png",
+    startCourse: "20.01.2023",
+    endCourse: "20.08.2023",
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+  },
 ];
 
 export const swiperImages = [
-  'https://i.ibb.co/LpHFsYS/img-sw-4.png',
-'https://i.ibb.co/TP8tW7J/img-sw-1.png',
-'https://i.ibb.co/tZ10VhP/img-sw-2.png',
-'https://i.ibb.co/Mfn7nh4/img-sw-3.png'
-]
+  "https://i.ibb.co/LpHFsYS/img-sw-4.png",
+  "https://i.ibb.co/TP8tW7J/img-sw-1.png",
+  "https://i.ibb.co/tZ10VhP/img-sw-2.png",
+  "https://i.ibb.co/Mfn7nh4/img-sw-3.png",
+];
+
+export const skills = [
+  "Data Science",
+  "Deep Learning",
+  "Machine Learning",
+  "Big Data",
+  "Data Mining",
+  "Github",
+  "Rstudio",
+  "Python Programming",
+  "Jupyter notebooks",
+  "Methodology",
+  "CRISP-DM",
+  "CRISP-DM",
+];
+
+export const professionContent = {
+  like: 502,
+  register: 614,
+  teachers: [
+    {
+      id: 1,
+      teacherUrl:
+        "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+    },
+    {
+      id: 2,
+      teacherUrl:
+        "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+    },
+    {
+      id: 3,
+      teacherUrl:
+        "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+    },
+  ],
+  certificates: [
+    "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+    "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+    "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+    "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+    "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+  ],
+  whatLearns: [
+    {
+      id: 1,
+      text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+    },
+    {
+      id: 2,
+      text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+    },
+    {
+      id: 3,
+      text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+    },
+    {
+      id: 4,
+      text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+    },
+  ],
+};
