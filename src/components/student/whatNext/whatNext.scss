@@ -1,5 +1,6 @@
 .what-next-container {
   padding: 109px 145px 121px;
+  background: #000000;
 
   &.what-next-flex {
     display: flex;
@@ -42,11 +43,10 @@
     border-radius: 30px;
     padding: 2px;
 
-    .product-image{
+    .product-image {
       border-radius: 30px;
     }
   }
-
 
   .product-rating {
     display: flex;

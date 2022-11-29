@@ -308,6 +308,7 @@
 
 .skill-content {
   padding: 64px 152px 64px 189px;
+  background: #000000;
 
   .skill-title {
     font-weight: 300;
@@ -335,7 +336,6 @@
 
 .profession-certificat {
   padding: 117px 132px;
-  background: rgba(237, 237, 237, 0.02);
   display: flex;
   gap: 182px;
   align-items: center;
@@ -405,6 +405,7 @@
     align-items: center;
     gap: 305px;
     padding: 54px 0 54px 264px;
+    background: #000000;
 
     .teacher-image-row {
       display: flex;
@@ -444,5 +445,256 @@
         }
       }
     }
+  }
+}
+
+.several-course- {
+  &container {
+    padding: 52px 132px;
+
+    .trophe-col {
+      padding-left: 117px;
+      padding-top: 53px;
+      display: flex;
+      gap: 53px;
+      align-items: center;
+      h3 {
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ff5600;
+      }
+
+      p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ededed;
+        margin-top: 12px;
+      }
+    }
+  }
+
+  &title {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ff5600;
+    margin-bottom: 23px;
+  }
+
+  &row {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-left: 141px;
+    padding-top: 23px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 141px;
+      height: 110px;
+      width: 1px;
+      background-color: #ededed;
+    }
+  }
+
+  &col {
+    position: relative;
+    padding-left: 77px;
+    .several-course-content {
+      display: flex;
+      align-items: center;
+      gap: 44px;
+      padding: 35px 47px 30px;
+      background: rgba(237, 237, 237, 0.02);
+    }
+
+    &:first-child:after {
+      content: "";
+      position: absolute;
+      top: -15px;
+      left: 0;
+      height: 50%;
+      width: 1px;
+      background-color: #ededed;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -40%;
+      left: 0;
+      height: 84%;
+      width: 1px;
+      background-color: #ededed;
+    }
+
+    ::before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      bottom: 43%;
+      width: 20px;
+      height: 20px;
+      border: 1px solid #ededed;
+      border-radius: 50%;
+    }
+
+    .several-course-col-image {
+      img {
+        width: 250px;
+        height: 132px;
+        object-fit: cover;
+      }
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .title {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ededed;
+      }
+
+      .sub-title {
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+
+      .text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+
+      .author {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ededed;
+      }
+    }
+  }
+}
+
+.certificate- {
+  &row {
+    background-image: url("../../assets/images/BG_certificat.png");
+    display: flex;
+    padding: 55px 137px;
+    gap: 136px;
+  }
+
+  &col {
+    position: relative;
+    h3 {
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ff5600;
+      margin-bottom: 44px;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 75px;
+      li {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    }
+
+    .certificate-image {
+      position: absolute;
+      right: 40px;
+      top: 25px;
+    }
+  }
+}
+
+.teacher-programm {
+  &-container {
+    padding: 80px 132px;
+  }
+
+  &-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 60px;
+    padding-top: 61px;
+    padding-left: 92px;
+  }
+
+  &-title {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ff5600;
+  }
+
+  &-col {
+    display: flex;
+    gap: 44px;
+
+    .teacher-programm- {
+      &profile {
+        border: 2px solid #ededed;
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+
+        img {
+          width: 85px;
+          height: 85px;
+          border-radius: 50%;
+        }
+      }
+
+      &feedback {
+        .name {
+          margin-bottom: 5px;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffffff;
+        }
+
+        .speciality,
+        p {
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 19px;
+          color: #ffffff;
+        }
+
+        .feedback-content {
+          display: flex;
+          gap: 15px;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}
+
+.similary-product {
+  padding-top: 80px;
+  h3.swiper-text {
+    color: #ff5600 !important;
   }
 }
