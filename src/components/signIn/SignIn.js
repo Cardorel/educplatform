@@ -13,9 +13,12 @@ import {
   isEmailValidation,
   isPasswordValidation,
 } from "../validation/validation";
+import { useDispatch } from "react-redux";
+import { getUserAsync } from "../../toolkit/reducers/authSlice";
 
 export default function SignIn() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const [userData, setUserData] = useState({
     email: "",
     password: "",
@@ -42,6 +45,8 @@ export default function SignIn() {
           user: { _delegate },
         } = user;
         savedSession && localStorage.setItem("userId", _delegate.uid);
+        dispatch(getUserAsync(_delegate.uid));
+        navigate("/student");
         setUserData({
           email: "",
           password: "",

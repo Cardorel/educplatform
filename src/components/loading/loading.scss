@@ -1,0 +1,51 @@
+.loading-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .loading-content {
+    p {
+      margin-bottom: 79px;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      text-align: center;
+      color: #ededed;
+      margin-top: 79px;
+    }
+  }
+
+  .loader {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+    position: relative;
+    background: #fff;
+    box-shadow: -40px 0 #fff, 40px 0 #fff;
+    box-sizing: border-box;
+    animation: shadowPulse 2s linear infinite;
+  }
+
+  @keyframes shadowPulse {
+    33% {
+      background: #fff;
+      box-shadow: -40px 0 #8e1010, 40px 0 #fff;
+    }
+    66% {
+      background: #8e1010;
+      box-shadow: -40px 0 #fff, 40px 0 #fff;
+    }
+
+    100% {
+      background: #fff;
+      box-shadow: -40px 0 #fff, 40px 0 #8e1010;
+    }
+  }
+}

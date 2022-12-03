@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { authentification, createUser } from "../../firebase/config";
 import { MaskInput } from "../../maskPhone/maskPhone";
 import Button from "../common/Button";
@@ -14,6 +14,7 @@ import {
 import "./registration.scss";
 
 export default function Registration() {
+  const navigate = useNavigate();
   const [registerData, setRegisterData] = useState({
     name: "",
     userName: "",
@@ -71,8 +72,11 @@ export default function Registration() {
           imageUrl:
             "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/user.png?alt=media&token=449cf776-4685-41d3-b7ee-8d0c5dec2892",
         });
+        navigate("/signin");
+        setRegisterData(null);
       } catch (er) {
         console.log(er);
+        alert(er);
       }
     }
   };

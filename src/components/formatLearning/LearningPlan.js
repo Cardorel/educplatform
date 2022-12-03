@@ -9,11 +9,10 @@ export default function LearningPlan({
   purchaseTitle,
   purchaseText,
   format,
-  isActive
+  isActive,
 }) {
-  console.log("here",isActive);
   return (
-    <div className={`format-learning-col ${isActive? "active" : ""}`} key={id}>
+    <div className={`format-learning-col ${isActive ? "active" : ""}`} key={id}>
       <div className="format-learning-col-header">
         <h4>{purchaseTitle}</h4>
         <h3>{purchaseText}</h3>

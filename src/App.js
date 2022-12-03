@@ -12,20 +12,30 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import AuthLayout from "./components/auth/AuthLayout";
-import WithHeader from "./components/hoc/WithHeader";
 import Detail from "./components/detail/Index";
 import Contact from "./components/contact/Contact";
+import WithHeader from "./components/hoc/WithHeader";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { getUserAsync } from "./toolkit/reducers/authSlice";
+import { authentification } from "./firebase/config";
+import { useIdToken } from "react-firebase-hooks/auth";
+import Loading from "./components/loading/Loading";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path="/" element={<WithHeader />}>
-        <Route index element={<Home />} />
-        <Route path="student" element={<StudentPage />} />
-        <Route element={<Detail />} path="product/:id" />
-        <Route path="contact" element={<Contact />} />
+      <Route element={<WithHeader />}>
+        <Route element={<AuthLayout />}>
+          <Route path="/student" element={<StudentPage />} />
+          <Route element={<Detail />} path=":id" />
+          <Route path="contact" element={<Contact />} />
+        </Route>
       </Route>
-      <Route element={<AuthLayout />}>
+      <Route element={<WithHeader />}>
+        <Route path="/" element={<Home />} />
+      </Route>
+      <Route path="/">
         <Route path="signin" element={<SignIn />} />
         <Route path="register" element={<Registration />} />
         <Route path="reset-password" element={<ResetPassword />} />
@@ -35,6 +45,17 @@ const router = createBrowserRouter(
 );
 
 const App = () => {
+  const dispatch = useDispatch();
+  const [user, loading] = useIdToken(authentification);
+
+  useEffect(() => {
+    dispatch(getUserAsync(user?.uid));
+  }, [dispatch, user]);
+
+  if (loading) {
+    return <Loading />;
+  }
+
   return (
     <>
       <div className="small-screen">

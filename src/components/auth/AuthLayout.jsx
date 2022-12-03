@@ -1,6 +1,14 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation, Navigate } from "react-router-dom";
 
 export default function AuthLayout() {
-  return <Outlet />;
+  const location = useLocation();
+  const myUser = localStorage.getItem("persist:root");
+  const { user } = JSON.parse(myUser);
+
+  return JSON.parse(user) ? (
+    <Outlet />
+  ) : (
+    <Navigate to="/" state={{ from: location }} replace />
+  );
 }

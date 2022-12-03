@@ -6,12 +6,13 @@ import JoinIcon from "../../assets/svg/joinUs.svg";
 import Logo from "../logo/Logo";
 import Search from "../search/Search";
 import "./header.scss";
-import SearchIco from '../../assets/images/searchico.png'
-import Language from '../../assets/images/languageico.png'
+import SearchIco from "../../assets/svg/searchIcon.svg";
+import Language from "../../assets/svg/translateIcon.svg";
+import SigninHeader from "./SigninHeader";
 
 export default function Header() {
   const [isSearch, setIsSearch] = useState(false);
-  
+
   const handleCloseSearch = () => {
     setIsSearch((isclicked) => !isclicked);
   };
@@ -21,13 +22,14 @@ export default function Header() {
       <div className="header-right">
         <div className="search-content">
           <div className="searchBtn" onClick={handleCloseSearch}>
-            <img src={SearchIco} alt="search" />
+            <Image src={SearchIco} alt="search" />
           </div>
           <div className="languageBtn">
-            <img src={Language} alt="languageico" />
+            <Image src={Language} alt="languageico" />
           </div>
         </div>
-        <Link to='/signin' className="authBtn">
+        <SigninHeader />
+        <Link to="/signin" className="authBtn">
           <span className="join-text">Join us</span>
           <Image src={JoinIcon} alt="JoinIcon" />
         </Link>

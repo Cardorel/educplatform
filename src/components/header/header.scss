@@ -7,6 +7,25 @@
   width: 100%;
   position: relative;
 
+  .with-user-content {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+
+    .icon-content {
+      position: relative;
+      .bar-message {
+        position: absolute;
+        top: 0;
+        right: 1px;
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        background: #ff5600;
+      }
+    }
+  }
+
   .header-right,
   .search-content {
     display: flex;
