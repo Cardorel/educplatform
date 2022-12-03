@@ -7,9 +7,48 @@ import "./signIn.scss";
 import Logo from "../logo/Logo";
 import { Image } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { authentification, LogInWithGoogle } from "../../firebase/config";
+import {
+  isEmailValidation,
+  isPasswordValidation,
+} from "../validation/validation";
 
 export default function SignIn() {
   const navigate = useNavigate();
+  const [userData, setUserData] = useState({
+    email: "",
+    password: "",
+  });
+  const [savedSession, setSavedSession] = useState(true);
+
+  const [isEmailError, setIsEmailError] = useState(false);
+  const [isPasswordError, setIsPasswordError] = useState(false);
+
+  const handleSignIn = async () => {
+    const { email, password } = userData;
+    isEmailValidation(email) ? setIsEmailError(false) : setIsEmailError(true);
+    isPasswordValidation(password)
+      ? setIsPasswordError(false)
+      : setIsPasswordError(true);
+
+    if (!isEmailError && isPasswordError) {
+      try {
+        const user = await authentification.signInWithEmailAndPassword(
+          email,
+          password
+        );
+        const {
+          user: { _delegate },
+        } = user;
+        savedSession && localStorage.setItem("userId", _delegate.uid);
+        setUserData({
+          email: "",
+          password: "",
+        });
+      } catch (error) {}
+    }
+  };
   return (
     <div className="sign-in">
       <div className="logo-content">
@@ -19,7 +58,11 @@ export default function SignIn() {
         <div className="sign-in-left">
           <div className="sign-header">
             <h4 className="sign-title">Увійти до особистого кабінету</h4>
-            <div className="google-content">
+            <div
+              className="google-content"
+              role="button"
+              onClick={() => LogInWithGoogle()}
+            >
               <Image src={Google} alt="google" />
               <span>УВІЙТИ З GOOGLE</span>
             </div>
@@ -29,23 +72,45 @@ export default function SignIn() {
           </div>
           <InputText
             color="#FF5600"
-            placeholder="Ваше повне ім‘я"
-            imageUrl={null}
-            type="text"
+            placeholder="Ваша електронна пошта"
+            errorText={isEmailError && "Адреса електронної пошти недійсна"}
+            type="email"
+            handleOnChange={(e) =>
+              setUserData((data) => {
+                return { ...data, email: e.target.value };
+              })
+            }
           />
           <InputText
             color="#FF5600"
             placeholder="Пароль"
-            imageUrl={null}
+            errorText={
+              isPasswordError && "Пароль має містити більше 7 символів"
+            }
             type="password"
+            handleOnChange={(e) =>
+              setUserData((data) => {
+                return { ...data, password: e.target.value };
+              })
+            }
           />
           <label className="label-input">
-            <input type="checkbox" />
+            <input
+              type="checkbox"
+              checked={savedSession}
+              value={savedSession}
+              onChange={(e) => setSavedSession(e.target.checked)}
+            />
             <span>Запам’ятати мене</span>
           </label>
-          <Button text="УВІЙТИ" padding="23px" />
+          <Button text="УВІЙТИ" handleClick={handleSignIn} padding="23px" />
           <div className="reset-btn-content">
-          <button className="btn-reset-password" onClick={()=> navigate('/reset-password')}>Забули свій пароль</button>
+            <button
+              className="btn-reset-password"
+              onClick={() => navigate("/reset-password")}
+            >
+              Забули свій пароль
+            </button>
           </div>
         </div>
         <div className="sign-in-right">
@@ -59,7 +124,7 @@ export default function SignIn() {
             text="ЗАРЕЄСТРУВАТИСЯ СЬОГОДНІ"
             padding="23px"
             imageUrl={ArrowBlack}
-            handleClick={()=> navigate('/register')}
+            handleClick={() => navigate("/register")}
           />
         </div>
       </div>

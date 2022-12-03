@@ -14,6 +14,7 @@ import {
 import AuthLayout from "./components/auth/AuthLayout";
 import WithHeader from "./components/hoc/WithHeader";
 import Detail from "./components/detail/Index";
+import Contact from "./components/contact/Contact";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
         <Route index element={<Home />} />
         <Route path="student" element={<StudentPage />} />
         <Route element={<Detail />} path="product/:id" />
+        <Route path="contact" element={<Contact />} />
       </Route>
       <Route element={<AuthLayout />}>
         <Route path="signin" element={<SignIn />} />

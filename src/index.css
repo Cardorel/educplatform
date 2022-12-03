@@ -285,3 +285,10 @@ h3 {
   background: #0f0f0f;
   width: max-content;
 }
+
+.inputs-content-validation h5 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ff8001;
+}
