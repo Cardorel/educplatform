@@ -9,6 +9,7 @@ import Instagram from "../../assets/svg/social/instagram.svg";
 import Twitter from "../../assets/svg/social/twitter.svg";
 import Linkdlen from "../../assets/svg/social/linkdlen.svg";
 import Logo from "../logo/Logo";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -26,12 +27,12 @@ export default function Footer() {
             <a href="/#">Політика використання файлів cookie</a>
           </div>
           <div className="footer-col">
-            <a href="/#">Мапа сайту</a>
-            <a href="/#">Служба підтримки</a>
-            <a href="/#">Договір публічної оферти</a>
-            <a href="/#" className="footer-btn">
+            <Link href="/contact">Мапа сайту</Link>
+            <Link href="/">Служба підтримки</Link>
+            <Link href="/#">Договір публічної оферти</Link>
+            <Link href="/#" className="footer-btn">
               Підписатися на розсилку
-            </a>
+            </Link>
           </div>
         </div>
         <div className="footer-contact-partner">

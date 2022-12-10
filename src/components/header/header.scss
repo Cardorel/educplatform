@@ -26,6 +26,12 @@
     }
   }
 
+  .logOutBtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
   .header-right,
   .search-content {
     display: flex;

@@ -15,6 +15,7 @@ import {
 } from "../validation/validation";
 import { useDispatch } from "react-redux";
 import { getUserAsync } from "../../toolkit/reducers/authSlice";
+import { getUserID } from "../../toolkit/reducers/getIDSlice";
 
 export default function SignIn() {
   const navigate = useNavigate();
@@ -46,6 +47,7 @@ export default function SignIn() {
         } = user;
         savedSession && localStorage.setItem("userId", _delegate.uid);
         dispatch(getUserAsync(_delegate.uid));
+        dispatch(getUserID(_delegate.uid));
         navigate("/student");
         setUserData({
           email: "",
@@ -53,6 +55,13 @@ export default function SignIn() {
         });
       } catch (error) {}
     }
+  };
+
+  const handleLogInWithGoogle = async () => {
+    const googleData = await LogInWithGoogle();
+    const { _delegate } = googleData?.user;
+    dispatch(getUserAsync(_delegate.uid));
+    dispatch(getUserID(_delegate.uid));
   };
   return (
     <div className="sign-in">
@@ -66,7 +75,7 @@ export default function SignIn() {
             <div
               className="google-content"
               role="button"
-              onClick={() => LogInWithGoogle()}
+              onClick={handleLogInWithGoogle}
             >
               <Image src={Google} alt="google" />
               <span>УВІЙТИ З GOOGLE</span>

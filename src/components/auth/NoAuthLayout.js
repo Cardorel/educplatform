@@ -2,13 +2,13 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Outlet, useLocation, Navigate } from "react-router-dom";
 
-export default function AuthLayout() {
+export default function NoAuthLayout() {
   const location = useLocation();
   const user = useSelector((state) => state?.user);
 
-  return user ? (
+  return user === null ? (
     <Outlet />
   ) : (
-    <Navigate to="/" state={{ from: location }} replace />
+    <Navigate to="/student" state={{ from: location }} replace />
   );
 }
