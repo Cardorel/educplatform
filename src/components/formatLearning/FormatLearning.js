@@ -5,19 +5,19 @@ import LearningPlan from "./LearningPlan";
 import "./formatLearning.scss";
 
 export default function FormatLearning() {
-    const [learns] = useState(formatlearningData)
+  const [learns] = useState(formatlearningData);
   return (
     <div className="format-learning">
       <h2 className="format-learning-title">Формати навчання</h2>
       <div className="format-learning-row">
         {learns?.map((learn) => (
-          <LearningPlan {...learn} />
+          <LearningPlan key={learn.id} {...learn} />
         ))}
       </div>
       <h5 className="format-learning-sign-title">Оформіть підписку</h5>
       <div className="format-learning-row">
         {learns?.map((plan) => (
-          <FormatPlan {...plan} />
+          <FormatPlan key={plan.id} {...plan} />
         ))}
       </div>
     </div>

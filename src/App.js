@@ -20,22 +20,21 @@ import { useDispatch } from "react-redux";
 import { authentification } from "./firebase/config";
 import { useIdToken } from "react-firebase-hooks/auth";
 import Loading from "./components/loading/Loading";
-import NoAuthLayout from "./components/auth/NoAuthLayout";
 import { getCurrentUser } from "./toolkit/reducers/getCurrentUserSlice";
+import NoAuthLayout from "./components/auth/NoAuthLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path="/student" element={<AuthLayout />}>
-        <Route element={<WithHeader />}>
-          <Route index element={<StudentPage />} />
+      <Route element={<AuthLayout />}>
+        <Route path="/student" element={<StudentPage />}>
           <Route element={<Detail />} path=":id" />
-          <Route path="contact" element={<Contact />} />
         </Route>
+        <Route path="/contact" element={<Contact />} />
       </Route>
-      <Route path="/" element={<NoAuthLayout />}>
+      <Route element={<NoAuthLayout />}>
         <Route element={<WithHeader />}>
-          <Route index element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Route>
         <Route path="signin" element={<SignIn />} />
         <Route path="register" element={<Registration />} />
@@ -48,9 +47,8 @@ const router = createBrowserRouter(
 const App = () => {
   const dispatch = useDispatch();
   const [user, loading] = useIdToken(authentification);
-
   useEffect(() => {
-    dispatch(getCurrentUser({ ...user }));
+    dispatch(getCurrentUser(user));
   }, [dispatch, user]);
 
   if (loading) {

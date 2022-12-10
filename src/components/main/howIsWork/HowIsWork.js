@@ -28,24 +28,32 @@ export default function HowIsWork() {
           <span>?</span>
         </p>
       </div>
-      <div style={{width: '100%'}}>
+      <div style={{ width: "100%" }}>
         <div className="how-work-image">
-          { homeImage?.map((data) => <HowIsWorkContent {...data} />)}
+          {homeImage?.map((data) => (
+            <HowIsWorkContent key={data.id} {...data} />
+          ))}
         </div>
         <div className="tool-row">
           <div className="tool-col">
-            <h2 className="tool-title">Які інструменти для зручного навчання ми Вам пропонуємо:</h2>
+            <h2 className="tool-title">
+              Які інструменти для зручного навчання ми Вам пропонуємо:
+            </h2>
             <ul>
               {toolsLearning.map((t) => (
                 <li key={t.id}>
-                  <Image alt={`image-${t.id}`} className={`${t.isFirst ? '' : 'low-opacity'}`} src={PlusIcon} />
+                  <Image
+                    alt={`image-${t.id}`}
+                    className={`${t.isFirst ? "" : "low-opacity"}`}
+                    src={PlusIcon}
+                  />
                   <span>{t.text}</span>
                 </li>
               ))}
             </ul>
           </div>
           <div className="tool-col">
-           <HowIsWorkSwiper />
+            <HowIsWorkSwiper />
           </div>
         </div>
       </div>

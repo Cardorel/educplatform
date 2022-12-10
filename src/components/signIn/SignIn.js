@@ -48,7 +48,7 @@ export default function SignIn() {
         savedSession && localStorage.setItem("userId", _delegate.uid);
         dispatch(getUserAsync(_delegate.uid));
         dispatch(getUserID(_delegate.uid));
-        navigate("/student");
+        navigate("/student", { replace: true });
         setUserData({
           email: "",
           password: "",
@@ -61,7 +61,7 @@ export default function SignIn() {
     const googleData = await LogInWithGoogle();
     const { _delegate } = googleData?.user;
     dispatch(getUserAsync(_delegate.uid));
-    dispatch(getUserID(_delegate.uid));
+    navigate("/student", { replace: true });
   };
   return (
     <div className="sign-in">

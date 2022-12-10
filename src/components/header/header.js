@@ -13,18 +13,24 @@ import LogOut from "../../assets/svg/logout.svg";
 import JoinHeader from "./JoinHeader";
 import { useSignOut } from "react-firebase-hooks/auth";
 import { authentification } from "../../firebase/config";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
   const [isSearch, setIsSearch] = useState(false);
-  const user = useSelector((state) => state?.user);
+  const { user } = useSelector((state) => state?.user);
+  console.log(user);
   const [signOut] = useSignOut(authentification);
+  const navigate = useNavigate();
 
   const handleCloseSearch = () => {
     setIsSearch((isclicked) => !isclicked);
   };
 
   const handleLogOutClick = async () => {
-    await signOut();
+    const success = await signOut();
+    if (success) {
+      navigate("/");
+    }
   };
   return (
     <div className="header-container">
