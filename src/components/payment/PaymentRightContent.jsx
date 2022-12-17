@@ -7,7 +7,15 @@ import VisaIcon from "../../assets/svg/visa.svg";
 import MasterIcon from "../../assets/svg/master.svg";
 import MaestroIcon from "../../assets/svg/maestro.svg";
 
-export default function PaymentRightContent() {
+export default function PaymentRightContent({
+  cvv,
+  dateCart,
+  nmumberCart,
+  handleChangetCvv,
+  handleChangeDateCart,
+  handleChangeNummberCart,
+  handleClickSubmit,
+}) {
   return (
     <div className="payment-right">
       <h4 className="payment-right-title">Оплата навчальних послуг</h4>
@@ -63,19 +71,36 @@ export default function PaymentRightContent() {
         <div className="payment-cart-input-content">
           <div className="payment-cart-input">
             <div className="payment-cart-nummer">
-              <InputText color="#FF5600" placeholder="Номер картки" />
+              <InputText
+                value={nmumberCart}
+                color="#FF5600"
+                placeholder="Номер картки"
+                handleOnChange={handleChangeNummberCart}
+              />
             </div>
             <div className="payment-cart-date">
-              <InputText color="#FF5600" placeholder="Термін дії" />
+              <InputText
+                value={dateCart}
+                color="#FF5600"
+                placeholder="Термін дії"
+                handleOnChange={handleChangeDateCart}
+              />
             </div>
           </div>
           <div className="payment-cart-input second-input">
             <div className="payment-cart-termin">
-              <InputText color="#FF5600" placeholder="CVV" />
+              <InputText
+                handleOnChange={handleChangetCvv}
+                color="#FF5600"
+                placeholder="CVV"
+                value={cvv}
+              />
             </div>
           </div>
           <div className="payment-btn-content">
-            <button className="payment-btn">ОПЛАТИТИ</button>
+            <button onClick={handleClickSubmit} className="payment-btn">
+              ОПЛАТИТИ
+            </button>
           </div>
         </div>
       </div>
