@@ -1,54 +1,63 @@
-import IbmImg from "../../assets/images/ibm.png";
 import { Image } from "react-bootstrap";
-import IBM from "../../assets/svg/ibm.svg";
+import { useNavigate } from "react-router-dom";
 
-export const HeaderDetailContent = () => {
+export const HeaderDetailContent = ({
+  description,
+  teachers,
+  price,
+  startCourse,
+  title,
+  image,
+  profilLogoUrl,
+}) => {
+  const navigate = useNavigate();
   return (
     <div className="header-detail-content">
       <div className="header-detail-content-left">
         <div className="header-detail-content-logo">
           <Image
-            src={IbmImg}
+            src={profilLogoUrl}
             alt="ibm-img"
             className="header-detail-content-img"
           />
         </div>
         <div className="header-detail-content-paras">
           <h3>
-            Професійна сертифікаційна програма: “Введення в науку про дані”
+            Професійна сертифікаційна програма:{" "}
+            <span className="d-block">“{title}”</span>
           </h3>
-          <p>
-            Розпочніть свою кар’єру в галузі обробки даних і машинного навчання.
-            Розвивайте навички дослідження даних, вивчайте Python і SQL,
-            аналізуйте та візуалізуйте дані, створюйте моделі машинного
-            навчання. Диплом або попередній досвід не потрібні.
-          </p>
+          <p>{description}</p>
           <div className="paras-content">
             <p>
               <span>Виладачі:</span>
-              <span>Antony Corel + 4 інших</span>
+              <span>
+                {teachers[0].surname} {teachers[0].name}
+              </span>
+              {teachers.length > 1 && (
+                <span>+ {teachers.length - 1} інших</span>
+              )}
             </p>
             <p>
               <span>Варість навчання:</span>
-              <span className="price">13 500 грн</span>
+              <span className="price">
+                {price > 0 ? price + " грн" : "Безкоштовно"}
+              </span>
             </p>
           </div>
-          <button className="header-detail-content-btn">
+          <button
+            className="header-detail-content-btn"
+            onClick={() => navigate("/payment")}
+          >
             <span className="go-to-btn">ПРОЙТИ НАВЧАННЯ</span>
-            <span>Початок 20.01.2023</span>
+            <span>Початок {startCourse}</span>
           </button>
         </div>
       </div>
       <div className="header-detail-content-right">
         <Image
-          src="https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7"
+          src={image}
           alt="image-detail"
           className="header-detail-content-img"
-        />
-        <Image
-          src={IBM}
-          alt="ibm-logo"
-          className="header-detail-content-logo"
         />
       </div>
     </div>

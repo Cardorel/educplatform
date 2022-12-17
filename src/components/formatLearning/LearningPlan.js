@@ -22,8 +22,8 @@ export default function LearningPlan({
         <Image src={ArrowDown} alt="arrow-down" />
       </div>
       <div className="description-content">
-        {descriptions.map(({ id, description }) => (
-          <div className="description-plan" key={id}>
+        {descriptions.map(({ id, description, opacity }) => (
+          <div className="description-plan" key={id} style={{ opacity }}>
             <Image src={PlusIcon} alt="plus-icon" />
             <p>{description}</p>
           </div>

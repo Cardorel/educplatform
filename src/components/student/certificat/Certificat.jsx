@@ -5,7 +5,6 @@ import "./certificat.scss";
 import NextIcon from "../../../assets/svg/student/nextIcon.svg";
 import { Image } from "react-bootstrap";
 
-
 export default function Certificat() {
   return (
     <div className="certificat">
@@ -19,7 +18,9 @@ export default function Certificat() {
         <CertificatRight />
       </div>
       <div className="btn-next-content">
-        <button className="next-btn">Більше пропозицій <Image src={NextIcon} alt='next-icon'/></button>
+        <button className="next-btn">
+          Більше пропозицій <Image src={NextIcon} alt="next-icon" />
+        </button>
       </div>
     </div>
   );

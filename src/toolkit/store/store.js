@@ -3,16 +3,18 @@ import storage from "redux-persist/lib/storage";
 import { persistStore, persistReducer } from "redux-persist";
 import userIDReducer from "../reducers/getIDSlice";
 import userReducer from "../reducers/getCurrentUserSlice";
+import videoReducer from "../reducers/getVideoSlice";
 
 const rootReducer = combineReducers({
   user: userReducer,
   userId: userIDReducer,
+  video: videoReducer,
 });
 
 const persistConfig = {
   key: "root",
   storage,
-  blacklist: ["user"],
+  blacklist: ["user", "video"],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

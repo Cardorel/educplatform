@@ -2,7 +2,29 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import Star from "../../assets/svg/student/star.svg";
 
-export default function HeaderFeedback() {
+export default function HeaderFeedback({
+  subTitles,
+  voted,
+  registred,
+  rating,
+  startCourse,
+  endCourse,
+  timeByDay,
+  language,
+}) {
+  const myStartDate = startCourse.split(".");
+  const myEndtDate = endCourse.split(".");
+  const startDate = new Date(
+    myStartDate[2],
+    myStartDate[1],
+    myStartDate[0]
+  ).getMonth();
+  const endDate = new Date(
+    myEndtDate[2],
+    myEndtDate[1],
+    myEndtDate[0]
+  ).getMonth();
+  const dataSum = endDate - startDate;
   return (
     <div className="feedback">
       <div className="feedback-rating">
@@ -10,16 +32,16 @@ export default function HeaderFeedback() {
         <div className="feedback-content">
           <p className="rating-para">
             <Image src={Star} alt="star-ico" />
-            <span>4.6 / 5</span>
+            <span>{rating} / 5</span>
           </p>
           <div className="feedback-paras">
             <p>
               <span>Оцінили: </span>
-              <span>502</span>
+              <span>{voted}</span>
             </p>
             <p>
               <span>Зареєструвалися: </span>
-              <span>614</span>
+              <span>{registred}</span>
             </p>
           </div>
         </div>
@@ -27,9 +49,14 @@ export default function HeaderFeedback() {
       <div className="feedback-rating">
         <p className="feedback-title time-title">Тривалість програми</p>
         <div className="feedback-content">
-          <p>6 місяців</p>
+          <p>
+            {dataSum} {dataSum > 4 ? " місяців" : " місяці"}
+          </p>
           <div className="feedback-paras">
-            <p>не довше 4 годин на день</p>
+            <p>
+              не довше {timeByDay} {timeByDay > 4 ? " годин " : " години "}
+              на день
+            </p>
           </div>
         </div>
       </div>
@@ -37,10 +64,13 @@ export default function HeaderFeedback() {
         <p className="feedback-title language-title">Мова викладання</p>
         <div className="feedback-content">
           <div>
-            <p>Англійська мова</p>
+            <p>{language}</p>
             <p className="sub-title">
               <span>Субтитри: </span>
-              <span>Українська</span>
+              {subTitles?.map((sub, idx) => (
+                <span key={idx}>{sub} </span>
+              ))}
+              {!subTitles && <span>немає</span>}
             </p>
           </div>
         </div>

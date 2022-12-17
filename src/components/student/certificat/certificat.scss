@@ -98,12 +98,19 @@
           color: #0f0f0f;
 
           &.price {
-            text-align: end;
+            position: absolute;
+            right: 0;
+            top: -10px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            padding-right: 15px;
           }
 
           &.school {
             font-size: 14px;
             line-height: 17px;
+            margin-top: 11px;
           }
 
           &.title {

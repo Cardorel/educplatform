@@ -22,15 +22,18 @@ import { useIdToken } from "react-firebase-hooks/auth";
 import Loading from "./components/loading/Loading";
 import { getCurrentUser } from "./toolkit/reducers/getCurrentUserSlice";
 import NoAuthLayout from "./components/auth/NoAuthLayout";
+import Payment from "./components/payment/Payment";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route element={<AuthLayout />}>
-        <Route path="/student" element={<StudentPage />}>
-          <Route element={<Detail />} path=":id" />
+        <Route element={<WithHeader />}>
+          <Route path="/student" element={<StudentPage />} />
+          <Route element={<Detail />} path="/student/:id" />
+          <Route path="/contact" element={<Contact />} />
         </Route>
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/payment" element={<Payment />} />
       </Route>
       <Route element={<NoAuthLayout />}>
         <Route element={<WithHeader />}>

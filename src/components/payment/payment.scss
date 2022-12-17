@@ -1,0 +1,309 @@
+.payment {
+  padding: 81px 0 170px;
+  display: flex;
+  justify-content: center;
+  gap: 154px;
+  align-items: center;
+
+  &-left {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+    padding-right: 95px;
+    margin-top: 100px;
+
+    &::after {
+      position: absolute;
+      right: 0;
+      top: -170px;
+      content: "";
+      height: 800px;
+      width: 3px;
+      background: rgba(237, 237, 237, 0.02);
+    }
+
+    button {
+      background: rgba(237, 237, 237, 0.02);
+      border-radius: 15px;
+      padding: 20px 30px;
+      border: none;
+
+      span {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #ededed;
+      }
+    }
+
+    .assistance-link {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #ff5600;
+    }
+  }
+
+  &-right {
+    &-title {
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      text-align: center;
+      color: #ff5600;
+    }
+
+    &-content {
+      margin-top: 107px;
+      display: grid;
+      grid-template-columns: 519px auto;
+      gap: 118px;
+      padding-bottom: 48px;
+
+      .payment-order-content {
+        border: 1px solid #ededed;
+        border-radius: 15px;
+        padding: 20px 12px 24px 38px;
+
+        .order-content {
+          p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #ededed;
+            padding-bottom: 16px;
+          }
+        }
+
+        .pay-content {
+          position: relative;
+          padding-top: 16px;
+          p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #ededed;
+            padding-bottom: 16px;
+
+            &.price {
+              font-weight: 300;
+              font-size: 24px;
+              line-height: 29px;
+              color: #ff5600;
+              padding-bottom: 0;
+              opacity: 1;
+            }
+          }
+
+          &::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #ededed;
+            content: "";
+          }
+        }
+      }
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      color: #ededed;
+      opacity: 0.5;
+    }
+  }
+
+  &-system {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    gap: 29px;
+    &-content {
+      width: 100%;
+      box-shadow: 0px -2px 4px rgba(255, 86, 0, 0.5),
+        0px 2px 4px rgba(255, 86, 0, 0.5);
+      border-radius: 20px;
+      padding: 13px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      span {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ededed;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  &-separator {
+    width: 459px;
+    margin: auto;
+    padding-left: 140px;
+    .paragraph-or-text {
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #ff5600;
+      position: relative;
+
+      &::after {
+        content: "";
+        top: 13px;
+        left: 0;
+        width: 42%;
+        background-color: #ff5600;
+        height: 1px;
+        position: absolute;
+      }
+
+      &::before {
+        content: "";
+        top: 13px;
+        right: 0;
+        width: 42%;
+        background-color: #ff5600;
+        height: 1px;
+        position: absolute;
+      }
+    }
+
+    .text-method {
+      margin-top: 4px;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #ededed;
+
+      opacity: 0.5;
+    }
+  }
+
+  .payment-cart-input-content {
+    display: flex;
+    position: relative;
+
+    .payment-btn-content {
+      position: absolute;
+      bottom: -110px;
+      right: -180px;
+
+      .payment-btn {
+        width: 210px;
+        height: 65px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #ededed;
+        background: #ff5600;
+        border-radius: 15px;
+        border: none;
+      }
+    }
+  }
+
+  &-cart-content {
+    width: 459px;
+    margin: auto;
+    padding-left: 140px;
+
+    .payment-cart-method {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      width: 459px;
+
+      .pay-text {
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ededed;
+        opacity: 0.5;
+      }
+
+      .image-content {
+        display: flex;
+        gap: 10px;
+
+        .cart-icon {
+          padding: 4px 2px;
+          background: #ededed;
+          border-radius: 10px;
+          width: 45px;
+          text-align: center;
+        }
+      }
+    }
+
+    .payment-cart-input {
+      border: 1px solid rgba(237, 237, 237, 0.5);
+      border-radius: 15px;
+      padding: 25px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      background: #0f0f0f;
+
+      &.second-input {
+        top: 25px;
+        right: -180px;
+        bottom: -25px;
+        position: absolute;
+        width: 335px;
+        z-index: -1;
+
+        &::after {
+          position: absolute;
+          top: 25px;
+          right: 0;
+          content: "";
+          width: 100%;
+          height: 30px;
+          background-color: #ff5600;
+        }
+      }
+
+      .payment-cart-nummer {
+        input {
+          width: 280px;
+          padding: 20px 25px;
+        }
+      }
+
+      .payment-cart-date {
+        input {
+          width: 153px;
+          padding: 20px 25px;
+        }
+      }
+
+      .payment-cart-termin {
+        position: absolute;
+        bottom: 25px;
+        right: 25px;
+        input {
+          width: 80.8px;
+          padding: 20px 25px;
+        }
+      }
+    }
+  }
+}

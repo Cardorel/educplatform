@@ -6,15 +6,50 @@ import BgImage from "../../assets/images/BG_detail.png";
 import { HeaderDetailContent } from "./HeaderDetailContent";
 import HeaderFeedback from "./HeaderFeedback";
 
-export default function HeaderDetail() {
+export default function HeaderDetail({
+  title,
+  kind,
+  gender,
+  detailContent,
+  description,
+  price,
+  startCourse,
+  image,
+  subTitles,
+  voted,
+  registred,
+  rating,
+  endCourse,
+  timeByDay,
+  language,
+  profilLogoUrl,
+}) {
+  const { teachers } = detailContent;
   return (
     <div className="detail-header-container">
-      <Directory />
+      <Directory title={title} kind={kind} gender={gender} />
       <div className="detail-header-image-content">
         <Image src={BgImage} alt="bg-image" className="detail-header-image" />
       </div>
-      <HeaderDetailContent />
-      <HeaderFeedback />
+      <HeaderDetailContent
+        description={description}
+        teachers={teachers}
+        price={price}
+        startCourse={startCourse}
+        title={title}
+        image={image}
+        profilLogoUrl={profilLogoUrl}
+      />
+      <HeaderFeedback
+        voted={voted}
+        subTitles={subTitles}
+        registred={registred}
+        rating={rating}
+        startCourse={startCourse}
+        endCourse={endCourse}
+        timeByDay={timeByDay}
+        language={language}
+      />
     </div>
   );
 }

@@ -1,10 +1,9 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import BgImg from "../../assets/images/BG_learn.png";
-import IbmImg from "../../assets/images/ibm.png";
 import EllipseImg from "../../assets/svg/detailEllipse.svg";
 
-export default function AboutCertificate() {
+export default function AboutCertificate({ abreviationSchool, profilLogoUrl }) {
   return (
     <div className="about-certificate-content">
       <div className="about-certificate-bgImg">
@@ -15,10 +14,10 @@ export default function AboutCertificate() {
         <div className="paragraph-content">
           <p className="bold-paragraph">
             Розпочніть роботу в сформованій області науки про дані, пройшовши
-            професійну сертифікацію IBM. Вивчіть основи науки про дані та
-            отримайте практичні навики, роботи з інструментами, мовами та
-            бібліотеками, які використовуються професіоналами в галузі науки про
-            дані.
+            професійну сертифікацію {abreviationSchool}. Вивчіть основи науки
+            про дані та отримайте практичні навики, роботи з інструментами,
+            мовами та бібліотеками, які використовуються професіоналами в галузі
+            науки про дані.
           </p>
           <p className="bold-paragraph">
             Популярні посади: Спеціаліст по даним, бізнес-аналітик, аналітик
@@ -38,7 +37,7 @@ export default function AboutCertificate() {
       </div>
       <div className="about-certificate-content-right">
         <div className="about-certificate-logo">
-          <Image src={IbmImg} alt="ibm-img" />
+          <Image src={profilLogoUrl} className="image-logo" alt="ibm-img" />
         </div>
         <div className="ellispe-img">
           <Image src={EllipseImg} alt="ellipse" />
@@ -59,8 +58,13 @@ export default function AboutCertificate() {
             <span> наявних вакансій у сфері науки¹ у всьому світі</span>
           </p>
           <p className="about-certificate-paragraph right">
-            <span className="about-certificate-paragraph-color">IBM</span>
-            <span> надає спеціальний доступ до мережі талантів IBM</span>
+            <span className="about-certificate-paragraph-color">
+              {abreviationSchool}
+            </span>
+            <span>
+              {" "}
+              надає спеціальний доступ до мережі талантів {abreviationSchool}
+            </span>
           </p>
         </div>
       </div>

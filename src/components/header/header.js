@@ -18,7 +18,6 @@ import { useNavigate } from "react-router-dom";
 export default function Header() {
   const [isSearch, setIsSearch] = useState(false);
   const { user } = useSelector((state) => state?.user);
-  console.log(user);
   const [signOut] = useSignOut(authentification);
   const navigate = useNavigate();
 
