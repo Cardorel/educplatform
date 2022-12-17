@@ -4,7 +4,6 @@ import HomeContact from "../contact/HomeContact";
 import FormatLearning from "../formatLearning/FormatLearning";
 import Certificat from "./certificat/Certificat";
 import HeaderStudent from "./header/Header";
-import Menu from "./menu/Menu";
 import Recommandation from "./recommandation/Recommandation";
 import Skill from "./skill/Skill";
 import "./student.scss";
@@ -15,7 +14,6 @@ export default function Student() {
   return (
     <div className="student">
       <HeaderStudent />
-      <Menu/>
       <Recommandation />
       <WhatNext data={products} />
       <Skill

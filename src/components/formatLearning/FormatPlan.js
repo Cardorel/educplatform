@@ -9,12 +9,21 @@ export default function FormatPlan({
   color,
   description,
   price,
-  isActive
+  isActive,
+  handleSelectOffer,
 }) {
   return (
-    <div style={{backgroundColor: isActive? "#131313" : color }} className="format-plan-col format-learning-col" key={id}>
-      <div className={`format-plan-content ${isActive? "active" : ""}`}>
-        <p className="format-plan-price">{price}{ devise}</p>
+    <div
+      onClick={() => handleSelectOffer(id)}
+      style={{ backgroundColor: isActive ? "#131313" : color }}
+      className="format-plan-col format-learning-col"
+      key={id}
+    >
+      <div className={`format-plan-content ${isActive ? "active" : ""}`}>
+        <p className="format-plan-price">
+          {price}
+          {devise}
+        </p>
         <p className="format-plan-description">{description}</p>
         <div className="format-plan-plan">
           <p>{plan}</p>
@@ -22,7 +31,7 @@ export default function FormatPlan({
         </div>
       </div>
       <div className="btn-content">
-      <button className="get-plan">Підписатися</button>
+        <button className="get-plan">Підписатися</button>
       </div>
     </div>
   );

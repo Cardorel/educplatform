@@ -53,7 +53,9 @@ export default function SignIn() {
           email: "",
           password: "",
         });
-      } catch (error) {}
+      } catch (error) {
+        alert(error);
+      }
     }
   };
 
