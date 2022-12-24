@@ -15,7 +15,9 @@ export default function PaymentRightContent({
   handleChangeDateCart,
   handleChangeNummberCart,
   handleClickSubmit,
+  data,
 }) {
+  const { plan, price, purchaseTitle, purchaseText, devise } = data;
   return (
     <div className="payment-right">
       <h4 className="payment-right-title">Оплата навчальних послуг</h4>
@@ -24,14 +26,14 @@ export default function PaymentRightContent({
           <div className="order-content">
             <p>Замовлення № 327</p>
             <p>
-              Назва платежу: Оплата навчання за спеціальною сертифікаційною
-              програмою <span>“Введення в науку про дані”</span>
+              Назва платежу: Оплата навчання за {plan} {purchaseTitle}{" "}
+              <span>“{purchaseText}”</span>
             </p>
           </div>
           <div className="pay-content">
             <p>До сплати</p>
             <p className="price">
-              13 500,00 <span>грн</span>
+              {price} <span>{devise}</span>
             </p>
           </div>
         </div>

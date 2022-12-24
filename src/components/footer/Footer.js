@@ -21,16 +21,16 @@ export default function Footer() {
         </div>
         <div className="footer-politic">
           <div className="footer-col">
-            <a href="/#">Політика конфідеційності</a>
+            <Link to="/privacy-policy">Політика конфідеційності</Link>
             <a href="/#">Про нас</a>
-            <a href="/#">Користувацька угода</a>
+            <Link to="/community">Політика для спільноти</Link>
             <a href="/#">Політика використання файлів cookie</a>
           </div>
           <div className="footer-col">
-            <Link href="/contact">Мапа сайту</Link>
+            <Link to="/contact">Мапа сайту</Link>
             <Link href="/">Служба підтримки</Link>
-            <Link href="/#">Договір публічної оферти</Link>
-            <Link href="/#" className="footer-btn">
+            <Link to="/contract">Договір публічної оферти</Link>
+            <Link to="/#" className="footer-btn">
               Підписатися на розсилку
             </Link>
           </div>
@@ -45,7 +45,9 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer-col">
-            <h4 className="footer-contact-text">Контакти</h4>
+            <Link to="/contact" className="footer-contact-text">
+              Контакти
+            </Link>
             <p className="adress-text">м. Київ, вул. Нижній Вал 33</p>
             <p className="adress-text">+38 097 555 33 44</p>
             <p className="adress-text">questions@ucs.ua</p>

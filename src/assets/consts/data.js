@@ -2015,3 +2015,1355 @@ export const professionContent = {
     },
   ],
 };
+
+export const privacyData = [
+  {
+    id: 1,
+    idText: "collectedData",
+    title: "Дані, що збираються UCS",
+    isActive: false,
+    data: [
+      {
+        id: 1,
+        titleNum: "1.1",
+        title: "Дані, які ви надаєте",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: [
+          {
+            id: 13,
+            titleNum: "1.11",
+            title: "Реєстрація",
+            descr:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+          },
+          {
+            id: 23,
+            titleNum: "1.12",
+            title: "Профіль",
+            descr:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+          },
+          {
+            id: 33,
+            titleNum: "1.13",
+            title: "Розміщення та завантаження",
+            descr:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        titleNum: "1.2",
+        title: "Дані від інших учасників",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: [
+          {
+            id: 71,
+            titleNum: "1.21",
+            title: "Контент та новини",
+            descr:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+          },
+          {
+            id: 72,
+            titleNum: "1.22",
+            title: "Інформація, отримана з адресної книги та календаря",
+            descr:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+          },
+          {
+            id: 73,
+            titleNum: "1.23",
+            title: "Партнери",
+            descr:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+          },
+          {
+            id: 48,
+            titleNum: "1.24",
+            title: "Партнери",
+            descr:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+          },
+          {
+            id: 5,
+            titleNum: "1.25",
+            title: "Пов'язані компанії та інші послуги",
+            descr:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+          },
+        ],
+      },
+      {
+        id: 39,
+        titleNum: "1.3",
+        title: "Використання послуг",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 40,
+        titleNum: "1.4",
+        title: "Файли cookie та аналогічні технології",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 5,
+        titleNum: "1.5",
+        title: "Ваш пристрій та місцезнаходження",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 6,
+        titleNum: "1.6",
+        title: "Повідомлення",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 7,
+        titleNum: "1.7",
+        title: "Сторонні веб-сайти та сервіси",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+    ],
+  },
+  {
+    id: 2,
+    idText: "useData",
+    title: "Як UCS використовує ваші дані?",
+    isActive: false,
+    data: [
+      {
+        id: 1,
+        titleNum: "2.1",
+        title: "Послуги",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 2,
+        titleNum: "2.2",
+        title: "Кар'єра",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 3,
+        titleNum: "2.3",
+        title: "Ефективність",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 4,
+        titleNum: "2.4",
+        title: "Послуги Premium",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 5,
+        titleNum: "2.5",
+        title: "Ваш пристрій та місцезнаходження",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: [
+          {
+            id: 1,
+            titleNum: "2.51",
+            title: "Рекламні уподобання",
+            descr:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+          },
+          {
+            id: 2,
+            titleNum: "2.52",
+            title: "Інформація для постачальників реклами",
+            descr:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+          },
+        ],
+      },
+      {
+        id: 6,
+        titleNum: "2.6",
+        title: "Маркетинг",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 7,
+        titleNum: "2.7",
+        title: "Дослідження",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 8,
+        titleNum: "2.8",
+        title: "Опитування",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 9,
+        titleNum: "2.9",
+        title: "Служба підтримки",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+    ],
+  },
+  {
+    id: 3,
+    idText: "useRight",
+    title: "Ваші права та обов'язки",
+    isActive: false,
+    data: [
+      {
+        id: 1,
+        titleNum: "3.1",
+        title: "Збереження даних",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 2,
+        titleNum: "3.2",
+        title: "Право на доступ до ваших персональних даних та керування ними",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 3,
+        titleNum: "3.3",
+        title: "Закриття облікового запису",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+    ],
+  },
+  {
+    id: 4,
+    idText: "useRight",
+    title: "Інша важлива інформація",
+    isActive: false,
+    data: [
+      {
+        id: 1,
+        titleNum: "4.1",
+        title: "Забезпечення безпеки",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 2,
+        titleNum: "4.2",
+        title: "Транскордонна передача даних",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 36,
+        titleNum: "4.3",
+        title: "Законні підстави для обробки",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 3,
+        titleNum: "4.4",
+        title: "Прямий маркетинг та сигнали «не відстежувати»",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+      {
+        id: 37,
+        titleNum: "4.5",
+        title: "Контактні відомості",
+        descr:
+          "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+        sub_data: null,
+      },
+    ],
+  },
+];
+
+export const privacyContenu = [
+  {
+    id: 1,
+    title: "Вступ",
+    isActive: false,
+    data: [
+      {
+        id: 1,
+        text: "Lorem ipsum dolor sit amet consectetur. Nisl vel sem ac odio. Donec massa ullamcorper diam donec fringilla. Leo facilisis mattis eros vitae semper viverra ullamcorper risus nam. Viverra consequat congue tincidunt feugiat id vitae consequat duis turpis. Cras quis volutpat sodales sollicitudin. Nunc semper tincidunt sit enim mi.",
+        textColor: null,
+        textNum: null,
+      },
+      {
+        id: 2,
+        text: "Malesuada et praesent donec ullamcorper non enim. Sodales netus consequat ut morbi quis leo dolor. Etiam aenean at tincidunt ut. Sit ornare tortor sit rhoncus varius augue ornare phasellus. Sit nunc diam nulla cursus dolor. Cum rhoncus purus sed interdum euismod eget ut ut. Dictumst eget turpis arcu sed egestas. Adipiscing enim commodo pulvinar purus nisl. Fames morbi at massa quis dis id aliquet. Proin id eu amet elit et. Volutpat tortor sed turpis sed nulla vitae donec. Tempor non blandit est enim venenatis donec.",
+        textColor: null,
+      },
+      {
+        id: 3,
+        text: "Eu aliquam proin dis massa. Gravida nam parturient malesuada in sollicitudin pretium tincidunt neque nulla. Non lectus eget at urna. Pharetra nibh erat ac tempor ligula. In sed ultricies massa turpis. Et lacus odio pretium pellentesque. Nullam eros quis dignissim nec cras lacus nunc purus. A a enim consequat ut arcu lorem ullamcorper lectus. Ipsum consectetur consequat blandit morbi sed neque nam.",
+        textColor: "Nullam sit sem morbi pulvinar tincidunt.",
+      },
+      {
+        id: 4,
+        text: "Volutpat nulla nibh iaculis non porttitor nunc vulputate malesuada. Hac purus velit fringilla at eu nec augue nunc. Duis nibh lacus felis orci ultrices posuere leo. Sit lectus pretium faucibus faucibus pretium urna porttitor tincidunt pulvinar. Est quam adipiscing quis libero. Sed in lectus eleifend pretium sed lacus. At nec faucibus orci odio sit diam aliquam interdum fames. A eu quam maecenas viverra amet habitasse magna curabitur.",
+        textColor: null,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Послуги",
+    isActive: false,
+    data: [
+      {
+        id: 3,
+        text: "Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat.",
+        textColor: "Lorem ipsum dolor sit amet consectetur.",
+        textNum: "2.1",
+      },
+      {
+        id: 4,
+        text: "Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat.",
+        textColor: "Lorem ipsum dolor sit amet consectetur.",
+        textNum: "2.2",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Зміни",
+    isActive: false,
+    data: [
+      {
+        id: 1,
+        text: "Lorem ipsum dolor sit amet consectetur. Nisl vel sem ac odio. Donec massa ullamcorper diam donec fringilla. Leo facilisis mattis eros vitae semper viverra ullamcorper risus nam. Viverra consequat congue tincidunt feugiat id vitae consequat duis turpis. Cras quis volutpat sodales sollicitudin. Nunc semper tincidunt sit enim mi.",
+        textColor: null,
+        textNum: null,
+      },
+      {
+        id: 2,
+        text: "Malesuada et praesent donec ullamcorper non enim. Sodales netus consequat ut morbi quis leo dolor. Etiam aenean at tincidunt ut. Sit ornare tortor sit rhoncus varius augue ornare phasellus. Sit nunc diam nulla cursus dolor. Cum rhoncus purus sed interdum euismod eget ut ut. Dictumst eget turpis arcu sed egestas. Adipiscing enim commodo pulvinar purus nisl. Fames morbi at massa quis dis id aliquet. Proin id eu amet elit et. Volutpat tortor sed turpis sed nulla vitae donec. Tempor non blandit est enim venenatis donec.",
+        textColor: null,
+        textNum: null,
+      },
+      {
+        id: 3,
+        text: "Eu aliquam proin dis massa. Gravida nam parturient malesuada in sollicitudin pretium tincidunt neque nulla. Non lectus eget at urna. Pharetra nibh erat ac tempor ligula. In sed ultricies massa turpis. Et lacus odio pretium pellentesque. Nullam eros quis dignissim nec cras lacus nunc purus. A a enim consequat ut arcu lorem ullamcorper lectus. Ipsum consectetur consequat blandit morbi sed neque nam.",
+        textColor: "Nullam sit sem morbi pulvinar tincidunt.",
+        textNum: null,
+      },
+      {
+        id: 4,
+        text: "Volutpat nulla nibh iaculis non porttitor nunc vulputate malesuada. Hac purus velit fringilla at eu nec augue nunc. Duis nibh lacus felis orci ultrices posuere leo. Sit lectus pretium faucibus faucibus pretium urna porttitor tincidunt pulvinar. Est quam adipiscing quis libero. Sed in lectus eleifend pretium sed lacus. At nec faucibus orci odio sit diam aliquam interdum fames. A eu quam maecenas viverra amet habitasse magna curabitur.",
+        textColor: null,
+        textNum: null,
+      },
+    ],
+  },
+];
+
+export const helpData = [
+  {
+    id: 1,
+    title: "Питання з приводу навчання:",
+    data: [
+      {
+        id: 1231,
+        title: null,
+        sub_data: [
+          {
+            id: 1,
+            sub_title: "Чи потрібні якісь додаткові прилади для навчання?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 2,
+            sub_title:
+              "Чи потрібно встановлювати додаткові застосунки для роботи на платформі?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 3,
+            sub_title:
+              "На кого розраховані курси? Чи зможу я, як початківець, проходити їх?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 4,
+            sub_title:
+              "Як отримати детальну інформацію про особливості та етапи проходження курсів/спеціальностей?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 5,
+            sub_title: "Що таке спеціальність?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 6,
+            sub_title:
+              "Чи отримаю я диплом/сертифікат після проходження курсів/спеціальностей?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 7,
+            sub_title:
+              "Що таке сертифікатні програми? Хто може на них навчатися?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 8,
+            sub_title:
+              "Що таке сертифікатні програми? Хто може на них навчатися?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 9,
+            sub_title: "Яка вартість навчання?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 10,
+            sub_title: "Чи можна вносити оплату за навчання частинами?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 11,
+            sub_title: "З якого віку можна записатися на курси?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 12,
+            sub_title: "З якого віку можна записатися на курси?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 13,
+            sub_title: "З чого краще почати вивчення спеціальності?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 14,
+            sub_title:
+              "Якщо я вже сплатив за курс, але зрозумів, що це не моє. Що робити?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 15,
+            sub_title: "Усе навчання проходить онлайн?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 16,
+            sub_title: "Чи можна змінити графік навчання?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 17,
+            sub_title:
+              "Скільки часу треба витрачати на виконання завдань/проєктів?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 18,
+            sub_title: "Який відсоток випускників знаходить роботу?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 19,
+            sub_title: "Скільки людей в групі?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+        ],
+      },
+      {
+        id: 4352,
+        title: "Рівень знань, проходження курсів, отримання кваліфікації:",
+        sub_data: [
+          {
+            id: 1,
+            sub_title: "Як сплатити курс?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 2,
+            sub_title:
+              "Якщо немає комп’ютера вдома, я можу їздити кудись? Чи є у Вас зали з комп’ютерами?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 3,
+            sub_title:
+              "Як підтвердити рівень знань? Як пропустити вступну частину?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Технічні проблеми:",
+    data: [
+      {
+        id: 1,
+        title: "Cтворення облікового запису:",
+        sub_data: [
+          {
+            id: 21,
+            sub_title: "Я забув пароль, що робити?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 22,
+            sub_title: "У мене не виходить зареєструватися. Що робити?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 23,
+            sub_title: "Я не можу увійти у свій обліковий запис. Що робити?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 24,
+            sub_title: "Як скачати застосунок UCS?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: "Підтвердження профілю:",
+        sub_data: [
+          {
+            id: 31,
+            sub_title: "Як підтвердити електронну адресу?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 32,
+            sub_title: "Як підтвердити посвідчення особи?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 33,
+            sub_title: "Як підтвердити номер мобільного телефону?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 34,
+            sub_title: "Як ми забезпечуємо безпеку Ваших даних?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: "Налаштування профілю:",
+        sub_data: [
+          {
+            id: 1,
+            sub_title: "Як додати фото до профілю?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 2,
+            sub_title: "Як змінити налаштування відображення фото профілю?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 3,
+            sub_title: "Як змінити налаштування відображення фото профілю?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 4,
+            sub_title: "Як змінити налаштування сповіщень?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 5,
+            sub_title: "Де можна змінити пароль?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 6,
+            sub_title: "Чи можна змінити номер телефону?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 7,
+            sub_title: "Чи можна змінити електронну пошту?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 8,
+            sub_title: "Деактивація облікового запису",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 9,
+            sub_title: "Як захистити свої дані? ",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+        ],
+      },
+      {
+        id: 269,
+        title: null,
+        sub_data: [
+          {
+            id: 1,
+            sub_title: "Як підвищити рівень рейтингу?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 2,
+            sub_title:
+              "Чи зможу я повернутися до завдань після закінчення курсу?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+          {
+            id: 3,
+            sub_title: "Оплатив курс, але доступу до нього не маю. Що робити?",
+            isActive: false,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Amet tortor enim enim neque ullamcorper sagittis tincidunt nunc sit. Imperdiet fusce erat vitae vehicula egestas amet ut auctor. Ultrices risus massa rhoncus fermentum venenatis scelerisque. Pellentesque praesent nec lorem in fermentum lobortis mi tincidunt cursus.",
+          },
+        ],
+      },
+    ],
+  },
+];
+
+export const contratData = [
+  {
+    id: 1,
+    title: "Договір публічної оферти",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.2",
+            textColor: null,
+          },
+          {
+            id: 3,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.3",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.4",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "ТЕРМІНИ",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "2.1",
+            textColor: "Lorem ipsum dolor sit amet consectetur.",
+          },
+          {
+            id: 2,
+            description:
+              "Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.2",
+            textColor: "Lorem ipsum dolor sit amet consectetur.",
+          },
+          {
+            id: 3,
+            description:
+              "Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.3",
+            textColor: "Lorem ipsum dolor sit amet consectetur.",
+          },
+          {
+            id: 4,
+            description:
+              "Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.4",
+            textColor: "Lorem ipsum dolor sit amet consectetur.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "ПРЕДМЕТ ДОГОВОРУ",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.2",
+            textColor: null,
+          },
+          {
+            id: 31,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.3",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.4",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 38,
+    title: "ПРАВА ТА ОБОВ'ЯЗКИ ВИКОНАВЦЯ",
+    data: [
+      {
+        id: 1,
+        sub_title: "Виконавець зобов’язується:",
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.11",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.12",
+            textColor: null,
+          },
+          {
+            id: 3,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.13",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.14",
+            textColor: null,
+          },
+        ],
+      },
+      {
+        id: 2,
+        sub_title: "Виконавець має право:",
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.21",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.22",
+            textColor: null,
+          },
+          {
+            id: 3,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.23",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.24",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "ПРАВА ТА ОБОВ´ЯЗКИ ЗАМОВНИКА",
+    data: [
+      {
+        id: 1,
+        sub_title: "Замовник зобов’язується:",
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.11",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.12",
+            textColor: null,
+          },
+          {
+            id: 3,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.13",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.14",
+            textColor: null,
+          },
+        ],
+      },
+      {
+        id: 2,
+        sub_title: "Замовник має право:",
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.21",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.22",
+            textColor: null,
+          },
+          {
+            id: 3,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.23",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.24",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "ВАРТІСТЬ ПОСЛУГ. УМОВИ І ПОРЯДОК РОЗРАХУНКІВ",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "6.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "6.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "УКЛАДЕННЯ, ДІЯ ТА РОЗІРВАННЯ ДОГОВОРУ",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "7.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "7.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "ВІДПОВІДАЛЬНІСТЬ І ПОРЯДОК ВИРІШЕННЯ СПОРІВ",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "8.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "8.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "ОБМЕЖЕННЯ ВІДПОВІДАЛЬНОСТІ ВИКОНАВЦЯ",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "9.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "9.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "ГАРАНТІЇ ЗАМОВНИКА ТА ПРАВА ВИКОНАВЦЯ ЩОДО ЇХ РЕАЛІЗАЦІЇ",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "10.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "10.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 11,
+    title: "ІНШІ УМОВИ",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "11.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "11.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+];
+
+export const communityData = {
+  conditions: [
+    {
+      id: 1,
+      title: "Створіть безпечні умови для взаємодії",
+      reverse: false,
+      data: [
+        {
+          id: 1,
+          text: "Не розміщуйте контент докучливого характеру.",
+          isOthercolor: false,
+        },
+        {
+          id: 2,
+          text: "Не допускайте загроз, провокування та пропагування насильства.",
+          isOthercolor: false,
+        },
+        {
+          id: 3,
+          text: "Не поширюйте матеріали, що зображують експлуатацію дітей.",
+          isOthercolor: true,
+        },
+        {
+          id: 4,
+          text: "Не рекламуйте, не продавайте та не намагайтеся придбати протизаконні чи небезпечні товари та послуги.",
+          isOthercolor: false,
+        },
+        {
+          id: 5,
+          text: "Не ділитесь контентом, що рекламує небезпечні особи або організації.",
+          isOthercolor: false,
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: "Розміщуйте достовірні відомості",
+      reverse: true,
+      data: [
+        {
+          id: 1,
+          text: "Не надсилайте хибний контент, що вводить в оману.",
+          isOthercolor: false,
+        },
+        {
+          id: 2,
+          text: "Не створюйте фіктивні профілі та не фальсифікуйте відомості про себе.",
+          isOthercolor: false,
+        },
+        {
+          id: 3,
+          text: "Не займайтеся шахрайством, обманом та введенням в оману інших людей.",
+          isOthercolor: true,
+        },
+        {
+          id: 5,
+          text: "Використовуйте свої справжні ім'я та прізвище, надавайте точні відомості про себе та свою організацію та діліться перевіреною інформацією.",
+          isOthercolor: false,
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "Будьте професійними",
+      reverse: false,
+      data: [
+        {
+          id: 1,
+          text: "Не викликайте в інших ненависть.",
+          isOthercolor: false,
+        },
+        {
+          id: 2,
+          text: "Не беріть участь у сексуальних інсинуаціях та непроханих заграваннях.",
+          isOthercolor: false,
+        },
+        {
+          id: 3,
+          text: "Не ділитесь шкідливими та шокуючими матеріалами.",
+          isOthercolor: true,
+        },
+        {
+          id: 4,
+          text: "Не надсилайте спам учасникам на платформі.",
+          isOthercolor: false,
+        },
+        {
+          id: 5,
+          text: "Ведіть вільні обговорення про світ роботи, але  висловлюйте думки у професійній манері.",
+          isOthercolor: false,
+        },
+      ],
+    },
+  ],
+  messages: [
+    {
+      id: 1,
+      title: "Спам",
+      text: "Повідомляйте про спам",
+      btnText: "Зворотній зв’язок",
+      data: [
+        {
+          id: 1,
+          title: null,
+          desc: "Образливі, шкідливі або руйнівні повідомлення та вміст.",
+          textColor: null,
+        },
+        {
+          id: 2,
+          title: null,
+          desc: "Ми рекомендуємо вам позначати будь-який вміст, який ви бачите, як образливий або руйнівний.",
+          textColor: null,
+        },
+        {
+          id: 3,
+          title: null,
+          desc: "Якщо ви бачите вміст, який порушує нашу Угоду користувача, ви можете повідомити нас про це, скориставшись опцією звіту на нашому сайті. Ваш звіт залишатиметься конфіденційним.",
+          textColor: null,
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: "Фішинг & шахрайство",
+      text: "Повідомляйте про фішинг та шахрайство",
+      btnText: "Перейти до сторінки зворотній зв’язок",
+      data: [
+        {
+          id: 1,
+          title: null,
+          desc: "— це тактика, яку використовують кіберзлочинці, яка зазвичай полягає в надсиланні електронних листів, нібито від законної компанії чи особи.",
+          textColor: "Фішинг",
+        },
+        {
+          id: 2,
+          title: null,
+          desc: "зазвичай надсилають шахраї під фальшивими іменами або видають себе за законних людей. Їхня мета коливається від спроб викрасти ваші гроші, вашу особу або зібрати особисту інформацію чи зображення, які можна використовувати для вимагання.",
+          textColor: "Шахрайські повідомлення",
+        },
+        {
+          id: 3,
+          title: "Захистіть себе від фішингу та шахрайства",
+          desc: "вводити свої облікові дані лише на  ucs.com або в мобільному додатку UCS і не встановлювати програмне забезпечення з невідомих джерел. Якщо ви отримуєте електронні листи з погрозами закрити ваш обліковий запис, якщо ви не діятимете швидко, це може бути спроба фішингу для ваших облікових даних.",
+          textColor: "Шахрайські повідомлення",
+        },
+        {
+          id: 4,
+          title: null,
+          desc: "— приймати або надсилати запрошення лише тим людям, яких ви знаєте або яким довіряєте. Це зменшує кількість каналів, якими шахраї можуть надсилати вам повідомлення, а також зменшує доступ шахраїв до вашої мережі.",
+          textColor: "Один зі способів запобігти шахрайству",
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "Профілі",
+      text: "Повідомляйте про будь-які порушення",
+      btnText: "Зворотній зв’язок",
+      data: [
+        {
+          id: 1,
+          title: null,
+          desc: "— це їхні професійні дані в UCS, тому важливо, щоб вони були законними та точними. Якщо ви бачите профіль учасника, який, на вашу думку, є підробленим, неточним або таким, що вводить в оману, радимо вам повідомити про це нам.",
+          textColor: "Профілі учасників",
+        },
+        {
+          id: 2,
+          title: null,
+          desc: "Учасники іноді ненавмисно створюють обліковий запис або забувають, що у них уже є обліковий запис, і створюють новий. Якщо у вас є дублікат облікового запису, ви можете закрити його, дотримуючись інструкцій щодо самостійного закриття на сторінці налаштувань.",
+          textColor: null,
+        },
+        {
+          id: 3,
+          title: "Повідомлення недостовірної інформації",
+          desc: "Інформація профілю на UCS має бути правдивою та точною. Якщо ви бачите обліковий запис, який містить неправдиву або неточну інформацію, ви можете позначити це під час перегляду профілю.",
+          textColor: null,
+        },
+        {
+          id: 4,
+          title: "Повідомлення про підроблені профілі",
+          desc: "Фальшиві профілі заборонені в UCS. Якщо ви бачите профіль, який, на вашу думку, є підробленим, ви можете позначити його під час перегляду.",
+          textColor: null,
+        },
+      ],
+    },
+  ],
+};

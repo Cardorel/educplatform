@@ -13,13 +13,14 @@ import {
   isEmailValidation,
   isPasswordValidation,
 } from "../validation/validation";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { getUserAsync } from "../../toolkit/reducers/authSlice";
 import { getUserID } from "../../toolkit/reducers/getIDSlice";
 
 export default function SignIn() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const { data } = useSelector((state) => state?.currentData);
   const [userData, setUserData] = useState({
     email: "",
     password: "",
@@ -28,6 +29,7 @@ export default function SignIn() {
 
   const [isEmailError, setIsEmailError] = useState(false);
   const [isPasswordError, setIsPasswordError] = useState(false);
+  console.log(data);
 
   const handleSignIn = async () => {
     const { email, password } = userData;
@@ -36,7 +38,7 @@ export default function SignIn() {
       ? setIsPasswordError(false)
       : setIsPasswordError(true);
 
-    if (!isEmailError && isPasswordError) {
+    if (!isEmailError && !isPasswordError) {
       try {
         const user = await authentification.signInWithEmailAndPassword(
           email,
@@ -48,7 +50,12 @@ export default function SignIn() {
         savedSession && localStorage.setItem("userId", _delegate.uid);
         dispatch(getUserAsync(_delegate.uid));
         dispatch(getUserID(_delegate.uid));
-        navigate("/student", { replace: true });
+        if (data && user) {
+          navigate("/payment", { replace: true });
+        } else {
+          navigate("/student", { replace: true });
+        }
+
         setUserData({
           email: "",
           password: "",
@@ -63,7 +70,11 @@ export default function SignIn() {
     const googleData = await LogInWithGoogle();
     const { _delegate } = googleData?.user;
     dispatch(getUserAsync(_delegate.uid));
-    navigate("/student", { replace: true });
+    if (data && googleData) {
+      navigate("/payment", { replace: true });
+    } else {
+      navigate("/student", { replace: true });
+    }
   };
   return (
     <div className="sign-in">

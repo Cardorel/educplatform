@@ -4,11 +4,11 @@ import Footer from "../footer/Footer";
 import Header from "../header/header";
 import Menu from "../student/menu/Menu";
 
-export default function WithHeader() {
+export default function WithHeader({ isActive }) {
   return (
     <>
       <Header />
-      <Menu />
+      {isActive && <Menu />}
       <Outlet />
       <Footer />
     </>

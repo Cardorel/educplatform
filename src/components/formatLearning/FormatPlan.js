@@ -8,9 +8,12 @@ export default function FormatPlan({
   plan,
   color,
   description,
+  purchaseTitle,
+  purchaseText,
   price,
   isActive,
   handleSelectOffer,
+  handleClickToOffer,
 }) {
   return (
     <div
@@ -30,8 +33,15 @@ export default function FormatPlan({
           <Image src={ArrowDown} alt="plus-icon" />
         </div>
       </div>
-      <div className="btn-content">
-        <button className="get-plan">Підписатися</button>
+      <div className="btn-content" onClick={(e) => e.stopPropagation()}>
+        <button
+          onClick={() =>
+            handleClickToOffer(plan, price, purchaseTitle, purchaseText, devise)
+          }
+          className="get-plan"
+        >
+          Підписатися
+        </button>
       </div>
     </div>
   );

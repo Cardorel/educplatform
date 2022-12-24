@@ -13,7 +13,7 @@ export default function PaymentLeftContent() {
         <Image src={ArrowBack} alt="arrow-back" />
         <span>Назад до попередньої</span>
       </button>
-      <Link to="/" className="assistance-link">
+      <Link to="/help" className="assistance-link">
         Служба підтримки
       </Link>
     </div>

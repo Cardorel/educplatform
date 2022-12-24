@@ -6,6 +6,21 @@
     gap: 138px;
   }
 
+  &help-container {
+    display: flex;
+    gap: 138px;
+    padding-top: 72px;
+    padding-bottom: 85px;
+
+    .contact-left {
+      padding-bottom: 50px;
+    }
+
+    .contact-right {
+      padding-top: 50px;
+    }
+  }
+
   &left {
     background: #131313;
     box-shadow: 6px 6px 10px #ff5600;

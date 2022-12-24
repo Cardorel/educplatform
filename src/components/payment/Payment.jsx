@@ -7,11 +7,13 @@ import {
   formattingCartDate,
   formattingCartNumber,
 } from "./formatting";
+import { useSelector } from "react-redux";
 
 export default function Payment() {
   const [cvv, setCvv] = useState("");
   const [dateCart, setDateCart] = useState("");
   const [nmumberCart, setNummberCart] = useState("");
+  const { data } = useSelector((state) => state?.currentData);
 
   const handleChangeDateCart = (e) => {
     setDateCart(formattingCartDate(e.target.value));
@@ -38,6 +40,7 @@ export default function Payment() {
         handleChangeNummberCart={handleChangeNummberCart}
         handleClickSubmit={handleClickSubmit}
         handleChangetCvv={handleChangetCvv}
+        data={data}
       />
     </div>
   );

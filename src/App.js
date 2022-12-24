@@ -23,25 +23,36 @@ import Loading from "./components/loading/Loading";
 import { getCurrentUser } from "./toolkit/reducers/getCurrentUserSlice";
 import NoAuthLayout from "./components/auth/NoAuthLayout";
 import Payment from "./components/payment/Payment";
+import Politic from "./components/politic/Politic";
+import Help from "./components/help/Help";
+import Contract from "./components/contract/Contract";
+import Community from "./components/community/Community";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route element={<AuthLayout />}>
-        <Route element={<WithHeader />}>
+        <Route element={<WithHeader isActive={true} />}>
           <Route path="/student" element={<StudentPage />} />
           <Route element={<Detail />} path="/student/:id" />
-          <Route path="/contact" element={<Contact />} />
         </Route>
         <Route path="/payment" element={<Payment />} />
       </Route>
       <Route element={<NoAuthLayout />}>
-        <Route element={<WithHeader />}>
+        <Route element={<WithHeader isActive={false} />}>
           <Route path="/" element={<Home />} />
         </Route>
-        <Route path="signin" element={<SignIn />} />
-        <Route path="register" element={<Registration />} />
-        <Route path="reset-password" element={<ResetPassword />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/register" element={<Registration />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
+      </Route>
+
+      <Route element={<WithHeader isActive={false} />}>
+        <Route path="/privacy-policy" element={<Politic />} />
+        <Route path="/help" element={<Help />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/contract" element={<Contract />} />
+        <Route path="/community" element={<Community />} />
       </Route>
     </Route>
   )

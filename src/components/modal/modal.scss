@@ -25,6 +25,11 @@
       -webkit-box-shadow: 10px 8px 15px 7px rgb(8, 8, 8, 0.4);
       box-shadow: 10px 8px 15px 7px rgb(8, 8, 8, 0.4);
 
+      &-main {
+        width: 1400px;
+        margin: auto;
+      }
+
       .title-video {
         font-size: 2rem;
         line-height: 2.8rem;
