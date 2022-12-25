@@ -109,8 +109,12 @@
       display: grid;
       grid-template-columns: 547.38px auto;
       gap: 70px;
+      padding-left: 40px;
 
       &-left {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
         p {
           font-weight: 100;
           font-size: 20px;
@@ -229,6 +233,74 @@
         .text-color {
           color: #ff5600;
         }
+      }
+    }
+  }
+
+  &-violation {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    &-title {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 43px;
+      text-transform: uppercase;
+      color: #ededed;
+      width: 1533px;
+      padding-right: 60px;
+      margin-bottom: 40px;
+    }
+
+    &-content {
+      display: grid;
+      grid-template-columns: 547px auto;
+      padding-left: 40px;
+      gap: 98px;
+
+      .text-color {
+        color: #ff8001;
+      }
+      h5 {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 36px;
+        color: #ff8001;
+        margin: 0;
+        margin-bottom: 40px;
+      }
+      p {
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ededed;
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  &-copy-right {
+    &-title {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 43px;
+      text-transform: uppercase;
+      color: #ededed;
+      margin: 0;
+      margin-bottom: 40px;
+    }
+
+    p {
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ededed;
+      padding-left: 40px;
+
+      &:not(:last-child) {
+        margin-bottom: 20px;
       }
     }
   }

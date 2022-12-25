@@ -8,6 +8,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { getModalData } from "../../toolkit/reducers/getModalSlice";
 import CommunityModalContent from "./CommunityModalContent";
 import MainModal from "../modal/MainModal";
+import CommunityViolation from "./CommunityViolation";
+import CommunityCopyRight from "./CommunityCopyRight";
 
 export default function Community() {
   const dispatch = useDispatch();
@@ -29,6 +31,8 @@ export default function Community() {
         messages={messages}
         handleClickMessage={handleClickMessage}
       />
+      <CommunityViolation />
+      <CommunityCopyRight />
       {data && (
         <MainModal>
           <CommunityModalContent
