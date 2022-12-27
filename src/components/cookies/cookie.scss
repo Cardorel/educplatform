@@ -1,0 +1,12 @@
+.cookie {
+  ol {
+    list-style: none;
+  }
+  &-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+    margin-top: 50px;
+  }
+}

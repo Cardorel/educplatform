@@ -22,13 +22,13 @@ export default function Footer() {
         <div className="footer-politic">
           <div className="footer-col">
             <Link to="/privacy-policy">Політика конфідеційності</Link>
-            <a href="/#">Про нас</a>
+            <Link to="/about-us">Про нас</Link>
             <Link to="/community">Політика для спільноти</Link>
-            <a href="/#">Політика використання файлів cookie</a>
+            <Link to="/cookie">Політика використання файлів cookie</Link>
           </div>
           <div className="footer-col">
             <Link to="/contact">Мапа сайту</Link>
-            <Link href="/">Служба підтримки</Link>
+            <Link href="/help">Служба підтримки</Link>
             <Link to="/contract">Договір публічної оферти</Link>
             <Link to="/#" className="footer-btn">
               Підписатися на розсилку

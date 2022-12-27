@@ -40,15 +40,50 @@
   );
   border-radius: 30px;
 
-  img{
+  img {
     border-radius: 30px;
   }
 
   .swiper-pagination-bullet {
-    background-color: #10788E !important;
+    background-color: #10788e !important;
     opacity: 1 !important;
-    &-active{
-      background-color: #EDEDED !important;
+    &-active {
+      background-color: #ededed !important;
     }
+  }
+}
+
+.about-us-Swiper {
+  width: 725px;
+
+  .swiper-wrapper {
+    .swiper-slide {
+      width: 480px;
+      background: rgba(237, 237, 237, 0.02);
+      border-radius: 15px;
+      padding: 38px 10px 8px;
+    }
+
+    .swiper-slide-next,
+    .swiper-slide-prev {
+      border-radius: 15px;
+      position: relative;
+      &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        background: rgba(217, 217, 217, 0.01);
+        backdrop-filter: blur(12.5px);
+        border-radius: 15px;
+      }
+    }
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #0f0f0f !important;
   }
 }

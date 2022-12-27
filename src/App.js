@@ -27,6 +27,9 @@ import Politic from "./components/politic/Politic";
 import Help from "./components/help/Help";
 import Contract from "./components/contract/Contract";
 import Community from "./components/community/Community";
+import AboutUs from "./components/aboutUs/AboutUs";
+import Cookie from "./components/cookies/Cookie";
+import Courses from "./components/courses/Courses";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -53,6 +56,9 @@ const router = createBrowserRouter(
         <Route path="/contact" element={<Contact />} />
         <Route path="/contract" element={<Contract />} />
         <Route path="/community" element={<Community />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/cookie" element={<Cookie />} />
+        <Route path="/all-courses" element={<Courses />} />
       </Route>
     </Route>
   )

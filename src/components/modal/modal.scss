@@ -5,6 +5,7 @@
   right: 0;
   left: 0;
   background-color: rgb(39, 39, 39, 0.8);
+  z-index: 999;
 
   &-container {
     width: 100%;
@@ -16,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 99999;
 
     .modal-app-content {
       background: #fff;

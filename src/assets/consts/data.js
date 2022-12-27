@@ -573,6 +573,8 @@ export const certificateData = [
     abreviationSchool: "ITSTEP",
     kind: "Професійна сертифікація",
     gender: "Наука про дані",
+    isBestSeller: false,
+    liked: false,
     rating: 4.4,
     offerPrice: 0,
     description:
@@ -807,6 +809,8 @@ export const certificateData = [
     abreviationSchool: "Google",
     kind: "Професійна сертифікація",
     gender: "Наука про дані",
+    isBestSeller: false,
+    liked: false,
     rating: 3.6,
     offerPrice: 0,
     description:
@@ -1021,6 +1025,8 @@ export const certificateData = [
     abreviationSchool: "Google",
     kind: "Професійна сертифікація",
     gender: "Наука про дані",
+    isBestSeller: true,
+    liked: false,
     rating: 3.4,
     offerPrice: 0,
     description:
@@ -1234,6 +1240,8 @@ export const certificateData = [
     school: "Google",
     abreviationSchool: "Google",
     kind: "Професійна сертифікація",
+    isBestSeller: false,
+    liked: false,
     gender: "Наука про дані",
     rating: 2.4,
     offerPrice: 0,
@@ -1449,6 +1457,8 @@ export const certificateData = [
     abreviationSchool: "IBM",
     kind: "Професійна сертифікація",
     gender: "Наука про дані",
+    isBestSeller: true,
+    liked: false,
     rating: 2.4,
     offerPrice: 0,
     description:
@@ -1663,7 +1673,2817 @@ export const certificateData = [
     abreviationSchool: "Microsoft",
     kind: "Професійна сертифікація",
     gender: "Наука про дані",
+    isBestSeller: false,
+    liked: false,
     rating: 2.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 7,
+    price: 3500,
+    title: "Введення в науку про дані",
+    school: "AIGA",
+    abreviationSchool: "AIGA",
+    kind: null,
+    gender: "Фінанси",
+    isBestSeller: false,
+    liked: false,
+    rating: 2.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 8,
+    price: 4500,
+    title: "Введення в науку про дані",
+    school: "AIGA",
+    abreviationSchool: "AIGA",
+    kind: null,
+    gender: "Фінанси",
+    isBestSeller: false,
+    liked: false,
+    rating: 4,
+    offerPrice: 20,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 9,
+    price: 14500,
+    title: "Введення в науку про дані",
+    school: "AIGA",
+    abreviationSchool: "AIGA",
+    kind: "Профeсійна сертифікація",
+    gender: "Фінанси",
+    isBestSeller: false,
+    liked: false,
+    rating: 4.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 10,
+    price: 12500,
+    title: "Введення в науку про дані",
+    school: "IT STEP",
+    abreviationSchool: "IT STEP",
+    kind: "Профeсійна сертифікація",
+    gender: "Фінанси",
+    isBestSeller: true,
+    liked: false,
+    rating: 4.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 11,
+    price: 2500,
+    title: "Введення в науку про дані",
+    school: "IT STEP",
+    abreviationSchool: "IT STEP",
+    kind: null,
+    gender: "Фінанси",
+    isBestSeller: true,
+    liked: false,
+    rating: 3.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 12,
+    price: 12500,
+    title: "Введення в науку про дані",
+    school: "IT STEP",
+    abreviationSchool: "IT STEP",
+    kind: "Профeсійна сертифікація",
+    gender: "Фінанси",
+    isBestSeller: false,
+    liked: false,
+    rating: 3.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 13,
+    price: 12500,
+    title: "Введення в науку про дані",
+    school: "Microsoft",
+    abreviationSchool: "Microsoft",
+    kind: "Профeсійна сертифікація",
+    gender: "Право",
+    isBestSeller: false,
+    liked: false,
+    rating: 3.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 14,
+    price: 4500,
+    title: "Введення в науку про дані",
+    school: "Microsoft",
+    abreviationSchool: "Microsoft",
+    kind: null,
+    gender: "Право",
+    isBestSeller: false,
+    liked: false,
+    rating: 3.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 15,
+    price: 4500,
+    title: "Введення в науку про дані",
+    school: "Microsoft",
+    abreviationSchool: "Microsoft",
+    kind: null,
+    gender: "Право",
+    isBestSeller: false,
+    liked: false,
+    rating: 3.4,
+    offerPrice: 10,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 16,
+    price: 14500,
+    title: "Введення в науку про дані",
+    school: "Google",
+    abreviationSchool: "Google",
+    kind: null,
+    gender: "Право",
+    isBestSeller: false,
+    liked: false,
+    rating: 3.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 17,
+    price: 19500,
+    title: "Введення в науку про дані",
+    school: "Google",
+    abreviationSchool: "Google",
+    kind: "Профeсійна сертифікація",
+    gender: "Право",
+    isBestSeller: true,
+    liked: false,
+    rating: 3.4,
+    offerPrice: 10,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 18,
+    price: 39500,
+    title: "Введення в науку про дані",
+    school: "IBM",
+    abreviationSchool: "IBM",
+    kind: "Профeсійна сертифікація",
+    gender: "Право",
+    isBestSeller: false,
+    liked: false,
+    rating: 3.4,
+    offerPrice: 0,
+    description:
+      "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
+    language: "французька мова",
+    subTitles: ["українська", "англійська", "французька"],
+    voted: 502,
+    registred: 614,
+    earnCredit: "Заробити залікові кредити",
+    descCredit: "Залікові кредити приймаються у всіх університетах України",
+    logoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    profilLogoUrl: "https://i.ibb.co/RDxK5gn/microsoft.png",
+    startCourse: "20.02.2023",
+    endCourse: "20.08.2023",
+    timeByDay: 3,
+    image: "https://i.ibb.co/y4Vb48d/user.png",
+    detailContent: {
+      like: 702,
+      register: 814,
+      advs: [
+        "Пройти навчання за всіма відео-роками та виконати всі вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+        "Одержати 70% або вище за результатами фінального іспиту",
+        "Виконатисі відео та вікторини розділів",
+        "Скласти фінальний іспит протягом місяця після закінчення курсу",
+      ],
+      users: [
+        {
+          id: 1,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          teacherUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      certificates: [
+        "Наука про дані є однією з найпопулярніших професій десятиліття, і попит на науковців з обробки даних, які можуть аналізувати дані та передавати результати для прийняття рішень на основі даних, ще ніколи не був таким великим. Цей професійний сертифікат допоможе всім, хто зацікавлений у кар’єрі в галузі науки про дані або машинного навчання, розвинути необхідні для кар’єри навички.",
+        "Програма складається з 6 онлайн-курсів, які нададуть Вам новітні готові до роботи інструменти та навички, включаючи інструменти та бібліотеки з відкритим кодом, Python, бази даних, SQL, візуалізацію даних, аналіз даних, статистичний аналіз, прогнозне моделювання та алгоритми машинного навчання. . Ви вивчатимете науку про дані за допомогою практичної практики в IBM Cloud, використовуючи справжні інструменти науки про дані та набори даних реального світу.",
+        "Завершивши ці курси, Ви створите портфоліо проектів із науки про дані, які нададуть Вам впевненості поринути у захоплюючу професію в галузі науки про дані.",
+        "Окрім отримання професійного сертифікату від UCS, ви також отримаєте цифровий значок від IBM.",
+        "Після завершення ви можете отримати професійний сертифікат від UCS та до 6 кредитів ECTS.",
+      ],
+      whatLearns: [
+        {
+          id: 1,
+          text: "Описувати, що таке наука про дані, різні види діяльності спеціаліста з обробки даних та методологію мислення та роботи як науковець із даних",
+        },
+        {
+          id: 2,
+          text: "Розвивати практичні навички, використовуючи інструменти, мови та бібліотеки, які використовуються професійними дослідниками даних",
+        },
+        {
+          id: 3,
+          text: "Імпортувати та очищувати набори даних, аналізувати та візуалізувати дані, створювати та оцінювати моделі та конвеєри машинного навчання за допомогою Python",
+        },
+        {
+          id: 4,
+          text: "Застосовувати різні навички, методи та інструменти в галузі обробки даних, щоб завершити проект, використовуючи набір реальних даних, і опублікувати звіт для зацікавлених сторін",
+        },
+      ],
+      teachers: [
+        {
+          id: 1,
+          name: "Corel",
+          surname: "Antony",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 2,
+          name: "Adipiscing",
+          surname: "Мassa",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 3,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 4,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 5,
+          name: "Antony",
+          surname: "Corel",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+        {
+          id: 6,
+          name: "Nulla",
+          surname: "Мitae",
+          speciality: "K.т.н., спеціаліст по даним",
+          ratingText: "рейтинг викладача",
+          reviews: 327,
+          nomberOfStudent: 745,
+          numberOfCurs: 8,
+          url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
+        },
+      ],
+      severalCourse: [
+        {
+          id: 1,
+          image: "https://i.ibb.co/MkFLSPj/Several-Course1.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+        {
+          id: 2,
+          image: "https://i.ibb.co/fMPddDk/Several-Course2.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4",
+          teacherImg: "https://i.ibb.co/2ZGng7b/teacher2.png",
+        },
+        {
+          id: 3,
+          image: "https://i.ibb.co/PQp72D2/Several-Course3.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+        },
+        {
+          id: 4,
+          image: "https://i.ibb.co/6YZDbxx/Several-Course4.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/bW6yfPf/teacher4.png",
+        },
+        {
+          id: 5,
+          image: "https://i.ibb.co/wQWXpCb/Several-Course5.png",
+          description:
+            "Отримайте повне розуміння того, що таке Data Science, дізнайтеся про такі концепції, як машинне навчання, глибоке навчання та нейронні мережі. Пройшовши цей вступний курс, ви почнете свою подорож у процвітаючу сферу науки про дані!",
+          title: "Наука про дані, що це?",
+          author: "Antony Core",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/h22fpx5/teacher5.png",
+        },
+        {
+          id: 6,
+          image: "https://i.ibb.co/SJx958T/Several-Course6.png",
+          description:
+            "Цей курс ознайомить Вас з інструментами Data Science і як ними користуватися, зокрема, з бібліотеками та пакетами, наборами даних, моделями машинного навчання, ядрами, а також різнмиінструментами з відкритим кодом, комерційними, великими даними та хмарними інструментами. Ви зрозумієте, для чого використовується кожен інструмент, які мови програмування вони можуть виконувати, їхні особливості та обмеження.",
+          title: "Інструменти науки про дані",
+          author: "Nulla Мitae",
+          video:
+            "https://video.bundesregierung.de/legacy/mpeg4/2011/Die_Kanzlerin_direkt_43_11.m4v",
+          teacherImg: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+        },
+      ],
+    },
+  },
+  {
+    id: 20,
+    price: 9500,
+    title: "Введення в науку про дані",
+    school: "IBM",
+    abreviationSchool: "IBM",
+    kind: null,
+    gender: "Право",
+    isBestSeller: false,
+    liked: false,
+    rating: 3.4,
     offerPrice: 0,
     description:
       "Розпочніть свою кар’єру в галузі обробки даних і машинного навчання. Розвивайте навички дослідження даних, вивчайте Python і SQL, аналізуйте та візуалізуйте дані, створюйте моделі машинного навчання. Диплом або попередній досвід не потрібні.",
@@ -3367,3 +6187,648 @@ export const communityData = {
     },
   ],
 };
+
+export const aboutUsData = {
+  aboutUs: [
+    {
+      id: 1,
+      text: "Легкість навчання",
+      isOthercolor: false,
+    },
+    {
+      id: 2,
+      text: "Автоматизовані завдання",
+      isOthercolor: false,
+    },
+    {
+      id: 3,
+      text: "Безліч відео- та текстового матеріалу",
+      isOthercolor: true,
+    },
+    {
+      id: 4,
+      text: "Зручні інструменти, що допоможуть легше опановувати матеріал: мудборди, чати, планери і т.д.",
+      isOthercolor: false,
+    },
+    {
+      id: 5,
+      text: "Пошук однодумців навіть з інших закладів, організацій, що можуть розміщувати на нашій платформі свої курси",
+      isOthercolor: false,
+    },
+    {
+      id: 6,
+      text: "Базу викладачів, роботодавців та зацікавлених людей",
+      isOthercolor: true,
+    },
+    {
+      id: 7,
+      text: "Гнучкий інтерфейс, який Ви можете підлаштувати під себе",
+      isOthercolor: false,
+    },
+    {
+      id: 8,
+      text: "Можливість створювати та проходити челенджі для підвищення рівня кваліфікації та отримання нових знайомств",
+      isOthercolor: false,
+    },
+    {
+      id: 9,
+      text: "Систему рейтингів, розгорнутої статистики та аналітики за допомогою якої користувачі зможуть відслідковувати свою активність та здобутки в навчанні",
+      isOthercolor: true,
+    },
+    {
+      id: 10,
+      text: "Швидкий зворотній зв’язок, який допоможе розібратися з будь-яким питанням, що може виникнути під час навчання на платформі UCS",
+      isOthercolor: false,
+    },
+  ],
+  experts: [
+    {
+      id: 1,
+      texts: [
+        "Scelerisque ultricies quis sem nec ornare eget. Donec tempus nibh nulla ac elementum mauris facilisi eu tortor. Nibh tincidunt et egestas non tempor ut sed pellentesque rutrum. In nibh erat vitae facilisi egestas ultrices porta pellentesque.",
+        "Eget dolor luctus sit auctor nisi nibh porttitor et at. Enim leo non egestas etiam nulla sed sollicitudin. Risus massa leo a fermentum tempus nisl.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+      ],
+      rating: 5,
+      imageUrl: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+      color: "#FF8001",
+      name: "Ім’я експерта",
+      position: "Посада",
+      request:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      qualityOfknowledge:
+        "Lorem ipsum dolor sit amet consectetur. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      convenience:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      search:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor.",
+    },
+    {
+      id: 2,
+      texts: [
+        "Scelerisque ultricies quis sem nec ornare eget. Donec tempus nibh nulla ac elementum mauris facilisi eu tortor. Nibh tincidunt et egestas non tempor ut sed pellentesque rutrum. In nibh erat vitae facilisi egestas ultrices porta pellentesque.",
+        "Eget dolor luctus sit auctor nisi nibh porttitor et at. Enim leo non egestas etiam nulla sed sollicitudin. Risus massa leo a fermentum tempus nisl.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+      ],
+      rating: 4.5,
+      imageUrl: "https://i.ibb.co/2ZGng7b/teacher2.png",
+      color: "#FF5600",
+      name: "Ім’я експерта",
+      position: "Посада",
+      request:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      qualityOfknowledge:
+        "Lorem ipsum dolor sit amet consectetur. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      convenience:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      search:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor.",
+    },
+    {
+      id: 3,
+      texts: [
+        "Scelerisque ultricies quis sem nec ornare eget. Donec tempus nibh nulla ac elementum mauris facilisi eu tortor. Nibh tincidunt et egestas non tempor ut sed pellentesque rutrum. In nibh erat vitae facilisi egestas ultrices porta pellentesque.",
+        "Eget dolor luctus sit auctor nisi nibh porttitor et at. Enim leo non egestas etiam nulla sed sollicitudin. Risus massa leo a fermentum tempus nisl.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+      ],
+      rating: 3.5,
+      imageUrl: "https://i.ibb.co/bW6yfPf/teacher4.png",
+      name: "Ім’я експерта",
+      color: "#8E1010",
+      position: "Посада",
+      request:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      qualityOfknowledge:
+        "Lorem ipsum dolor sit amet consectetur. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      convenience:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      search:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor.",
+    },
+    {
+      id: 4,
+      texts: [
+        "Scelerisque ultricies quis sem nec ornare eget. Donec tempus nibh nulla ac elementum mauris facilisi eu tortor. Nibh tincidunt et egestas non tempor ut sed pellentesque rutrum. In nibh erat vitae facilisi egestas ultrices porta pellentesque.",
+        "Eget dolor luctus sit auctor nisi nibh porttitor et at. Enim leo non egestas etiam nulla sed sollicitudin. Risus massa leo a fermentum tempus nisl.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+      ],
+      rating: 4.5,
+      imageUrl: "https://i.ibb.co/h22fpx5/teacher5.png",
+      name: "Ім’я експерта",
+      color: "#FF8001",
+      position: "Посада",
+      request:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      qualityOfknowledge:
+        "Lorem ipsum dolor sit amet consectetur. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      convenience:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      search:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor.",
+    },
+  ],
+  users: [
+    {
+      id: 1,
+      texts: [
+        "Scelerisque ultricies quis sem nec ornare eget. Donec tempus nibh nulla ac elementum mauris facilisi eu tortor. Nibh tincidunt et egestas non tempor ut sed pellentesque rutrum. In nibh erat vitae facilisi egestas ultrices porta pellentesque.",
+        "Eget dolor luctus sit auctor nisi nibh porttitor et at. Enim leo non egestas etiam nulla sed sollicitudin. Risus massa leo a fermentum tempus nisl.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+      ],
+      rating: 5,
+      imageUrl: "https://i.ibb.co/h22fpx5/teacher5.png",
+      name: "Ім’я користувача",
+      color: "#FF5600",
+      position: "Посада",
+      request:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      qualityOfknowledge:
+        "Lorem ipsum dolor sit amet consectetur. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      convenience:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      search:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor.",
+    },
+    {
+      id: 2,
+      texts: [
+        "Scelerisque ultricies quis sem nec ornare eget. Donec tempus nibh nulla ac elementum mauris facilisi eu tortor. Nibh tincidunt et egestas non tempor ut sed pellentesque rutrum. In nibh erat vitae facilisi egestas ultrices porta pellentesque.",
+        "Eget dolor luctus sit auctor nisi nibh porttitor et at. Enim leo non egestas etiam nulla sed sollicitudin. Risus massa leo a fermentum tempus nisl.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+      ],
+      rating: 5,
+      imageUrl: "https://i.ibb.co/bW6yfPf/teacher4.png",
+      name: "Ім’я користувача",
+      color: "#8E1010",
+      position: "Посада",
+      request:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      qualityOfknowledge:
+        "Lorem ipsum dolor sit amet consectetur. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      convenience:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      search:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor.",
+    },
+    {
+      id: 3,
+      texts: [
+        "Scelerisque ultricies quis sem nec ornare eget. Donec tempus nibh nulla ac elementum mauris facilisi eu tortor. Nibh tincidunt et egestas non tempor ut sed pellentesque rutrum. In nibh erat vitae facilisi egestas ultrices porta pellentesque.",
+        "Eget dolor luctus sit auctor nisi nibh porttitor et at. Enim leo non egestas etiam nulla sed sollicitudin. Risus massa leo a fermentum tempus nisl.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+      ],
+      rating: 5,
+      imageUrl: "https://i.ibb.co/r6YF8Fh/teacher3.png",
+      name: "Ім’я користувача",
+      color: "#FF5600",
+      position: "Посада",
+      request:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      qualityOfknowledge:
+        "Lorem ipsum dolor sit amet consectetur. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      convenience:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      search:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor.",
+    },
+    {
+      id: 4,
+      texts: [
+        "Scelerisque ultricies quis sem nec ornare eget. Donec tempus nibh nulla ac elementum mauris facilisi eu tortor. Nibh tincidunt et egestas non tempor ut sed pellentesque rutrum. In nibh erat vitae facilisi egestas ultrices porta pellentesque.",
+        "Eget dolor luctus sit auctor nisi nibh porttitor et at. Enim leo non egestas etiam nulla sed sollicitudin. Risus massa leo a fermentum tempus nisl.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+        "Ornare enim in blandit amet arcu nam. In lectus viverra integer faucibus at varius iaculis dignissim in. Risus dignissim neque ut egestas. Etiam scelerisque aliquam eu congue adipiscing eu mauris purus.",
+      ],
+      rating: 5,
+      imageUrl: "https://i.ibb.co/sJVP8ZL/teacher1.png",
+      name: "Ім’я користувача",
+      color: "#FF8001",
+      position: "Посада",
+      request:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      qualityOfknowledge:
+        "Lorem ipsum dolor sit amet consectetur. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      convenience:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor. Erat blandit duis urna egestas enim hendrerit amet. Vitae amet enim facilisis nulla sed vitae.",
+      search:
+        "Lorem ipsum dolor sit amet consectetur. Quis donec sagittis eu nunc urna integer. Gravida eget vestibulum tortor sapien. Odio facilisis egestas odio magna orci non sed tempor.",
+    },
+  ],
+};
+
+export const cookieData = [
+  {
+    id: 1,
+    title: "ЯК UCS ВИКОРИСТОВУЄ ФАЙЛИ COOKIE?",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.2",
+            textColor: null,
+          },
+          {
+            id: 3,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.3",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.4",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "ТИПИ ФАЙЛІВ COOKIE І ІНШІ ТЕХНОЛОГІЇ, ЯКІ ВИКОРИСТОВУЮТЬСЯ У UCS",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "2.1",
+            textColor: "Lorem ipsum dolor sit amet consectetur.",
+          },
+          {
+            id: 2,
+            description:
+              "Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.2",
+            textColor: "Lorem ipsum dolor sit amet consectetur.",
+          },
+          {
+            id: 3,
+            description:
+              "Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.3",
+            textColor: "Lorem ipsum dolor sit amet consectetur.",
+          },
+          {
+            id: 4,
+            description:
+              "Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.4",
+            textColor: "Lorem ipsum dolor sit amet consectetur.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Для чого використовуються ці технології?",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.2",
+            textColor: null,
+          },
+          {
+            id: 31,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.3",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "1.4",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 38,
+    title:
+      "Які треті особи використовують ці технології у зв'язку з Послугами?",
+    data: [
+      {
+        id: 1,
+        sub_title: "Виконавець зобов’язується:",
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.11",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.12",
+            textColor: null,
+          },
+          {
+            id: 3,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.13",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.14",
+            textColor: null,
+          },
+        ],
+      },
+      {
+        id: 2,
+        sub_title: "Виконавець має право:",
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.21",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.22",
+            textColor: null,
+          },
+          {
+            id: 3,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.23",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "4.24",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Варіанти вибору",
+    data: [
+      {
+        id: 1,
+        sub_title: "Замовник зобов’язується:",
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.11",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.12",
+            textColor: null,
+          },
+          {
+            id: 3,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.13",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.14",
+            textColor: null,
+          },
+        ],
+      },
+      {
+        id: 2,
+        sub_title: "Замовник має право:",
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.21",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.22",
+            textColor: null,
+          },
+          {
+            id: 3,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.23",
+            textColor: null,
+          },
+          {
+            id: 4,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "5.24",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Адресний показ реклами",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "6.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "6.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Аналітика",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "7.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "7.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Персоналізація",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "8.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "8.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "УПРАВЛІННЯ ФАЙЛАМИ COOKIE У БРАУЗЕРІ",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "9.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "9.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Що таке заборона відстеження (DNT)?",
+    data: [
+      {
+        id: 1,
+        sub_title: null,
+        sub_data: [
+          {
+            id: 1,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "10.1",
+            textColor: null,
+          },
+          {
+            id: 2,
+            description:
+              "Lorem ipsum dolor sit amet consectetur. Massa sed habitasse vulputate vitae auctor. Gravida vulputate aliquam phasellus quam. Aenean dui nulla mi dui quis mi. Tristique leo elementum ac in in. Consectetur amet ultrices sit etiam iaculis metus pellentesque cras. Tincidunt eu sed egestas in nisl. Tincidunt egestas lorem semper placerat morbi orci porttitor.",
+            textNum: "10.2",
+            textColor: null,
+          },
+        ],
+      },
+    ],
+  },
+];

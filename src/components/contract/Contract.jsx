@@ -6,7 +6,7 @@ import { ContractList } from "./ContractList";
 
 export default function Contract() {
   const navigate = useNavigate();
-  const handleNavigateToAboutUs = () => {};
+  const handleNavigateToAboutUs = () => navigate("/about-us");
   const handleNavigateToContact = () => navigate("/contact");
   return (
     <div className="contract">
