@@ -10,7 +10,7 @@
 
   &-all {
     display: flex;
-    gap: 106px;
+    gap: 76px;
     .header {
       display: flex;
       justify-content: space-between;
@@ -71,8 +71,15 @@
           position: relative;
           border-radius: 15px;
           overflow: hidden;
-          img {
+          img.img-course {
             width: 300px;
+          }
+
+          .like-icon {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            z-index: 1;
           }
 
           .paragraph {
@@ -297,6 +304,22 @@
       }
     }
 
+    .btn-clear {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 15px;
+      color: #ededed;
+      background: rgba(237, 237, 237, 0.02);
+      border: 1px solid #10788e;
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+
     &-content {
       display: flex;
       gap: 20px;
@@ -305,6 +328,7 @@
       max-height: 150px;
       overflow-y: auto;
       direction: rtl;
+      padding-top: 10px;
 
       & > * {
         direction: ltr;

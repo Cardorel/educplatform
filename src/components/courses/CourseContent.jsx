@@ -3,6 +3,8 @@ import { Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import ReverveLetter from "../common/ReverveLetter";
 import Raiting from "../student/whatNext/Raiting";
+import UnlikeIcon from "../../assets/svg/unlike.svg";
+import likeIcon from "../../assets/svg/like.svg";
 
 export default function CourseContent({
   image,
@@ -14,12 +16,20 @@ export default function CourseContent({
   offerPrice,
   title,
   id,
+  liked,
+  handleClickLike,
 }) {
   const { teachers } = detailContent;
   return (
     <div className="course-content">
       <div className="course-content-img">
-        <Image src={image} alt="img" />
+        <Image src={image} alt="img" className="img-course" />
+        <Image
+          src={liked ? likeIcon : UnlikeIcon}
+          alt="img-like"
+          className="like-icon"
+          onClick={() => handleClickLike(id)}
+        />
         {isBestSeller && (
           <p className="paragraph">
             <ReverveLetter letters="БЕСТСЕЛЕР" />

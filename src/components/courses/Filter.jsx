@@ -5,17 +5,10 @@ export default function Filter({
   searchByshortCourse,
   searchBycertificateTraining,
   searchByCertificateProgram,
-  searchByCreatedAt,
-  searchByStartAt,
-  searchByendAt,
   handleChangeSearchByshortCourse,
   handleChangeSearchBycertificateTraining,
   handleChangeSearchByCertificateProgram,
-  handleChangeSearchByCreatedAt,
-  handleChangeSearchByStartAt,
-  handleChangeSearchByendAt,
   handleClickClear,
-  handleClickSubmit,
 }) {
   return (
     <div className="filter">
@@ -26,45 +19,28 @@ export default function Filter({
           <div className="filter-content">
             <FilterInput
               label="Короткостроковий курс"
-              value={searchByshortCourse.value}
               handleChange={handleChangeSearchByshortCourse}
-              isChecked={searchByshortCourse.isChecked}
+              isChecked={searchByshortCourse}
             />
             <FilterInput
               label="Підвищення кваліфікації"
-              value={searchBycertificateTraining.value}
               handleChange={handleChangeSearchBycertificateTraining}
-              isChecked={searchBycertificateTraining.isChecked}
+              isChecked={searchBycertificateTraining}
             />
             <FilterInput
               label="Сертифікаційна програма"
               value={searchByCertificateProgram.value}
               handleChange={handleChangeSearchByCertificateProgram}
-              isChecked={searchByCertificateProgram.isChecked}
+              isChecked={searchByCertificateProgram}
             />
           </div>
         </div>
         <div className="filter-row">
           <h5 className="title">По даті</h5>
           <div className="filter-content">
-            <FilterInput
-              label="реєстрації на курс"
-              value={searchByCreatedAt.value}
-              handleChange={handleChangeSearchByCreatedAt}
-              isChecked={searchByCreatedAt.isChecked}
-            />
-            <FilterInput
-              label="початку курсу"
-              value={searchByStartAt.value}
-              handleClick={handleChangeSearchByStartAt}
-              isChecked={searchByStartAt.isChecked}
-            />
-            <FilterInput
-              label="завершення курсу"
-              value={searchByendAt.value}
-              handleChange={handleChangeSearchByendAt}
-              isChecked={searchByendAt.isChecked}
-            />
+            <FilterInput label="реєстрації на курс" />
+            <FilterInput label="початку курсу" />
+            <FilterInput label="завершення курсу" />
           </div>
         </div>
         <div className="filter-row">
@@ -101,9 +77,9 @@ export default function Filter({
             <FilterInput label="Без сертифікату" />
           </div>
         </div>
-        <div>
-          <button onClick={handleClickClear}>Скинути всі фільтри</button>
-        </div>
+        <button className="btn-clear" onClick={handleClickClear}>
+          Скинути всі фільтри
+        </button>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { Image } from "react-bootstrap";
 import ArrowDown from "../../assets/svg/arrowDownWhite.svg";
 import CourseContent from "./CourseContent";
 
-export default function CourseBySubject({ data, gender }) {
+export default function CourseBySubject({ data, gender, handleClickLike }) {
   const [defaultNumber, setDefaultNumber] = useState(3);
   const [isToggle, setIsToggle] = useState(false);
   const handleClickToggle = () => {
@@ -15,6 +15,7 @@ export default function CourseBySubject({ data, gender }) {
       setDefaultNumber(3);
     }
   };
+
   return (
     <div className="course-by-subject">
       <div className="header">
@@ -30,7 +31,11 @@ export default function CourseBySubject({ data, gender }) {
       </div>
       <div className="content">
         {data?.slice(0, defaultNumber).map((item) => (
-          <CourseContent key={item.id} {...item} />
+          <CourseContent
+            key={item.id}
+            handleClickLike={handleClickLike}
+            {...item}
+          />
         ))}
       </div>
     </div>

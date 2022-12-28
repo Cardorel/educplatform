@@ -9,126 +9,72 @@ import { certificateData } from "../../assets/consts/data";
 import { useState } from "react";
 
 export default function Courses() {
-  const [searchByshortCourse, setsearchByshortCourse] = useState({
-    isChecked: false,
-    value: null,
-  });
+  const [allCourse, setAllCourse] = useState(certificateData);
+  const [searchByshortCourse, setsearchByshortCourse] = useState(false);
   const [searchBycertificateTraining, setsearchByCertificateTraining] =
-    useState({
-      isChecked: false,
-      value: null,
-    });
-  const [searchByCertificateProgram, setsearchByCertificateProgram] = useState({
-    isChecked: false,
-    value: null,
-  });
-  const [searchByCreatedAt, setsearchByCreatedAt] = useState({
-    isChecked: false,
-    value: null,
-  });
-  const [searchByStartAt, setsearchByStartAt] = useState({
-    isChecked: false,
-    value: null,
-  });
-  const [searchByendAt, setsearchByendAt] = useState({
-    isChecked: false,
-    value: null,
-  });
+    useState(false);
+  const [searchByCertificateProgram, setsearchByCertificateProgram] =
+    useState(false);
 
   const handleChangeSearchByshortCourse = (e) => {
-    setsearchByshortCourse((v) => {
-      if (e.target.checked === true) {
-        return {
-          isChecked: e.target.checked,
-          value: "Короткостроковий курс",
-        };
-      } else {
-        return {
-          isChecked: e.target.checked,
-          value: null,
-        };
-      }
-    });
+    const checked = e.target.checked;
+    setsearchByshortCourse(checked);
+    setsearchByCertificateTraining(false);
+    setsearchByCertificateProgram(false);
+    setAllCourse(certificateData);
+
+    if (checked) {
+      setAllCourse((c) =>
+        c.filter((d) => d.status === "Короткостроковий курс")
+      );
+    } else if (checked && searchBycertificateTraining) {
+      setAllCourse(
+        certificateData.filter(
+          (d) =>
+            d.status === "Короткостроковий курс" &&
+            d.status === "Підвищення кваліфікації"
+        )
+      );
+    }
   };
+
   const handleChangeSearchBycertificateTraining = (e) => {
-    setsearchByCertificateTraining((v) => {
-      if (e.target.checked === true) {
-        return {
-          isChecked: e.target.checked,
-          value: "Підвищення кваліфікації",
-        };
-      } else {
-        return {
-          isChecked: e.target.checked,
-          value: null,
-        };
-      }
-    });
+    const checked = e.target.checked;
+    setsearchByCertificateTraining(checked);
+    setsearchByshortCourse(false);
+    setsearchByCertificateProgram(false);
+    setAllCourse(certificateData);
+    if (checked) {
+      setAllCourse((c) =>
+        c.filter((d) => d.status === "Підвищення кваліфікації")
+      );
+    }
   };
   const handleChangeSearchByCertificateProgram = (e) => {
-    setsearchByCertificateProgram((v) => {
-      if (e.target.checked === true) {
-        return {
-          isChecked: e.target.checked,
-          value: "Сертифікаційна програма",
-        };
-      } else {
-        return {
-          isChecked: e.target.checked,
-          value: null,
-        };
-      }
-    });
+    const checked = e.target.checked;
+    setsearchByshortCourse(false);
+    setsearchByCertificateTraining(false);
+    setsearchByCertificateProgram(checked);
+    setAllCourse(certificateData);
+    setAllCourse(certificateData);
+    if (checked) {
+      setAllCourse((c) =>
+        c.filter((d) => d.status === "Сертифікаційна програма")
+      );
+    }
   };
 
-  const handleChangeSearchByCreatedAt = (e) => {
-    setsearchByCreatedAt((v) => {
-      if (e.target.checked === true) {
-        return {
-          isChecked: e.target.checked,
-          value: "startCourse",
-        };
-      } else {
-        return {
-          isChecked: e.target.checked,
-          value: null,
-        };
-      }
-    });
-  };
-  const handleChangeSearchByStartAt = (e) => {
-    setsearchByStartAt((v) => {
-      if (e.target.checked === true) {
-        return {
-          isChecked: e.target.checked,
-          value: "startCourse",
-        };
-      } else {
-        return {
-          isChecked: e.target.checked,
-          value: null,
-        };
-      }
-    });
-  };
-  const handleChangeSearchByendAt = (e) => {
-    setsearchByStartAt((v) => {
-      if (e.target.checked === true) {
-        return {
-          isChecked: e.target.checked,
-          value: "startCourse",
-        };
-      } else {
-        return {
-          isChecked: e.target.checked,
-          value: null,
-        };
-      }
-    });
+  const handleClickClear = () => {
+    setsearchByshortCourse(false);
+    setsearchByCertificateTraining(false);
+    setsearchByCertificateProgram(false);
+    setAllCourse(certificateData);
   };
 
-  const handleClickClear = () => {};
-  const handleClickSubmit = () => {};
+  const handleClickLike = (id) =>
+    setAllCourse((data) =>
+      data.map((d) => (d.id === id ? { ...d, liked: true } : d))
+    );
 
   return (
     <div className="course">
@@ -138,9 +84,6 @@ export default function Courses() {
           searchByshortCourse={searchByshortCourse}
           searchBycertificateTraining={searchBycertificateTraining}
           searchByCertificateProgram={searchByCertificateProgram}
-          searchByCreatedAt={searchByCreatedAt}
-          searchByStartAt={searchByStartAt}
-          searchByendAt={searchByendAt}
           handleChangeSearchByshortCourse={handleChangeSearchByshortCourse}
           handleChangeSearchBycertificateTraining={
             handleChangeSearchBycertificateTraining
@@ -148,11 +91,7 @@ export default function Courses() {
           handleChangeSearchByCertificateProgram={
             handleChangeSearchByCertificateProgram
           }
-          handleChangeSearchByCreatedAt={handleChangeSearchByCreatedAt}
-          handleChangeSearchByStartAt={handleChangeSearchByStartAt}
-          handleChangeSearchByendAt={handleChangeSearchByendAt}
           handleClickClear={handleClickClear}
-          handleClickSubmit={handleClickSubmit}
         />
         <div className="course-right">
           <div className="header">
@@ -164,11 +103,13 @@ export default function Courses() {
           </div>
           <CourseBySubject
             gender="Фінанси"
-            data={filterDataByGender(certificateData, "Фінанси")}
+            handleClickLike={handleClickLike}
+            data={filterDataByGender(allCourse, "Фінанси")}
           />
           <CourseBySubject
             gender="Право"
-            data={filterDataByGender(certificateData, "Право")}
+            handleClickLike={handleClickLike}
+            data={filterDataByGender(allCourse, "Право")}
           />
         </div>
       </div>

@@ -5,8 +5,6 @@ import StarhalfIcon from "../../../assets/svg/student/starhalfIcon.svg";
 
 export default function Raiting({ number }) {
   const isDecimal = number % 2 > 0 ? true : false;
-  console.log(isDecimal, Math?.floor(number), number % 2);
-
   return (
     <div className="raiting-row">
       {Array(Math?.floor(number))
