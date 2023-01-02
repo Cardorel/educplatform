@@ -7,7 +7,6 @@ import Button from "../common/Button";
 import InputCheckBox from "../common/InputCheckBox";
 import InputText from "../common/InputText";
 import JoinContainer from "../joinUs/JoinContainer";
-import Logo from "../logo/Logo";
 import {
   isEmailValidation,
   isNameValidation,
@@ -29,7 +28,7 @@ export default function Registration() {
   const [isValidUsername, setIsValidUsername] = useState(false);
   const [isValidEmail, setIsValidEmail] = useState(false);
   const [isValidPassword, setIsValidPassword] = useState(false);
-  const [isValidStatus, setIsValidStatus] = useState(false);
+  const [setIsValidStatus] = useState(false);
 
   const { handleChangeNumber, number } = MaskInput();
 
