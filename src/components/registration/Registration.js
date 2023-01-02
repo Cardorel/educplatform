@@ -4,7 +4,9 @@ import { Link, useNavigate } from "react-router-dom";
 import { authentification, createUser } from "../../firebase/config";
 import { MaskInput } from "../../maskPhone/maskPhone";
 import Button from "../common/Button";
+import InputCheckBox from "../common/InputCheckBox";
 import InputText from "../common/InputText";
+import JoinContainer from "../joinUs/JoinContainer";
 import Logo from "../logo/Logo";
 import {
   isEmailValidation,
@@ -81,109 +83,101 @@ export default function Registration() {
     }
   };
   return (
-    <div className="registration-container">
-      <div className="logo-content">
-        <Logo />
+    <JoinContainer>
+      <div className="registration-container">
+        <h4 className="registration-text">
+          Створіть Ваш новий обліковий запис
+        </h4>
+        <div className="register-row">
+          <div className="registration-input-content">
+            <InputText
+              color="#FF5600"
+              errorText={isValidName && "ім‘я має містити більше 5 символів"}
+              placeholder="Ваше повне ім‘я"
+              type="text"
+              value={registerData.name}
+              handleOnChange={(e) =>
+                setRegisterData((d) => ({ ...d, name: e.target.value }))
+              }
+            />
+            <InputText
+              value={registerData.userName}
+              errorText={
+                isValidUsername && "ім‘я має містити більше 5 символів"
+              }
+              color="#FF5600"
+              placeholder="Ім‘я користувача"
+              type="text"
+              handleOnChange={(e) =>
+                setRegisterData((d) => ({ ...d, userName: e.target.value }))
+              }
+            />
+            <InputText
+              value={number}
+              handleOnChange={handleChangeNumber}
+              color="#FF5600"
+              placeholder="Номер телефону"
+              type="text"
+            />
+            <InputText
+              value={registerData.email}
+              handleOnChange={(e) =>
+                setRegisterData((d) => ({ ...d, email: e.target.value }))
+              }
+              color="#FF5600"
+              placeholder="Електронна пошта"
+              type="email"
+              errorText={isValidEmail && "Адреса електронної пошти недійсна"}
+            />
+          </div>
+          <div className="register-col">
+            <h4>Визначте Ваш статус:</h4>
+            <div className="register-checkbox">
+              <InputCheckBox labelText="Я - студент" value="студент" />
+              <InputCheckBox labelText="Я - ментор" />
+              <InputCheckBox labelText="Я - роботодавець" />
+            </div>
+            <InputText
+              value={registerData.password}
+              handleOnChange={(e) =>
+                setRegisterData((d) => ({ ...d, password: e.target.value }))
+              }
+              color="#FF5600"
+              placeholder="Пароль"
+              type="password"
+              errorText={
+                isValidPassword && "Пароль має містити більше 7 символів"
+              }
+            />
+          </div>
+        </div>
+        <div className="register-btn-content">
+          <Button
+            handleClick={handleRegisterUser}
+            text="ЗАРЕЄСТРУВАТИСЯ"
+            padding="15px 200px"
+          />
+        </div>
+        <div className="registration-footer">
+          <p className="registration-privacy">
+            Натискаючи цю кнопку, ви погоджуєтеся з{" "}
+            <a href="/#" className="registration-link">
+              положеннями і умовами
+            </a>{" "}
+            та{" "}
+            <a href="/#" className="registration-link">
+              політикою конфіденційності
+            </a>
+            .
+          </p>
+          <p className="registration-autho">
+            Уже маєте обліковий запис ...?{" "}
+            <Link to="/signin" className="registration-link">
+              авторизуйтеся
+            </Link>
+          </p>
+        </div>
       </div>
-      <h4 className="registration-text">Створіть Ваш новий обліковий запис</h4>
-      <div className="registration-input-content">
-        <InputText
-          color="#FF5600"
-          errorText={isValidName && "ім‘я має містити більше 5 символів"}
-          placeholder="Ваше повне ім‘я"
-          type="text"
-          value={registerData.name}
-          handleOnChange={(e) =>
-            setRegisterData((d) => ({ ...d, name: e.target.value }))
-          }
-        />
-        <InputText
-          value={registerData.userName}
-          errorText={isValidUsername && "ім‘я має містити більше 5 символів"}
-          color="#FF5600"
-          placeholder="Ім‘я користувача"
-          type="text"
-          handleOnChange={(e) =>
-            setRegisterData((d) => ({ ...d, userName: e.target.value }))
-          }
-        />
-        <InputText
-          value={number}
-          handleOnChange={handleChangeNumber}
-          color="#FF5600"
-          placeholder="Номер телефону"
-          type="text"
-        />
-        <InputText
-          value={registerData.status}
-          handleOnChange={(e) =>
-            setRegisterData((d) => ({ ...d, status: e.target.value }))
-          }
-          color="#FF5600"
-          placeholder="Статус користувача: слухач/ментор"
-          type="text"
-          errorText={
-            isValidStatus && "Статус користувача має містити більше 6 символів"
-          }
-        />
-        <InputText
-          value={registerData.email}
-          handleOnChange={(e) =>
-            setRegisterData((d) => ({ ...d, email: e.target.value }))
-          }
-          color="#FF5600"
-          placeholder="Електронна пошта"
-          type="email"
-          errorText={isValidEmail && "Адреса електронної пошти недійсна"}
-        />
-        <InputText
-          value={registerData.password}
-          handleOnChange={(e) =>
-            setRegisterData((d) => ({ ...d, password: e.target.value }))
-          }
-          color="#FF5600"
-          placeholder="Пароль"
-          type="password"
-          errorText={isValidPassword && "Пароль має містити більше 7 символів"}
-        />
-        <InputText
-          value={registerData.confirmPassword}
-          handleOnChange={(e) =>
-            setRegisterData((d) => ({ ...d, confirmPassword: e.target.value }))
-          }
-          color="#FF5600"
-          placeholder="Повторіть пароль"
-          type="password"
-          errorText={
-            registerData.password !== registerData.confirmPassword &&
-            "Пароль має бути однаковий"
-          }
-        />
-        <Button
-          handleClick={handleRegisterUser}
-          text="ЗАРЕЄСТРУВАТИСЯ"
-          padding="23px"
-        />
-      </div>
-      <div className="registration-footer">
-        <p className="registration-privacy">
-          Натискаючи цю кнопку, ви погоджуєтеся з{" "}
-          <a href="/#" className="registration-link">
-            положеннями і умовами
-          </a>{" "}
-          та{" "}
-          <a href="/#" className="registration-link">
-            політикою конфіденційності
-          </a>
-          .
-        </p>
-        <p className="registration-autho">
-          Уже маєте обліковий запис ...?{" "}
-          <Link to="/signin" className="registration-link">
-            авторизуйтеся
-          </Link>
-        </p>
-      </div>
-    </div>
+    </JoinContainer>
   );
 }

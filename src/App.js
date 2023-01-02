@@ -35,6 +35,7 @@ import SubCategory from "./components/subCategory/SubCategory";
 import Qualification from "./components/qualification/Qualification";
 import JoinUs from "./components/joinUs/joinUs";
 import ChooseStatus from "./components/joinUs/ChooseStatus";
+import RegisterContainer from "./components/registration/RegisterContainer";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -63,6 +64,7 @@ const router = createBrowserRouter(
         <Route path="/signin" element={<SignIn />} />
         <Route path="/register" element={<Registration />} />
         <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="/register-choose" element={<RegisterContainer />} />
       </Route>
 
       <Route element={<WithHeader isActive={false} />}>

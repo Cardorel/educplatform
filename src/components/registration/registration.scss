@@ -1,12 +1,38 @@
 .registration-container {
-  max-width: 435px;
-  margin: auto;
-  padding-top: 145px;
-
   .registration-input-content {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 25px;
+  }
+
+  .register-row {
+    display: flex;
+    gap: 60px;
+    h4 {
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ff5600;
+    }
+
+    .register-col {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .register-checkbox {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+
+  .register-btn-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 30px;
   }
 
   button {
@@ -18,10 +44,15 @@
   .registration-footer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
     gap: 15px;
-    margin-top: 15px;
-    text-align: center;
-    margin-bottom: 100px;
+    width: 500px;
+
+    .registration-autho {
+      margin-top: 50px;
+    }
 
     p {
       font-weight: 300;
@@ -52,7 +83,7 @@
     margin-bottom: 40px;
   }
 
-  input {
+  input:not(input[type="checkbox"]) {
     width: 435px !important;
   }
 }
