@@ -3,7 +3,7 @@ import { Image } from "react-bootstrap";
 import MySwiper from "../../swiper/MySwiper";
 import NextIcon from "../../../assets/svg/student/nextIcon.svg";
 
-export default function WhatNextContent({ text, data, isBtnExist }) {
+export default function WhatNextContent({ text, data }) {
   return (
     <div className="what-next-swiper">
       <h3 className="swiper-text">{text}</h3>

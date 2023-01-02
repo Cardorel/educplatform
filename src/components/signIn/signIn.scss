@@ -1,22 +1,59 @@
 .sign-in {
-  padding: 45px 426px;
-
   &-content {
     display: flex;
-    gap: 100px;
-    margin-top: 50px;
+    flex-direction: column;
+    gap: 103px;
+
+    position: relative;
+    padding-left: 108px;
+
+    &::after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      width: 3px;
+      background: rgba(237, 237, 237, 0.02);
+      border-radius: 10px;
+      content: "";
+    }
 
     h4 {
-      font-weight: 100;
-      font-size: 20px;
-      line-height: 24px;
-      color: #ff5600;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 43px;
+      text-align: center;
+      color: #ededed;
     }
 
     button {
       font-weight: 300;
       font-size: 14px;
       line-height: 17px;
+    }
+
+    .help-join-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+
+      p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #ededed;
+      }
+
+      a {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #ff5600;
+      }
     }
 
     .label-input {
@@ -85,82 +122,72 @@
   &-left {
     padding-right: 100px;
     display: flex;
-    flex-direction: column;
-    gap: 35px;
+    align-items: center;
+    gap: 54px;
     position: relative;
 
-    .sign-title {
-      text-align: center;
-      font-weight: 100;
-      font-size: 20px;
-      line-height: 24px;
+    .input-join-content {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      position: relative;
+      padding-left: 54px;
+
+      &::after {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 3px;
+        background: rgba(237, 237, 237, 0.02);
+        border-radius: 10px;
+        content: "";
+      }
+
+      .label-input {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
     }
 
     .sign-header {
       display: flex;
       flex-direction: column;
       gap: 35px;
-      position: relative;
-      .separator-bar {
-        position: relative;
-        display: flex;
-        justify-content: center;
-
-        .separator-text {
-          font-weight: 300;
-          font-size: 14px;
-          line-height: 17px;
-          display: flex;
-          align-items: center;
-          text-align: center;
-          color: #ededed;
-          opacity: 0.5;
-        }
-
-        &::after {
-          content: "";
-          bottom: 8px;
-          left: 0;
-          position: absolute;
-          height: 1px;
-          background-color: #ff5600;
-          width: 40%;
-        }
-
-        &::before {
-          content: "";
-          bottom: 8px;
-          right: 0;
-          position: absolute;
-          height: 1px;
-          background-color: #ff5600;
-          width: 40%;
-        }
-      }
     }
 
     .google-content {
       display: flex;
+      flex-direction: column;
       align-items: center;
-      gap: 20px;
-      border: 1px solid #ff5600;
-      padding: 13px 26px;
-      width: max-content;
-      margin: auto;
-      border-radius: 20px;
+      width: 435px;
       position: relative;
 
-      span {
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 17px;
-        color: #ffffff;
+      img {
+        width: 89.18px;
+        height: 89.18px;
+      }
+
+      p {
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 50px;
+        color: #ededed;
+
+        .google-text {
+          color: #ff5600;
+          display: block;
+        }
       }
     }
 
     .reset-btn-content {
       display: flex;
       justify-content: center;
+      margin-top: 10px;
 
       .btn-reset-password {
         font-weight: 300;
@@ -174,33 +201,8 @@
       }
     }
 
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      height: 100%;
-      width: 1px;
-      background-color: #ff5600;
-    }
-
     input {
       width: 435px !important;
-    }
-  }
-
-  &-right {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    &-para {
-      width: 432px;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 17px;
-      color: #808080;
-      margin-bottom: 35px;
     }
   }
 }

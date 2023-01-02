@@ -30,6 +30,11 @@ import Community from "./components/community/Community";
 import AboutUs from "./components/aboutUs/AboutUs";
 import Cookie from "./components/cookies/Cookie";
 import Courses from "./components/courses/Courses";
+import Categories from "./components/Categories/Categories";
+import SubCategory from "./components/subCategory/SubCategory";
+import Qualification from "./components/qualification/Qualification";
+import JoinUs from "./components/joinUs/joinUs";
+import ChooseStatus from "./components/joinUs/ChooseStatus";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -38,6 +43,16 @@ const router = createBrowserRouter(
         <Route element={<WithHeader isActive={true} />}>
           <Route path="/student" element={<StudentPage />} />
           <Route element={<Detail />} path="/student/:id" />
+          <Route
+            path="/all-courses/categories/:category"
+            element={<SubCategory />}
+          />
+          <Route
+            path="/all-courses/qualification/:category"
+            element={<Qualification />}
+          />
+          <Route path="/all-courses" element={<Courses />} />
+          <Route path="/all-courses/categories" element={<Categories />} />
         </Route>
         <Route path="/payment" element={<Payment />} />
       </Route>
@@ -58,7 +73,8 @@ const router = createBrowserRouter(
         <Route path="/community" element={<Community />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/cookie" element={<Cookie />} />
-        <Route path="/all-courses" element={<Courses />} />
+        <Route path="/join-us" element={<JoinUs />} />
+        <Route path="/status" element={<ChooseStatus />} />
       </Route>
     </Route>
   )
