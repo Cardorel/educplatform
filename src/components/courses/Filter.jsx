@@ -1,5 +1,5 @@
 import React from "react";
-import FilterInput from "../common/FilterInput";
+import InputCheckBox from "../common/InputCheckBox";
 
 export default function Filter({
   searchByshortCourse,
@@ -17,18 +17,18 @@ export default function Filter({
         <div className="filter-row">
           <h5 className="title">По статусу курсу</h5>
           <div className="filter-content">
-            <FilterInput
-              label="Короткостроковий курс"
+            <InputCheckBox
+              labelText="Короткостроковий курс"
               handleChange={handleChangeSearchByshortCourse}
               isChecked={searchByshortCourse}
             />
-            <FilterInput
-              label="Підвищення кваліфікації"
+            <InputCheckBox
+              labelText="Підвищення кваліфікації"
               handleChange={handleChangeSearchBycertificateTraining}
               isChecked={searchBycertificateTraining}
             />
-            <FilterInput
-              label="Сертифікаційна програма"
+            <InputCheckBox
+              labelText="Сертифікаційна програма"
               value={searchByCertificateProgram.value}
               handleChange={handleChangeSearchByCertificateProgram}
               isChecked={searchByCertificateProgram}
@@ -38,43 +38,43 @@ export default function Filter({
         <div className="filter-row">
           <h5 className="title">По даті</h5>
           <div className="filter-content">
-            <FilterInput label="реєстрації на курс" />
-            <FilterInput label="початку курсу" />
-            <FilterInput label="завершення курсу" />
+            <InputCheckBox labelText="реєстрації на курс" />
+            <InputCheckBox labelText="початку курсу" />
+            <InputCheckBox labelText="завершення курсу" />
           </div>
         </div>
         <div className="filter-row">
           <h5 className="title">По тривалості курсу</h5>
           <div className="filter-content">
-            <FilterInput label="< 1 місяця" />
-            <FilterInput label="1-3 місяці" />
-            <FilterInput label="Більше 3-х місяців" />
+            <InputCheckBox labelText="< 1 місяця" />
+            <InputCheckBox labelText="1-3 місяці" />
+            <InputCheckBox labelText="Більше 3-х місяців" />
           </div>
         </div>
         <div className="filter-row">
           <h5 className="title">По організатору проведення курсу</h5>
           <div className="filter-content">
-            <FilterInput label="Google" />
-            <FilterInput label="IBM" />
-            <FilterInput label="AIGA" />
-            <FilterInput label="IT STEP" />
-            <FilterInput label="Microsoft" />
+            <InputCheckBox labelText="Google" />
+            <InputCheckBox labelText="IBM" />
+            <InputCheckBox labelText="AIGA" />
+            <InputCheckBox labelText="IT STEP" />
+            <InputCheckBox labelText="Microsoft" />
           </div>
         </div>
         <div className="filter-row">
           <h5 className="title">По категоріям інтересів</h5>
           <div className="filter-content">
-            <FilterInput label="Аналіз даних" />
-            <FilterInput label="Фінанси" />
-            <FilterInput label="Право" />
-            <FilterInput label="Соціальні науки" />
+            <InputCheckBox labelText="Аналіз даних" />
+            <InputCheckBox labelText="Фінанси" />
+            <InputCheckBox labelText="Право" />
+            <InputCheckBox labelText="Соціальні науки" />
           </div>
         </div>
         <div className="filter-row">
           <h5 className="title">Сертифікат</h5>
           <div className="filter-content">
-            <FilterInput label="З наданням сертифікату" />
-            <FilterInput label="Без сертифікату" />
+            <InputCheckBox labelText="З наданням сертифікату" />
+            <InputCheckBox labelText="Без сертифікату" />
           </div>
         </div>
         <button className="btn-clear" onClick={handleClickClear}>
