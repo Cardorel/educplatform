@@ -1074,7 +1074,7 @@ export const searchData = [
 export const products = [
   {
     id: 1,
-    url: "https://i.ibb.co/y4Vb48d/user.png",
+    url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     title: "Mauris adipiscing ut amet leo  gravida nulla",
     name: "Volutpat sagittis",
     rating: 4.6,
@@ -1092,7 +1092,7 @@ export const products = [
   },
   {
     id: 2,
-    url: "https://i.ibb.co/y4Vb48d/user.png",
+    url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     title: "Mauris adipiscing ut amet leo  gravida nulla",
     name: "Volutpat sagittis",
     rating: 4.7,
@@ -1110,7 +1110,7 @@ export const products = [
   },
   {
     id: 3,
-    url: "https://i.ibb.co/y4Vb48d/user.png",
+    url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     title: "Mauris adipiscing ut amet leo  gravida nulla",
     name: "Volutpat sagittis",
     rating: 3,
@@ -1128,7 +1128,7 @@ export const products = [
   },
   {
     id: 4,
-    url: "https://i.ibb.co/y4Vb48d/user.png",
+    url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     title: "Mauris adipiscing ut amet leo  gravida nulla",
     name: "Volutpat sagittis",
     rating: 4.4,
@@ -1146,7 +1146,7 @@ export const products = [
   },
   {
     id: 5,
-    url: "https://i.ibb.co/y4Vb48d/user.png",
+    url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     title: "Mauris adipiscing ut amet leo  gravida nulla",
     name: "Volutpat sagittis",
     rating: 4.8,
@@ -1164,7 +1164,7 @@ export const products = [
   },
   {
     id: 6,
-    url: "https://i.ibb.co/y4Vb48d/user.png",
+    url: "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     title: "Mauris adipiscing ut amet leo  gravida nulla",
     name: "Volutpat sagittis",
     rating: 2.4,
@@ -1218,7 +1218,8 @@ export const certificateData = [
     startCourse: "20.01.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 592,
       register: 614,
@@ -1455,7 +1456,8 @@ export const certificateData = [
     startCourse: "20.01.2023",
     endCourse: "20.09.2023",
     timeByDay: 2,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 202,
       register: 614,
@@ -1672,7 +1674,8 @@ export const certificateData = [
     startCourse: "20.01.2023",
     endCourse: "20.11.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 502,
       register: 614,
@@ -1889,7 +1892,8 @@ export const certificateData = [
     startCourse: "20.01.2023",
     endCourse: "20.04.2023",
     timeByDay: 4,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 402,
       register: 634,
@@ -2106,7 +2110,8 @@ export const certificateData = [
     startCourse: "20.06.2023",
     endCourse: "20.09.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 442,
       register: 616,
@@ -2323,7 +2328,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -2540,7 +2546,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -2757,7 +2764,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -2974,7 +2982,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -3191,7 +3200,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -3408,7 +3418,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -3625,7 +3636,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -3842,7 +3854,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -4059,7 +4072,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -4276,7 +4290,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -4493,7 +4508,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -4710,7 +4726,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -4927,7 +4944,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,
@@ -5144,7 +5162,8 @@ export const certificateData = [
     startCourse: "20.02.2023",
     endCourse: "20.08.2023",
     timeByDay: 3,
-    image: "https://i.ibb.co/y4Vb48d/user.png",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7",
     detailContent: {
       like: 702,
       register: 814,

@@ -15,11 +15,14 @@ export default function CourseContainer({ handleClickLike, allCourse }) {
       </div>
       <CourseBySubject
         gender="Фінанси"
+        btnText="пропозицій"
         handleClickLike={handleClickLike}
         data={filterDataByGender(allCourse, "Фінанси")}
       />
       <CourseBySubject
         gender="Право"
+        btnText="пропозицій"
+        isToggle={true}
         handleClickLike={handleClickLike}
         data={filterDataByGender(allCourse, "Право")}
       />

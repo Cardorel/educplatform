@@ -1,2 +1,2 @@
-export const filterDataByGender = (data, gender, defaultNumber) =>
-  data?.filter((d) => d.gender === gender)?.slice(0, defaultNumber);
+export const filterDataByGender = (data, gender) =>
+  data?.filter((d) => d.gender === gender);
