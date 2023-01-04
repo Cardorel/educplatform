@@ -192,3 +192,24 @@
     color: #ededed;
   }
 }
+
+.select-user {
+  border: none;
+  background-color: transparent;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #ededed;
+  gap: 40px;
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+
+  option {
+    color: #040404;
+  }
+}

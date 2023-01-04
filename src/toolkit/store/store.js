@@ -6,6 +6,7 @@ import userReducer from "../reducers/getCurrentUserSlice";
 import videoReducer from "../reducers/getVideoSlice";
 import ModalReducer from "../reducers/getModalSlice";
 import CurrentDataReducer from "../reducers/getCurrentData";
+import SetUserDataReducer from "../reducers/setUserData";
 
 const rootReducer = combineReducers({
   user: userReducer,
@@ -13,12 +14,13 @@ const rootReducer = combineReducers({
   video: videoReducer,
   modal: ModalReducer,
   currentData: CurrentDataReducer,
+  setUser: SetUserDataReducer,
 });
 
 const persistConfig = {
   key: "root",
   storage,
-  blacklist: ["user", "video", "modal"],
+  blacklist: ["user", "video", "modal", "setUser"],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

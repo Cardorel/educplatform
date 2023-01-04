@@ -1,8 +1,10 @@
 import React from "react";
 import { useState } from "react";
+import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import { authentification, createUser } from "../../firebase/config";
+import { authentification } from "../../firebase/config";
 import { MaskInput } from "../../maskPhone/maskPhone";
+import { setUser } from "../../toolkit/reducers/setUserData";
 import Button from "../common/Button";
 import InputCheckBox from "../common/InputCheckBox";
 import InputText from "../common/InputText";
@@ -16,19 +18,26 @@ import "./registration.scss";
 
 export default function Registration() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const [registerData, setRegisterData] = useState({
     name: "",
     userName: "",
-    status: "",
     email: "",
     password: "",
-    confirmPassword: "",
   });
   const [isValidName, setIsValidName] = useState(false);
   const [isValidUsername, setIsValidUsername] = useState(false);
   const [isValidEmail, setIsValidEmail] = useState(false);
   const [isValidPassword, setIsValidPassword] = useState(false);
   const [setIsValidStatus] = useState(false);
+  const [isStudent, setIsStudent] = useState(false);
+  const [isWorker, setIsWorker] = useState(false);
+  const [isMentor, setIsMentor] = useState(false);
+  const [checkValues, setCheckValue] = useState({
+    mentor: "",
+    student: "",
+    worker: "",
+  });
 
   const { handleChangeNumber, number } = MaskInput();
 
@@ -54,17 +63,29 @@ export default function Registration() {
     registerData.password === registerData.confirmPassword &&
     isEmailValidation(registerData.email);
 
+  console.log(checkValues);
+
   const handleRegisterUser = async () => {
     checkAllFields();
-    const { email, password, name, userName, status } = registerData;
+    const { email, password, name, userName } = registerData;
 
     if (IsAllInputsValid()) {
-      try {
-        let { user } = await authentification.createUserWithEmailAndPassword(
+      dispatch(
+        setUser({
+          name,
+          displayName: userName,
           email,
-          password
-        );
-        await createUser(user, {
+          phone: number,
+          status: {
+            ...checkValues,
+          },
+          imageUrl:
+            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/user.png?alt=media&token=449cf776-4685-41d3-b7ee-8d0c5dec2892",
+        })
+      );
+      try {
+        await authentification.createUserWithEmailAndPassword(email, password);
+        /* await createUser(user, {
           name,
           displayName: userName,
           email,
@@ -72,21 +93,56 @@ export default function Registration() {
           status,
           imageUrl:
             "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/user.png?alt=media&token=449cf776-4685-41d3-b7ee-8d0c5dec2892",
-        });
-        navigate("/signin");
-        setRegisterData(null);
+        }); */
+        navigate("/complete-info");
       } catch (er) {
         console.log(er);
         alert(er);
       }
     }
   };
+
+  const handleChangeMentor = (e) => {
+    const checked = e.target.checked;
+    if (checked) {
+      setCheckValue((d) => ({ ...d, mentor: "ментор", student: "" }));
+      setIsStudent(false);
+      setIsMentor((m) => !m);
+    } else {
+      setCheckValue((d) => ({ ...d, mentor: null }));
+      setIsMentor((m) => !m);
+    }
+  };
+
+  const handleChangeStudent = (e) => {
+    const checked = e.target.checked;
+    if (checked) {
+      setCheckValue((d) => ({ ...d, student: "студент", mentor: "" }));
+      setIsMentor(false);
+      setIsStudent((s) => !s);
+    } else {
+      setCheckValue((d) => ({ ...d, student: "" }));
+      setIsStudent((s) => !s);
+    }
+  };
+
+  const handleChangeWorker = (e) => {
+    const checked = e.target.checked;
+    if (checked) {
+      setCheckValue((d) => ({ ...d, worker: "роботодавець" }));
+      setIsWorker((w) => !w);
+    } else {
+      setCheckValue((d) => ({ ...d, worker: "" }));
+      setIsWorker((w) => !w);
+    }
+  };
   return (
     <JoinContainer>
       <div className="registration-container">
-        <h4 className="registration-text">
-          Створіть Ваш новий обліковий запис
-        </h4>
+        <h4 className="title">Створіть Ваш новий обліковий запис</h4>
+        <p className="text">
+          і отримайте сповіщення, щойно наш запит буде опрацьовано
+        </p>
         <div className="register-row">
           <div className="registration-input-content">
             <InputText
@@ -132,9 +188,24 @@ export default function Registration() {
           <div className="register-col">
             <h4>Визначте Ваш статус:</h4>
             <div className="register-checkbox">
-              <InputCheckBox labelText="Я - студент" value="студент" />
-              <InputCheckBox labelText="Я - ментор" />
-              <InputCheckBox labelText="Я - роботодавець" />
+              <InputCheckBox
+                isChecked={isStudent}
+                labelText="Я - студент"
+                value={checkValues?.student}
+                handleChangeByChecking={handleChangeStudent}
+              />
+              <InputCheckBox
+                isChecked={isMentor}
+                labelText="Я - ментор"
+                value={checkValues?.mentor}
+                handleChangeByChecking={handleChangeMentor}
+              />
+              <InputCheckBox
+                isChecked={isWorker}
+                labelText="Я - роботодавець"
+                value={checkValues?.worker}
+                handleChangeByChecking={handleChangeWorker}
+              />
             </div>
             <InputText
               value={registerData.password}

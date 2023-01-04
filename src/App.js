@@ -36,6 +36,7 @@ import Qualification from "./components/qualification/Qualification";
 import JoinUs from "./components/joinUs/joinUs";
 import ChooseStatus from "./components/joinUs/ChooseStatus";
 import RegisterContainer from "./components/registration/RegisterContainer";
+import CompleteInfo from "./components/registration/CompleteInfo";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -65,6 +66,7 @@ const router = createBrowserRouter(
         <Route path="/register" element={<Registration />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/register-choose" element={<RegisterContainer />} />
+        <Route path="/complete-info" element={<CompleteInfo />} />
       </Route>
 
       <Route element={<WithHeader isActive={false} />}>
