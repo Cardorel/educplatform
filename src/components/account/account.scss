@@ -1,0 +1,55 @@
+.account {
+  padding-right: 287px;
+  display: flex;
+  width: 100%;
+  gap: 38px;
+
+  &-parameter {
+    h4 {
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ededed;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      .title {
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        color: #10788e;
+        margin-bottom: 20px;
+        margin-top: 30px;
+      }
+    }
+
+    .account-item {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-left: 40px;
+      li {
+        display: flex;
+        align-items: center;
+        gap: 61px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ededed;
+        span {
+          width: 304px;
+        }
+
+        img {
+          width: 25px;
+          height: 25px;
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}

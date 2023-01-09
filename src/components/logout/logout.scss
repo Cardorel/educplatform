@@ -1,0 +1,42 @@
+.logout-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  height: 50vh;
+  position: relative;
+  padding-left: 70px;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background: rgba(237, 237, 237, 0.02);
+    border-radius: 10px;
+    content: "";
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 43px;
+    text-align: center;
+    color: #ededed;
+  }
+
+  .btns {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+    button {
+      &:last-child {
+        background: #1e1e1e;
+      }
+    }
+  }
+}

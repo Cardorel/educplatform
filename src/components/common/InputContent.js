@@ -7,6 +7,8 @@ export default function InputContent({
   placeholder,
   color,
   imageUrl,
+  value,
+  handleOnChange,
 }) {
   return (
     <div className="input-text-content">
@@ -16,6 +18,8 @@ export default function InputContent({
         placeholder={placeholder}
         color={color}
         imageUrl={imageUrl}
+        value={value}
+        handleOnChange={handleOnChange}
       />
     </div>
   );

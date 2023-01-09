@@ -1,0 +1,53 @@
+.error-page {
+  background: url("../../assets//images/profil_bg.png") no-repeat center center
+    fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-content {
+    width: 80%;
+    background: rgba(237, 237, 237, 0.02);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 108px;
+    margin: 95px 0;
+
+    h5 {
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ededed;
+      margin: 40px 0;
+    }
+
+    p {
+      width: 1200px;
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ededed;
+      text-align: center;
+    }
+
+    .btn-content {
+      text-align: center;
+      .btn {
+        display: flex;
+        margin-top: 71px;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #ededed;
+        background: rgba(237, 237, 237, 0.02);
+        border-radius: 15px;
+        padding: 20px 30px;
+      }
+    }
+  }
+}

@@ -95,7 +95,7 @@
 }
 
 @font-face {
-  font-family: "eUkraineHead";
+  font-family: "e-Ukraine Head";
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-Thin.eot);
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-Thin.eot?#iefix)
       format("embedded-opentype"),
@@ -111,7 +111,7 @@
 }
 
 @font-face {
-  font-family: "eUkraineHead";
+  font-family: "e-Ukraine Head";
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-UltraLight.eot);
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-UltraLight.eot?#iefix)
       format("embedded-opentype"),
@@ -127,7 +127,7 @@
 }
 
 @font-face {
-  font-family: "eUkraineHead";
+  font-family: "e-Ukraine Head";
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-Light.eot);
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-Light.eot?#iefix)
       format("embedded-opentype"),
@@ -143,7 +143,7 @@
 }
 
 @font-face {
-  font-family: "eUkraineHead";
+  font-family: "e-Ukraine Head";
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-Regular.eot);
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-Regular.eot?#iefix)
       format("embedded-opentype"),
@@ -159,7 +159,7 @@
 }
 
 @font-face {
-  font-family: "eUkraineHead";
+  font-family: "e-Ukraine Head";
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-Medium.eot);
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-Medium.eot?#iefix)
       format("embedded-opentype"),
@@ -175,7 +175,7 @@
 }
 
 @font-face {
-  font-family: "eUkraineHead";
+  font-family: "e-Ukraine Head";
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-Bold.eot);
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-Bold.eot?#iefix)
       format("embedded-opentype"),
@@ -191,7 +191,7 @@
 }
 
 @font-face {
-  font-family: "eUkraineHead";
+  font-family: "e-Ukraine Head";
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-NAME.eot);
   src: url(./e-Ukraine-master/e-Ukraine-master/static/fonts/e-UkraineHead-NAME.eot?#iefix)
       format("embedded-opentype"),
@@ -223,6 +223,7 @@ code {
 .app-container {
   max-width: 1920px;
   margin: auto;
+  position: relative;
 }
 
 .small-screen {

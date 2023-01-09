@@ -1,0 +1,596 @@
+.wallet {
+  display: flex;
+  gap: 40px;
+  padding-top: 61px;
+  padding-bottom: 61px;
+  padding-left: 92px;
+
+  &-subscription {
+    background: #040404;
+    border-radius: 15px;
+    padding: 51px 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    p {
+      margin: 0;
+    }
+
+    h4 {
+      font-family: "e-Ukraine Head";
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ffffff;
+      margin: 0;
+    }
+
+    .wallet {
+      &-row {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &-col {
+        display: flex;
+        align-items: center;
+        gap: 92px;
+        p {
+          font-family: "e-Ukraine Head";
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 24px;
+
+          color: #ededed;
+        }
+      }
+    }
+
+    .subscription-content {
+      display: flex;
+      justify-content: space-between;
+      border-radius: 15px;
+      position: relative;
+
+      &:first-of-type {
+        margin-top: 7px;
+      }
+
+      &.cart {
+        p {
+          width: 50%;
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 128, 1, 0.5);
+        opacity: 0.5;
+        border-radius: 15px;
+      }
+
+      p {
+        font-family: "e-Ukraine Head";
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #ededed;
+        z-index: 1;
+        padding: 28px 43px;
+
+        &.price {
+          color: #ff8001;
+        }
+
+        &.active {
+          background: rgba(255, 128, 1, 0.5);
+          opacity: 0.5;
+          transition: opacity 350ms 0.1s;
+        }
+      }
+    }
+
+    .cart-content {
+      padding: 26px 46px;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 26px 46px;
+        background: rgba(255, 128, 1, 0.5);
+        opacity: 0.5;
+        border-radius: 15px 15px 0px 0px;
+      }
+
+      .cart-body {
+        z-index: 1;
+        opacity: 1;
+
+        h4 {
+          margin-bottom: 20px;
+        }
+      }
+
+      h4 {
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ededed;
+      }
+    }
+
+    .select-validity {
+      p {
+        font-family: "e-Ukraine Head";
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ededed;
+      }
+
+      .select-content {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 12px;
+
+        .select_box {
+          position: relative;
+
+          &::before,
+          &:after {
+            background-color: #ff5600;
+          }
+        }
+
+        select {
+          color: #ededed;
+          font-family: "e-Ukraine Head";
+          font-style: normal;
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .payment-inputs {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25px;
+      p {
+        font-family: "e-Ukraine Head";
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ededed;
+        margin-bottom: 10px;
+      }
+      .cvv-content {
+        display: flex;
+        gap: 20px;
+        input {
+          width: 59px;
+          text-align: center;
+          padding: 15px 20px;
+        }
+      }
+    }
+
+    .btn-pay {
+      border: none;
+      display: block;
+      width: 100%;
+      padding-top: 27px;
+      padding-bottom: 27px;
+      background: rgb(#ff8001, 0.5);
+      border-radius: 0px 0px 15px 15px;
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #ededed;
+
+      span {
+        opacity: 1;
+      }
+    }
+  }
+
+  .cart {
+    &-container {
+      background: rgb(#040404, 0.5);
+      border-radius: 15px;
+      padding: 51px 34px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .cart-number-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: 232px;
+        overflow: auto;
+        direction: rtl;
+        padding-left: 15px;
+
+        & > * {
+          direction: ltr;
+        }
+
+        .no-cart {
+          font-family: "e-Ukraine Head";
+          font-style: normal;
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ededed;
+          text-align: center;
+          background: rgb(#10788e, 0.15);
+          border-radius: 15px;
+          padding: 20px;
+        }
+      }
+
+      .visa,
+      .master {
+        .edit-btn {
+          border: none;
+          position: relative;
+          background-color: transparent;
+          padding: 30px;
+          color: #ededed;
+          img {
+            z-index: 1;
+            position: relative;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 128, 1, 0.5);
+            opacity: 0.6;
+          }
+        }
+
+        .delete-btn {
+          border: none;
+          position: relative;
+          background-color: transparent;
+          padding: 30px;
+
+          img {
+            z-index: 1;
+            position: relative;
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 128, 1, 0.5);
+            opacity: 0.8;
+            border-radius: 0 15px 15px 0;
+          }
+        }
+      }
+
+      .visa {
+        .edit-btn {
+          &::after {
+            content: "";
+            background: rgba(#10788e, 0.5);
+          }
+        }
+
+        .delete-btn {
+          &::after {
+            content: "";
+            background: rgba(#10788e, 0.5);
+          }
+        }
+      }
+    }
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 185px;
+      align-items: center;
+      margin-bottom: 17px;
+      h4 {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 36px;
+        color: #ffffff;
+        margin: 0;
+      }
+    }
+
+    &-user {
+      display: flex;
+
+      &.visa,
+      &.master {
+        .cart-credit-content {
+          position: relative;
+          width: 100%;
+
+          & > * {
+            display: flex;
+            align-items: center;
+            padding: 20px 51px;
+            gap: 50px;
+            z-index: 1;
+
+            h5 {
+              font-family: "e-Ukraine Head";
+              font-style: normal;
+              font-weight: 100;
+              font-size: 20px;
+              line-height: 24px;
+              color: #ededed;
+            }
+
+            p {
+              font-weight: 300;
+              font-size: 14px;
+              line-height: 17px;
+              color: #ededed;
+              opacity: 0.5;
+            }
+          }
+
+          &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 128, 1, 0.5);
+            opacity: 0.5;
+            border-radius: 15px 0 0 15px;
+          }
+        }
+      }
+      &.visa {
+        .cart-credit-content::after {
+          content: "";
+          background: rgba(#10788e, 0.5) !important;
+        }
+      }
+    }
+  }
+
+  .platform {
+    margin-top: 50px;
+    &-row {
+      padding: 31px 56px;
+      background: rgb(#040404, 0.5);
+      border-radius: 15px 15px 0px 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      p {
+        font-family: "e-Ukraine Head";
+        font-weight: 100;
+        margin: 0;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ededed;
+        &.price {
+          font-weight: 300;
+          font-size: 30px;
+          line-height: 36px;
+          text-align: right;
+          color: #10788e;
+        }
+
+        &.debt {
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ff5600;
+        }
+      }
+    }
+
+    &-col {
+      display: flex;
+      gap: 225px;
+      justify-content: space-between;
+      align-items: center;
+
+      h5 {
+        font-family: "e-Ukraine Head";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 36px;
+        color: #ffffff;
+        margin: 0;
+      }
+    }
+
+    &-btns {
+      display: flex;
+      gap: 13px;
+
+      button {
+        display: flex;
+        flex-direction: column;
+        background: rgb(#ff5600, 0.5);
+        border-radius: 0 0 15px 15px;
+        border: none;
+        padding: 21px 30px;
+
+        span {
+          width: 354px;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+
+          color: #ffffff;
+
+          opacity: 0.5;
+
+          &:first-of-type {
+            font-family: "e-Ukraine Head";
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            opacity: 1;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .add-new-cart {
+    &-container {
+      background: #040404;
+      border-radius: 15px 15px 0px 0px;
+      padding: 63px 71px;
+    }
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h5 {
+        font-family: "e-Ukraine Head";
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+        color: #ffffff;
+      }
+    }
+
+    .btns {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 21px;
+      button {
+        font-family: "e-Ukraine Head";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        color: #ffffff;
+        border-radius: 0px 0px 15px 15px;
+        border: none;
+        padding: 22px 0;
+        cursor: pointer;
+
+        &.btn-cancel {
+          background: rgb(#ff5600, 0.1);
+        }
+
+        &.btn-add {
+          background: rgb(#ff5600, 0.5);
+        }
+      }
+    }
+
+    &-content {
+      display: flex;
+      margin-top: 50px;
+      gap: 125px;
+      p {
+        font-family: "e-Ukraine Head";
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ededed;
+        margin-bottom: 10px;
+      }
+      .cvv-content {
+        display: flex;
+        gap: 20px;
+        input {
+          width: 59px;
+          text-align: center;
+          padding: 15px 20px;
+        }
+      }
+
+      .select-validity {
+        p {
+          font-family: "e-Ukraine Head";
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ededed;
+        }
+
+        .select-content {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          margin-top: 12px;
+
+          .select_box {
+            position: relative;
+
+            &::before,
+            &:after {
+              background-color: #ff5600;
+            }
+          }
+
+          select {
+            color: #ededed;
+            font-family: "e-Ukraine Head";
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

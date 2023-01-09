@@ -29,7 +29,6 @@ export default function Registration() {
   const [isValidUsername, setIsValidUsername] = useState(false);
   const [isValidEmail, setIsValidEmail] = useState(false);
   const [isValidPassword, setIsValidPassword] = useState(false);
-  const [setIsValidStatus] = useState(false);
   const [isStudent, setIsStudent] = useState(false);
   const [isWorker, setIsWorker] = useState(false);
   const [isMentor, setIsMentor] = useState(false);
@@ -42,13 +41,12 @@ export default function Registration() {
   const { handleChangeNumber, number } = MaskInput();
 
   const checkAllFields = () => {
-    const { email, name, password, status, userName } = registerData;
+    const { email, name, password, userName } = registerData;
     isNameValidation(name) ? setIsValidName(false) : setIsValidName(true);
 
     isNameValidation(userName)
       ? setIsValidUsername(false)
       : setIsValidUsername(true);
-    isNameValidation(status) ? setIsValidStatus(false) : setIsValidStatus(true);
     isPasswordValidation(password)
       ? setIsValidPassword(false)
       : setIsValidPassword(true);
@@ -58,42 +56,33 @@ export default function Registration() {
   const IsAllInputsValid = () =>
     isNameValidation(registerData.name) &&
     isNameValidation(registerData.userName) &&
-    isNameValidation(registerData.status) &&
     isPasswordValidation(registerData.password) &&
-    registerData.password === registerData.confirmPassword &&
     isEmailValidation(registerData.email);
-
-  console.log(checkValues);
 
   const handleRegisterUser = async () => {
     checkAllFields();
     const { email, password, name, userName } = registerData;
 
     if (IsAllInputsValid()) {
-      dispatch(
-        setUser({
-          name,
-          displayName: userName,
-          email,
-          phone: number,
-          status: {
-            ...checkValues,
-          },
-          imageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/user.png?alt=media&token=449cf776-4685-41d3-b7ee-8d0c5dec2892",
-        })
-      );
       try {
-        await authentification.createUserWithEmailAndPassword(email, password);
-        /* await createUser(user, {
-          name,
-          displayName: userName,
+        let { user } = await authentification.createUserWithEmailAndPassword(
           email,
-          phone: number,
-          status,
-          imageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/user.png?alt=media&token=449cf776-4685-41d3-b7ee-8d0c5dec2892",
-        }); */
+          password
+        );
+        dispatch(
+          setUser({
+            name,
+            user,
+            displayName: userName,
+            email,
+            phone: number,
+            status: {
+              ...checkValues,
+            },
+            imageUrl:
+              "https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/user.png?alt=media&token=449cf776-4685-41d3-b7ee-8d0c5dec2892",
+          })
+        );
         navigate("/complete-info");
       } catch (er) {
         console.log(er);

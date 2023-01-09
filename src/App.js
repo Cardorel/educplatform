@@ -37,6 +37,14 @@ import JoinUs from "./components/joinUs/joinUs";
 import ChooseStatus from "./components/joinUs/ChooseStatus";
 import RegisterContainer from "./components/registration/RegisterContainer";
 import CompleteInfo from "./components/registration/CompleteInfo";
+import SuccessRegister from "./components/registration/SuccessRegister";
+import StartInterface from "./components/registration/StartInterface";
+import Interface from "./components/registration/Interface";
+import LogOut from "./components/logout/LogOut";
+import Profil from "./components/Profil/Profil";
+import Account from "./components/account/Account";
+import ErrorPage from "./components/error/ErrorPage";
+import Wallet from "./components/wallet/Wallet";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -55,8 +63,17 @@ const router = createBrowserRouter(
           />
           <Route path="/all-courses" element={<Courses />} />
           <Route path="/all-courses/categories" element={<Categories />} />
+          <Route path="/start-message" element={<StartInterface />} />
+          <Route path="/interface" element={<Interface />} />
+          <Route path="/profil" element={<Profil />} />
+          <Route path="/account" element={<Account />} />
+          <Route path="/wallet" element={<Wallet />} />
+          <Route path="*" element={<ErrorPage />} />
         </Route>
         <Route path="/payment" element={<Payment />} />
+        <Route path="/complete-info" element={<CompleteInfo />} />
+        <Route path="/success-message" element={<SuccessRegister />} />
+        <Route path="/log-out" element={<LogOut />} />
       </Route>
       <Route element={<NoAuthLayout />}>
         <Route element={<WithHeader isActive={false} />}>
@@ -66,7 +83,6 @@ const router = createBrowserRouter(
         <Route path="/register" element={<Registration />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/register-choose" element={<RegisterContainer />} />
-        <Route path="/complete-info" element={<CompleteInfo />} />
       </Route>
 
       <Route element={<WithHeader isActive={false} />}>
@@ -79,6 +95,7 @@ const router = createBrowserRouter(
         <Route path="/cookie" element={<Cookie />} />
         <Route path="/join-us" element={<JoinUs />} />
         <Route path="/status" element={<ChooseStatus />} />
+        <Route path="*" element={<ErrorPage />} />
       </Route>
     </Route>
   )
