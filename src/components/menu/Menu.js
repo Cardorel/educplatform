@@ -35,7 +35,7 @@ export default function Menu() {
               alt="profil-image"
             />
           </Link>
-          <Link to="/calendar" className="menu-col">
+          <Link to="/wallet" className="menu-col">
             <Image src={CalendarIcon} alt="calendar-icon" />
           </Link>
           <Link to="/chat" className="menu-col">
