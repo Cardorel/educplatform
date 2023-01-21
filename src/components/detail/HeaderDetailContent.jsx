@@ -1,5 +1,7 @@
 import { Image } from "react-bootstrap";
+import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { getCurrentUserData } from "../../toolkit/reducers/getCurrentData";
 import HeaderBottom from "./HeaderBottom";
 
 export const HeaderDetailContent = ({
@@ -10,8 +12,19 @@ export const HeaderDetailContent = ({
   title,
   image,
   profilLogoUrl,
+  purchaseTitle,
+  purchaseText,
+  devise,
+  plan,
 }) => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const handlePayment = () => {
+    dispatch(
+      getCurrentUserData({ plan, price, purchaseTitle, purchaseText, devise })
+    );
+    navigate("/payment");
+  };
   return (
     <div className="header-detail-content">
       <div className="header-detail-content-left">
@@ -45,10 +58,7 @@ export const HeaderDetailContent = ({
               </span>
             </p>
           </div>
-          <button
-            className="header-detail-content-btn"
-            onClick={() => navigate("/payment")}
-          >
+          <button className="header-detail-content-btn" onClick={handlePayment}>
             <span className="go-to-btn">ПРОЙТИ НАВЧАННЯ</span>
             <span>Початок {startCourse}</span>
           </button>

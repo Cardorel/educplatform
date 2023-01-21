@@ -22,6 +22,10 @@ export default function HeaderDetail({
   timeByDay,
   language,
   profilLogoUrl,
+  plan,
+  purchaseTitle,
+  purchaseText,
+  devise,
 }) {
   const { teachers } = detailContent;
   return (
@@ -37,6 +41,10 @@ export default function HeaderDetail({
         title={title}
         image={image}
         profilLogoUrl={profilLogoUrl}
+        plan={plan}
+        purchaseTitle={purchaseTitle}
+        purchaseText={purchaseText}
+        devise={devise}
       />
       <HeaderFeedback
         voted={voted}
