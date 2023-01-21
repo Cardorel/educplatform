@@ -3,7 +3,7 @@ import { Image } from "react-bootstrap";
 import ProductContent from "../whatNext/ProductContent";
 import ArrowDown from "../../../assets/svg/arrowDownWhite.svg";
 
-export default function CourseStudent({ data, title }) {
+export default function CourseStudent({ data, title, handleMore }) {
   return (
     <div className="course-student-container">
       <h3 className="course-student-title">{title}</h3>
@@ -13,7 +13,7 @@ export default function CourseStudent({ data, title }) {
         ))}
       </div>
       <div className="btn-content">
-        <button>
+        <button onClick={handleMore}>
           <span>Більше пропозицій</span>
           <Image src={ArrowDown} alt="arrow-back" />
         </button>

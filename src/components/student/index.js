@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { products } from "../../assets/consts/data";
 import HomeContact from "../contact/HomeContact";
 import FormatLearning from "../formatLearning/FormatLearning";
@@ -12,6 +13,8 @@ import "./student.scss";
 import WhatNext from "./whatNext/WhatNext";
 
 export default function Student() {
+  const navigate = useNavigate();
+  const handleMore = () => navigate("/all-courses");
   return (
     <div className="student">
       <HeaderStudent />
@@ -34,6 +37,7 @@ export default function Student() {
         <CourseStudent
           data={products.slice(0, 4)}
           title="Курси підвищення кваліфікації"
+          handleMore={handleMore}
         />
         <CourseStudent
           data={products.slice(0, 4)}
