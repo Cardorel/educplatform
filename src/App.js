@@ -130,8 +130,8 @@ const App = () => {
     <>
       <div className="small-screen">
         <p>
-          Please, we are not allow user to use small screen less than 1920 and
-          we are working on it!
+          Please, we are not allow user to use small screen less than 1920px and
+          we are working on it! please use Control + Shift + C to open Inspector
         </p>
       </div>
       <div className="app-container">
