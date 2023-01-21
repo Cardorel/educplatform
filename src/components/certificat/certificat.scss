@@ -1,0 +1,122 @@
+.certificat {
+  &-interest {
+    h4 {
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ededed;
+      margin: 0;
+    }
+
+    .certificat-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+
+      a {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: #ededed;
+        margin: 0;
+        img {
+          width: 20px;
+          height: 20px;
+          transform: rotate(90deg);
+        }
+      }
+    }
+
+    .certificat {
+      &-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 65px 45px;
+      }
+
+      &-col {
+        .certificat-body {
+          background: rgba(237, 237, 237, 0.02);
+          border-radius: 15px;
+          padding: 40px;
+          margin-bottom: 30px;
+          position: relative;
+          p {
+            font-family: "e-Ukraine Head";
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ededed;
+            margin-bottom: 40px;
+          }
+
+          a {
+            font-family: "e-Ukraine Head";
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ededed;
+            background: rgb(#10788e, 0.5);
+            border-radius: 15px;
+            padding: 20px;
+            display: block;
+            margin-top: 55px;
+            text-align: center;
+          }
+
+          .close-ico {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            width: 20px;
+            height: 20px;
+          }
+        }
+        .img-content {
+          position: relative;
+          .img-bg {
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+          }
+
+          .image-content-play {
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(#ededed, 0.2);
+
+            img {
+              width: 91px;
+              height: 81px;
+            }
+          }
+        }
+
+        button {
+          border-radius: 15px;
+          justify-content: center;
+          img {
+            width: 213px;
+          }
+        }
+      }
+    }
+  }
+}

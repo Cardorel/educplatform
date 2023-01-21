@@ -1,0 +1,126 @@
+.bookmark {
+  &-interest {
+    h4 {
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ededed;
+      margin: 0;
+    }
+
+    .bookmark-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+
+      a {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: #ededed;
+        margin: 0;
+        img {
+          width: 20px;
+          height: 20px;
+          transform: rotate(90deg);
+        }
+      }
+    }
+
+    .bookmark {
+      &-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 65px 45px;
+      }
+
+      &-col {
+        .bookmark-body {
+          background: rgba(237, 237, 237, 0.02);
+          border-radius: 15px 15px 0 0;
+          padding: 40px;
+          position: relative;
+          p {
+            font-family: "e-Ukraine Head";
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ededed;
+            margin-top: 20px;
+          }
+
+          a {
+            font-family: "e-Ukraine Head";
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ededed;
+            background: rgb(#10788e, 0.5);
+            border-radius: 15px;
+            padding: 20px;
+            display: block;
+            margin-top: 55px;
+            text-align: center;
+          }
+        }
+        .img-content {
+          position: relative;
+
+          .img-first,
+          .img-second {
+            padding: 66px 66px 30px;
+            background: rgb(#ededed, 0.1);
+            border-radius: 15px;
+            width: max-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            width: 231px;
+
+            img {
+              width: 64px;
+              height: 64px;
+              margin: auto;
+            }
+          }
+
+          .img-left {
+            position: relative;
+            margin-left: 170px;
+            margin-top: -60px;
+
+            .img-second {
+              border-radius: 15px;
+            }
+
+            .cross {
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              background-color: rgba(#0f0f0f, 0.5);
+              padding: 11px 12px;
+              border-radius: 15px 0 15px 0;
+            }
+          }
+        }
+
+        button {
+          border-radius: 0 0 15px 15px;
+          justify-content: center;
+          img {
+            width: 213px;
+          }
+        }
+      }
+    }
+  }
+}

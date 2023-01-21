@@ -260,3 +260,114 @@
   color: #ededed;
   width: 118px;
 }
+
+.header-interest-container {
+  background: url("../../assets//images/file_bg.png") no-repeat center center
+    fixed;
+  padding: 46px 256px 46px 110px;
+  .header-interest-content {
+    display: flex;
+    margin-top: 91px;
+    gap: 77px;
+  }
+
+  .interest-user {
+    .title-user {
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ededed;
+      margin-bottom: 40px;
+    }
+    .row {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      overflow: auto;
+      max-height: 650px;
+      direction: rtl;
+      .col {
+        display: flex;
+        border-radius: 15px 0px 0px 15px;
+        direction: ltr;
+
+        &-right {
+          display: flex;
+          align-items: center;
+          gap: 37px;
+          padding: 28px;
+          background: #0f0f0f;
+          margin: 0;
+          border-radius: 15px 0 0 15px;
+
+          .text-content {
+            padding-right: 12px;
+            width: 250px;
+            .name {
+              font-weight: 100;
+              font-size: 20px;
+              line-height: 24px;
+              color: #ededed;
+              margin-bottom: 5px;
+            }
+
+            p {
+              font-weight: 300;
+              font-size: 14px;
+              line-height: 17px;
+              color: #ededed;
+            }
+          }
+        }
+
+        &-left {
+          background: #ededed;
+          padding: 27px;
+          background: #8e1010;
+          display: flex;
+          align-items: center;
+          border-radius: 0 15px 15px 0;
+          position: relative;
+
+          img {
+            z-index: 1;
+            width: 41px;
+            height: 41px;
+          }
+
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            content: "";
+            background: #0f0f0f;
+            opacity: 0.5;
+            width: 85%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn-arrow-left {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: none;
+  background: #0f0f0f;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ededed;
+  border-radius: 0 0 15px 15px;
+  width: 100%;
+
+  img {
+    width: 110px;
+  }
+}

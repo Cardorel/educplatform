@@ -5,14 +5,14 @@ import ProfilInfo from "./ProfilInfo";
 import ProfilRating from "./ProfilRating";
 import ProfilStatistic from "./ProfilStatistic";
 
-export default function ProfilContent() {
+export default function ProfilContent({ btnText, text }) {
   return (
     <div className="profil-right-container">
-      <ProfilHeader />
+      <ProfilHeader btnText={btnText} />
       <ProfilInfo />
       <ProfilRating />
       <ProfilStatistic />
-      <OtherCourse />
+      <OtherCourse text={text} />
     </div>
   );
 }

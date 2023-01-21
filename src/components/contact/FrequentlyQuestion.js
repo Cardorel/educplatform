@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import { questions } from "../../assets/consts/data";
-import PlusIconGreen from "../../assets/svg/plusIconGreen.svg";
+import PlusIconGreen from "../../assets/svg/plusIcon.svg";
 import ArrowDownRose from "../../assets/svg/arrowDown.svg";
 
 export default function FrequentlyQuestion() {

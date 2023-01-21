@@ -1,0 +1,210 @@
+@import "~video-react/dist/video-react.css";
+
+.header-course-container {
+  background: url("../../assets//images/file_bg.png") no-repeat center center
+    fixed;
+  padding: 46px 256px 46px 110px;
+  .header-course-content {
+    display: flex;
+    margin-top: 91px;
+    gap: 77px;
+  }
+
+  .course-user {
+    .title-user {
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ededed;
+      margin-bottom: 40px;
+    }
+    .row {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      overflow: auto;
+      max-height: 650px;
+      direction: rtl;
+      .col {
+        display: flex;
+        border-radius: 15px 0px 0px 15px;
+        direction: ltr;
+
+        &-right {
+          display: flex;
+          align-items: center;
+          gap: 37px;
+          padding: 28px;
+          background: #0f0f0f;
+          margin: 0;
+          border-radius: 15px 0 0 15px;
+
+          .text-content {
+            padding-right: 12px;
+            width: 250px;
+            .name {
+              font-weight: 100;
+              font-size: 20px;
+              line-height: 24px;
+              color: #ededed;
+              margin-bottom: 5px;
+            }
+
+            p {
+              font-weight: 300;
+              font-size: 14px;
+              line-height: 17px;
+              color: #ededed;
+            }
+          }
+        }
+
+        &-left {
+          background: #ededed;
+          padding: 27px;
+          background: #8e1010;
+          display: flex;
+          align-items: center;
+          border-radius: 0 15px 15px 0;
+          position: relative;
+
+          img {
+            z-index: 1;
+            width: 41px;
+            height: 41px;
+          }
+
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            content: "";
+            background: #0f0f0f;
+            opacity: 0.5;
+            width: 85%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.video-content {
+  position: relative;
+  border-radius: 15px;
+  .top-video-content {
+    position: absolute;
+    padding: 30px 25px;
+    top: -1px;
+    right: 0;
+    left: 0;
+    background: rgb(#ededed, 0.25);
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+
+    p {
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ededed;
+    }
+
+    .left-video {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+
+      .top-content {
+        display: flex;
+        align-items: center;
+        gap: 19px;
+        span {
+          font-family: "e-Ukraine Head";
+          font-style: normal;
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ededed;
+        }
+      }
+    }
+  }
+
+  .bottom-video-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 30px;
+    background: rgb(#ededed, 0.25);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .bottom-video-row {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+
+      .youtube {
+        margin-right: 18px;
+      }
+
+      .img-ico {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        border: none;
+        background: none;
+        position: relative;
+
+        .input-range {
+          width: 100px;
+          position: absolute;
+          bottom: 100px;
+          transform: rotate(-90deg);
+          left: -30px;
+        }
+        span {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15px;
+          color: #ffffff;
+        }
+      }
+
+      select {
+        border: none;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background: none;
+        color: #ffffff;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+    }
+  }
+}
+
+.video-react {
+  border-radius: 15px;
+}
+
+.video-react-poster {
+  background-size: auto !important;
+  background-position: 100% 100% !important;
+  width: 100%;
+}

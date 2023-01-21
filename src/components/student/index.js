@@ -3,34 +3,25 @@ import { products } from "../../assets/consts/data";
 import HomeContact from "../contact/HomeContact";
 import FormatLearning from "../formatLearning/FormatLearning";
 import Certificat from "./certificat/Certificat";
+import CourseStudent from "./courseStudent/CourseStudent";
 import HeaderStudent from "./header/Header";
+import Mentor from "./mentor/Mentor";
 import Recommandation from "./recommandation/Recommandation";
 import Skill from "./skill/Skill";
 import "./student.scss";
 import WhatNext from "./whatNext/WhatNext";
-import WhatNextContent from "./whatNext/WhatNextContent";
 
 export default function Student() {
   return (
     <div className="student">
       <HeaderStudent />
       <Recommandation />
-      <WhatNext data={products} />
+      <WhatNext data={products} title="Що вивчати далі" />
       <Skill
         firstText="Отримайте необхідні навички за допомогою понад 100 000 відеокурсів"
         secondText="Обирайте курси, які викладають реальні експерти"
         thirdText="Навчайтеся у своєму власному темпі з постійним доступом  на мобільному та  комп’ютері"
       />
-      <div className="what-next-container what-next-flex">
-        <WhatNextContent
-          data={products}
-          text="Короткі та корисні курси для Вас"
-        />
-        <WhatNextContent
-          data={products}
-          text="Короткі та корисні курси для Вас"
-        />
-      </div>
       <Certificat />
       <Skill
         title="ПОКРАЩУЙТЕ СВОЇ ЗНАННЯ ТА ЗАБЕЗПЕЧУЙТЕ СВІЙ КАР’ЄРНИЙ РОЗВИТОК 
@@ -39,6 +30,17 @@ export default function Student() {
         secondText="Sed arcu ac in volutpat quis eget. Odio lorem ultricies dictumst ullamcorper."
         thirdText="Justo odio aliquet ut donec tempor suscipit"
       />
+      <div className="course-student">
+        <CourseStudent
+          data={products.slice(0, 4)}
+          title="Курси підвищення кваліфікації"
+        />
+        <CourseStudent
+          data={products.slice(0, 4)}
+          title="Короткі та корисні курси для Вас"
+        />
+      </div>
+      <Mentor />
       <FormatLearning />
       <HomeContact />
     </div>

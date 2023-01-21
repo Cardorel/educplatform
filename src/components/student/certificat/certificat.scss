@@ -1,13 +1,27 @@
 .certificat {
-  padding: 57px 145px;
-  background: #0f0f0f;
+  padding: 87px 273px 57px 113px;
+  background: url("../../../assets/images/certificat_bg.png");
+  background-size: cover;
 
   &-title {
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 36px;
+    font-family: "e-Ukraine Head";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
     color: #ededed;
-    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  &-text {
+    font-family: "e-Ukraine Head";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 29px;
+    color: #ff5600;
   }
 
   p,
@@ -30,30 +44,52 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-left: 0;
   }
 
   .certificat-right-content {
     overflow: hidden;
-    width: 260px;
+    width: 290px;
     background-color: #ededed;
-    border: 1px solid #ff5600;
     border-radius: 30px 30px 30px 0px;
   }
 
   .certificat-row {
     display: flex;
-    gap: 83px;
+    gap: 19px;
     align-items: stretch;
     margin-top: 75px;
 
     .certificat-right {
       display: grid;
-      gap: 85px;
+      gap: 70px 31px;
       grid-template-columns: 1fr 1fr 1fr;
       justify-content: center;
+      background: rgb(#ededed, 0.1);
+      border-radius: 15px;
+      padding: 59px 49px;
+
+      .certificat-right-image {
+        position: relative;
+        transform-origin: top left;
+
+        &::after {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          left: -12px;
+          width: 120%;
+          height: 50px;
+          background-color: #ededed;
+          content: "";
+          border-top-left-radius: 55px;
+          transform: rotate(-13deg);
+        }
+      }
 
       img.image-company {
         width: 260px;
+        height: 206px;
       }
 
       .image-logo {
@@ -100,11 +136,17 @@
           &.price {
             position: absolute;
             right: 0;
-            top: -10px;
+            top: -35px;
             font-weight: 300;
-            font-size: 14px;
+            font-size: 15px;
             line-height: 17px;
             padding-right: 15px;
+            span {
+              z-index: 1;
+              position: absolute;
+              top: 29px;
+              right: 30px;
+            }
           }
 
           &.school {
@@ -114,16 +156,20 @@
           }
 
           &.title {
+            font-family: "e-Ukraine Head";
+            font-style: normal;
+            font-weight: 100;
+            height: 48px;
             font-size: 20px;
             line-height: 24px;
-            height: 48px;
+            color: #ededed;
           }
 
           &.kind {
-            font-size: 14px;
+            font-size: 16px;
             line-height: 17px;
             color: #ededed;
-            margin-top: 27px;
+            margin-top: 17px;
           }
         }
       }

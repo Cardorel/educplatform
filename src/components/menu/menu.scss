@@ -1,0 +1,145 @@
+.menu-container {
+  position: absolute;
+  top: 174px;
+  right: 87px;
+  z-index: 100;
+
+  .menu-left {
+    background: rgb(#ededed, 0.1);
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 30px;
+    position: fixed;
+    z-index: 20;
+
+    .active {
+      h5 {
+        color: #10788e;
+      }
+    }
+
+    &-container {
+      position: absolute;
+      right: 180px;
+      z-index: 1;
+
+      .top {
+        position: absolute;
+        top: -10px;
+        left: 86px;
+
+        img {
+          position: fixed;
+        }
+      }
+
+      .bottom {
+        position: absolute;
+        bottom: 0;
+        top: 440px;
+        left: 86px;
+        img {
+          position: fixed;
+        }
+      }
+    }
+
+    &-content {
+      position: relative;
+      padding-bottom: 27px;
+      z-index: 1;
+      &::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        display: block;
+        background: rgb(#ededed, 0.5);
+      }
+    }
+
+    &-col {
+      padding: 27px 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &:hover,
+      &:focus {
+        img {
+          position: relative;
+          &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #10788e;
+            opacity: 0.5;
+            content: "";
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      &.first-col {
+        position: relative;
+        padding-bottom: 27px;
+        &::after {
+          position: absolute;
+          content: "";
+          bottom: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          height: 3px;
+          display: block;
+          background: rgb(#ededed, 0.5);
+        }
+      }
+
+      h5 {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #ededed;
+        width: 100px;
+      }
+    }
+  }
+
+  .menu-content {
+    position: fixed;
+    padding: 33px 13px;
+    background: #040404;
+    box-shadow: 0px 5px 5px #ff5600;
+    border-radius: 30px 0 0 30px;
+    .menu-row {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .menu-col {
+        &.profil-col {
+          background: rgba(237, 237, 237, 0.02);
+          box-shadow: 0px 2px 5px #ff8001;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+
+        img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

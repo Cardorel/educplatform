@@ -223,6 +223,9 @@ code {
 .app-container {
   max-width: 1920px;
   margin: auto;
+}
+
+.app-content {
   position: relative;
 }
 

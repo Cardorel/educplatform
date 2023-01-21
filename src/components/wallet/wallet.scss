@@ -4,6 +4,7 @@
   padding-top: 61px;
   padding-bottom: 61px;
   padding-left: 92px;
+  background: url("../../assets//images/wallet.png") no-repeat center center;
 
   &-subscription {
     background: #040404;
@@ -122,6 +123,12 @@
       .cart-body {
         z-index: 1;
         opacity: 1;
+
+        .cart-input {
+          input {
+            width: 550px;
+          }
+        }
 
         h4 {
           margin-bottom: 20px;
@@ -328,7 +335,6 @@
     &-header {
       display: flex;
       justify-content: space-between;
-      gap: 185px;
       align-items: center;
       margin-bottom: 17px;
       h4 {
@@ -434,7 +440,7 @@
 
     &-col {
       display: flex;
-      gap: 225px;
+      gap: 205px;
       justify-content: space-between;
       align-items: center;
 
@@ -452,6 +458,7 @@
     &-btns {
       display: flex;
       gap: 13px;
+      justify-content: space-between;
 
       button {
         display: flex;
@@ -462,7 +469,7 @@
         padding: 21px 30px;
 
         span {
-          width: 354px;
+          width: 314px;
           font-weight: 300;
           font-size: 14px;
           line-height: 17px;

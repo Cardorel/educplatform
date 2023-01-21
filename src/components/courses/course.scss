@@ -2,14 +2,15 @@
   position: relative;
   background-image: url("../../assets/images/all-course-bg.png");
   background-repeat: no-repeat;
-  padding: 46px 110px;
+  padding: 46px 270px 46px 110px;
 
   &-right {
     margin-top: 86px;
   }
 
   &-all {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     gap: 76px;
     .header {
       display: flex;
@@ -223,7 +224,7 @@
 
   &-header {
     display: flex;
-    gap: 323px;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 46px;
     position: relative;

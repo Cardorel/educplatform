@@ -9,7 +9,7 @@ export default function Info() {
         <div className="info-contact-col">
           <h5>Подзвоніть мені</h5>
           <InputText
-            color="#8C8E10"
+            color="#10788E"
             placeholder="Введіть свій номер телефону"
             type="text"
           />
@@ -17,7 +17,7 @@ export default function Info() {
         <div className="info-contact-col">
           <h5>Написати мені на пошту</h5>
           <InputText
-            color="#8C8E10"
+            color="#10788E"
             placeholder="Введіть свою електронну пошту"
             type="email"
           />

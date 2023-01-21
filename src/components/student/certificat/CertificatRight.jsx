@@ -6,7 +6,7 @@ import CertificateRightContent from "./CertificateRightContent";
 export default function CertificatRight() {
   return (
     <div className="certificat-right">
-      {certificateData?.map((data) => (
+      {certificateData?.slice(0, 6).map((data) => (
         <Link key={data?.id} to={`/student/${data?.id}`}>
           <CertificateRightContent {...data} />
         </Link>

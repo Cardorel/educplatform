@@ -45,6 +45,12 @@ import Profil from "./components/Profil/Profil";
 import Account from "./components/account/Account";
 import ErrorPage from "./components/error/ErrorPage";
 import Wallet from "./components/wallet/Wallet";
+import MyCourse from "./components/myCourse/MyCourse";
+import File from "./components/file/File";
+import Video from "./components/video/Video";
+import Certificat from "./components/certificat/Certificat";
+import Bookmark from "./components/bookmark/Bookmark";
+import DetailCourse from "./components/detailCourse/DetailCourse";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -68,7 +74,15 @@ const router = createBrowserRouter(
           <Route path="/profil" element={<Profil />} />
           <Route path="/account" element={<Account />} />
           <Route path="/wallet" element={<Wallet />} />
-          <Route path="*" element={<ErrorPage />} />
+          <Route path="/my-course" element={<MyCourse />} />
+          <Route path="/file" element={<File />} />
+          <Route path="/video" element={<Video />} />
+          <Route path="/certificat" element={<Certificat />} />
+          <Route path="/bookmark" element={<Bookmark />} />
+          <Route
+            path="/course/detail-course/:course"
+            element={<DetailCourse />}
+          />
         </Route>
         <Route path="/payment" element={<Payment />} />
         <Route path="/complete-info" element={<CompleteInfo />} />
@@ -121,7 +135,9 @@ const App = () => {
         </p>
       </div>
       <div className="app-container">
-        <RouterProvider router={router} />
+        <div className="app-content">
+          <RouterProvider router={router} />
+        </div>
       </div>
     </>
   );

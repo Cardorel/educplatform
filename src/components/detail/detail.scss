@@ -1,6 +1,8 @@
 .detail-header-container {
   position: relative;
   padding-bottom: 85px;
+  padding-right: 270px;
+  padding-left: 89px;
   height: 100%;
 
   .about-certificate-paragraph-color {
@@ -24,7 +26,6 @@
     gap: 5px;
     align-items: center;
     padding-top: 29px;
-    padding-left: 61px;
 
     p {
       font-weight: 300;
@@ -40,10 +41,58 @@
   }
 
   .header-detail-content {
-    padding-left: 129px;
     display: flex;
-    gap: 21px;
     padding-top: 81px;
+
+    .header-bottom {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 45px;
+      margin-left: -21px;
+
+      .btn-content {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+
+        p {
+          padding: 20px 15px;
+          font-family: "e-Ukraine Head";
+          font-style: normal;
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #ededed;
+          background: rgb(#ededed, 0.1);
+          margin: 0;
+          border-radius: 15px;
+          position: relative;
+
+          &::after {
+            position: absolute;
+            right: -11px;
+            content: "";
+            width: 12px;
+            height: 2px;
+            background-color: #ededed;
+          }
+        }
+
+        button {
+          padding: 20px;
+          background: rgb(#ededed, 0.1);
+          border: none;
+          border-radius: 15px;
+          img {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
 
     &-left {
       .header-detail-content- {
@@ -55,6 +104,7 @@
           display: flex;
           justify-content: flex-start;
           text-align: start;
+          width: 97.713%;
           img {
             height: 40px;
             object-fit: contain;
@@ -81,7 +131,8 @@
             font-weight: 300;
             font-size: 30px;
             line-height: 36px;
-            color: #ededed;
+            color: #ff5600;
+            font-family: "e-Ukraine Head";
             padding-right: 50px;
           }
 
@@ -143,9 +194,11 @@
 
   .feedback {
     display: flex;
-    padding-left: 132px;
+    padding: 35px 42px;
+    border-radius: 15px 15px 0 0;
     gap: 36px;
-    padding-top: 68px;
+    background: rgba(237, 237, 237, 0.02);
+    margin-top: 95px;
 
     &-rating {
       background: rgba(237, 237, 237, 0.02);
@@ -160,19 +213,19 @@
           color: #ededed;
           height: 63px;
           text-align: center;
-          background: #493a33;
+          background: rgb(#10788e, 0.5);
           border-radius: 20px 20px 0 0;
 
           &.time-title {
-            background: #422c29;
+            background: rgb(#ff8001, 0.5);
           }
 
           &.language-title {
-            background: #202425;
+            background: rgb(#ff5600, 0.5);
           }
 
           &.credit-title {
-            background: #222829;
+            background: #8e1010;
           }
         }
       }
@@ -222,11 +275,18 @@
     position: relative;
     width: 100%;
     display: flex;
-    padding: 114px 0 114px 132px;
+    padding-right: 270px;
+    padding-left: 89px;
+    padding-top: 101px;
+    padding-bottom: 101px;
     gap: 132px;
 
+    .about-certificate-paragraph-color {
+      color: #ff8001;
+    }
+
     &-left {
-      width: 1037px;
+      width: 1000px;
       h3 {
         font-weight: 300;
         font-size: 30px;
@@ -327,21 +387,22 @@
 }
 
 .skill-content {
-  padding: 64px 152px 64px 189px;
-  background: #000000;
+  padding: 64px 260px 64px 89px;
+  background: url("../../assets//images/data_bg.png");
 
   .skill-title {
     font-weight: 300;
     font-size: 30px;
     line-height: 36px;
     color: #ff5600;
+    margin-bottom: 45px;
   }
 
   .skill-paragraphs {
     display: flex;
     gap: 40px 47px;
     flex-wrap: wrap;
-    padding-top: 45px;
+    justify-content: center;
     .skill-text {
       padding: 16px 41px;
       border: 1px solid #ededed;
@@ -350,6 +411,59 @@
       font-weight: 300;
       font-size: 16px;
       line-height: 19px;
+      position: relative;
+      &:not(:last-child, :nth-of-type(7))::before {
+        position: absolute;
+        content: "";
+        width: 48px;
+        height: 2px;
+        right: -48px;
+        top: 25px;
+        background-color: #ededed;
+        border-radius: 15px 15px 15px 15px;
+      }
+
+      &:last-child::before {
+        position: absolute;
+        content: "";
+        width: 84px;
+        height: 2px;
+        right: -84px;
+        top: 25px;
+        background-color: #ededed;
+        border-radius: 15px 15px 15px 15px;
+      }
+
+      &:nth-of-type(7):after {
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 66px;
+        right: 75px;
+        top: 52px;
+        background-color: #ededed;
+      }
+
+      &:nth-of-type(8)::after {
+        position: absolute;
+        content: "";
+        width: 84px;
+        height: 2px;
+        left: -84px;
+        top: 25px;
+        background-color: #ededed;
+        border-radius: 15px 15px 15px 15px;
+      }
+
+      &:nth-of-type(1)::after {
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 66px;
+        left: 75px;
+        top: 52px;
+        background-color: #ededed;
+      }
     }
   }
 }

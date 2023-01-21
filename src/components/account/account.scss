@@ -4,6 +4,16 @@
   width: 100%;
   gap: 38px;
 
+  h4.username {
+    font-family: "e-Ukraine Head";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ededed;
+    margin-bottom: 30px;
+  }
+
   &-parameter {
     h4 {
       font-weight: 300;
@@ -35,7 +45,6 @@
       li {
         display: flex;
         align-items: center;
-        gap: 61px;
         font-weight: 300;
         font-size: 14px;
         line-height: 17px;

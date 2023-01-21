@@ -1,0 +1,51 @@
+.file {
+  &-container {
+    h4 {
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ededed;
+      margin-bottom: 40px;
+    }
+
+    .file-row {
+      display: grid;
+      gap: 110px 30px;
+      grid-template-columns: repeat(3, 317px);
+
+      .file-content {
+        background: rgba(237, 237, 237, 0.02);
+        border-radius: 15px 15px 0 0;
+        padding: 62px 50px 35px;
+
+        .img-content {
+          padding: 65px 30px 20px;
+          background: rgb(#ededed, 0.1);
+          border-radius: 15px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 70px;
+            height: 70px;
+          }
+
+          p {
+            font-family: "e-Ukraine Head";
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ededed;
+            margin-bottom: 15px;
+            margin-top: 25px;
+          }
+        }
+      }
+    }
+  }
+}

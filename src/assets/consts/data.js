@@ -1191,6 +1191,54 @@ export const certificateAdvantages = [
   "Ultricies diam lectus diam tincidunt. Commodo purus a a diam aenean.",
 ];
 
+export const howChooseMentor = [
+  {
+    id: 1,
+    title: "Який він наш ментор?",
+    data: [
+      {
+        id: 1,
+        text: "Той, кому Ви довіряєте",
+      },
+      {
+        id: 2,
+        text: "Радикально відвертий",
+      },
+      {
+        id: 3,
+        text: "Мотивує вас робити найкращу роботу",
+      },
+      {
+        id: 4,
+        text: "Має настрій зростання та настрій навчання",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Чим Вам допоможе ментор?",
+
+    data: [
+      {
+        id: 1,
+        text: "Той, кому Ви довіряєте",
+      },
+      {
+        id: 2,
+        text: "Радикально відвертий",
+      },
+      {
+        id: 3,
+        text: "Мотивує вас робити найкращу роботу",
+      },
+      {
+        id: 4,
+        text: "Має настрій зростання та настрій навчання",
+      },
+    ],
+  },
+];
+
 export const certificateData = [
   {
     id: 1,
@@ -7726,5 +7774,71 @@ export const cartData = [
     cartNumber: "6665 5555 5555 3131",
     type: "visa",
     title: "Картка виплат",
+  },
+];
+
+export const studentHeaderData = [
+  {
+    id: 1,
+    image: "https://i.ibb.co/DQCq4Xq/swiper-Img-1.png",
+    text: "Все життя живи та вчись!",
+  },
+  {
+    id: 2,
+    image: "https://i.ibb.co/9n3rBKS/swiper-Img-2.png",
+    text: "Не обмежуй свої можливості ...",
+  },
+  {
+    id: 3,
+    image: "https://i.ibb.co/4jtvNdh/swiper-Img-3.png",
+    text: "навчайся в зручний час...",
+  },
+  {
+    id: 4,
+    image: "https://i.ibb.co/VvKMSw2/swiper-Img-4.png",
+    text: "в будь-якому місці...",
+  },
+  {
+    id: 5,
+    image: "https://i.ibb.co/GxxYVz4/swiper-Img-5.png",
+    text: "знайди свого ментора...",
+  },
+  {
+    id: 6,
+    image: "https://i.ibb.co/SR3nCDY/swiper-Img-6.png",
+    text: "та своїх однодумців...",
+  },
+];
+
+export const interestCourse = [
+  {
+    id: 1,
+    text: "ІТ технології",
+    src: "Technology",
+    color: "#FF8001",
+  },
+  {
+    id: 2,
+    text: "Фінанси",
+    src: "Finance",
+    color: "#10788E",
+  },
+  {
+    id: 3,
+    text: "Право",
+    src: "Right",
+    color: "#8E1010",
+  },
+  {
+    id: 4,
+    text: "Соціальні науки",
+    src: "Science",
+    color: "#FF8001",
+  },
+  {
+    id: 5,
+    text: "Додати нову категорію",
+    src: "Add",
+    color: "#EDEDED",
   },
 ];

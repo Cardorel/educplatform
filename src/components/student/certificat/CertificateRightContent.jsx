@@ -1,5 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
+import PriceContent from "../../../assets/svg/student/price.svg";
 
 export default function CertificateRightContent({
   price,
@@ -16,11 +17,9 @@ export default function CertificateRightContent({
       </div>
       <div className="certificat-right-col">
         <div className="position-contenu">
-          <div className="image-content">
-            <Image className="image-logo" src={logoUrl} alt="image-company" />
-          </div>
           <p className="price">
-            {price !== 0 ? price + " грн" : "Безкоштовно"}
+            <span>{price !== 0 ? price + " грн" : "Безкоштовно"}</span>
+            <Image src={PriceContent} alt="content" />
           </p>
           <p className="title">{title}</p>
           <p className="school">{school}</p>

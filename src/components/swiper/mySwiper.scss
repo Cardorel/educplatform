@@ -1,9 +1,13 @@
 .mySwiper {
   .product-content {
-    width: 260px;
     display: flex;
     flex-direction: column;
     gap: 21px;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    gap: 18px;
   }
 
   .product-image {

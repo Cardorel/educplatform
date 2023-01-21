@@ -4,18 +4,18 @@ import ProductContent from "../student/whatNext/ProductContent";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import './mySwiper.scss';
-
+import "./mySwiper.scss";
 
 export default function MySwiper({ lists }) {
   return (
     <Swiper
       watchSlidesProgress={true}
-      spaceBetween={30}
-      slidesPerView={5}
+      spaceBetween={0}
+      navigation={true}
+      slidesPerView={4}
       className="mySwiper"
     >
-      {lists?.map((data,index) => (
+      {lists?.map((data, index) => (
         <SwiperSlide virtualIndex={index} key={data.id}>
           <ProductContent {...data} />
         </SwiperSlide>

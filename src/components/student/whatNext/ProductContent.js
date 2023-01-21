@@ -25,11 +25,15 @@ export default function ProductContent({
         <Raiting number={rating} />
       </div>
       <div className="price-content">
-        <p className='price'>{price} грн</p>
+        <p className="price">{price} грн</p>
         <p className="price-offered">{offerPrice} грн</p>
       </div>
       <div className="product-btn">
-        <Button handleClick={handleClick} text="БЕСТСЕЛЕР" padding="15px 25px" />
+        <Button
+          handleClick={handleClick}
+          text="Перейти до курсу"
+          padding="15px 25px"
+        />
       </div>
     </div>
   );

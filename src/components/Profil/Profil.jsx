@@ -170,7 +170,10 @@ export default function Profil() {
           </div>
         </div>
         <div>
-          <ProfilContent />
+          <ProfilContent
+            btnText="Видалити викладачаs"
+            text="Запропонувати новий курс"
+          />
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import { Image } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import HeaderBottom from "./HeaderBottom";
 
 export const HeaderDetailContent = ({
   description,
@@ -53,12 +54,15 @@ export const HeaderDetailContent = ({
           </button>
         </div>
       </div>
-      <div className="header-detail-content-right">
-        <Image
-          src={image}
-          alt="image-detail"
-          className="header-detail-content-img"
-        />
+      <div>
+        <div className="header-detail-content-right">
+          <Image
+            src={image}
+            alt="image-detail"
+            className="header-detail-content-img"
+          />
+        </div>
+        <HeaderBottom />
       </div>
     </div>
   );

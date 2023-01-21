@@ -48,12 +48,14 @@ export default function Subscription() {
       <div>
         <div className="cart-content">
           <div className="cart-body">
-            <InputContent
-              text="Номер карти:"
-              color="#FF5600"
-              type="text"
-              placeholder="Введіть номер своє карти:"
-            />
+            <div className="cart-input">
+              <InputContent
+                text="Номер карти:"
+                color="#FF5600"
+                type="text"
+                placeholder="Введіть номер своє карти:"
+              />
+            </div>
             <div className="payment-inputs">
               <div className="select-validity">
                 <p>Строк дії:</p>
