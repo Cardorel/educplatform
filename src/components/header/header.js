@@ -11,7 +11,7 @@ import SigninHeader from "./SigninHeader";
 import { useSelector } from "react-redux";
 import LogOut from "../../assets/svg/logout.svg";
 import JoinHeader from "./JoinHeader";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Header() {
   const [isSearch, setIsSearch] = useState(false);
@@ -25,7 +25,9 @@ export default function Header() {
   const handleLogOutClick = () => navigate("/log-out");
   return (
     <div className="header-container">
-      <Logo />
+      <Link to="/">
+        <Logo />
+      </Link>
       <div className="header-right">
         <div className="search-content">
           <div className="searchBtn" onClick={handleCloseSearch}>
