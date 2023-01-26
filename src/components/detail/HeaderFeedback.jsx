@@ -12,8 +12,8 @@ export default function HeaderFeedback({
   timeByDay,
   language,
 }) {
-  const myStartDate = startCourse.split(".");
-  const myEndtDate = endCourse.split(".");
+  const myStartDate = startCourse?.split(".");
+  const myEndtDate = endCourse?.split(".");
   const startDate = new Date(
     myStartDate[2],
     myStartDate[1],

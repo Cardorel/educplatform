@@ -15,6 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getUserAsync } from "../../toolkit/reducers/authSlice";
 import { getUserID } from "../../toolkit/reducers/getIDSlice";
 import JoinContainer from "../joinUs/JoinContainer";
+import { getDataAsync } from "../../toolkit/reducers/getusersCollection";
 
 export default function SignIn() {
   const navigate = useNavigate();
@@ -28,7 +29,6 @@ export default function SignIn() {
 
   const [isEmailError, setIsEmailError] = useState(false);
   const [isPasswordError, setIsPasswordError] = useState(false);
-  console.log(data);
 
   const handleSignIn = async () => {
     const { email, password } = userData;
@@ -69,6 +69,7 @@ export default function SignIn() {
     const googleData = await LogInWithGoogle();
     const { _delegate } = googleData?.user;
     dispatch(getUserAsync(_delegate.uid));
+    dispatch(getDataAsync(_delegate.uid));
     if (data && googleData) {
       navigate("/payment", { replace: true });
     } else {

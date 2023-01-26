@@ -1,0 +1,115 @@
+.quiz {
+  padding: 46px 256px 66px 84px;
+  background: url("../../../assets//images/quiz_bg.png") no-repeat center center
+    fixed;
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 150px;
+    margin-top: 23px;
+
+    .quiz-content {
+      padding: 25px 0;
+      position: relative;
+
+      .quiz-input {
+        display: grid;
+        gap: 15px;
+
+        .failed {
+          .checkbox {
+            color: #8e1010 !important;
+          }
+
+          .checkbox-wrapper-40 input[type="checkbox"]:before,
+          .checkbox-wrapper-40 input[type="checkbox"]:after {
+            background: #8e1010 !important;
+          }
+        }
+
+        .success {
+          .checkbox {
+            color: #ff5600 !important;
+          }
+
+          .checkbox-wrapper-40 input[type="checkbox"]:before {
+            opacity: 1;
+          }
+
+          .checkbox-wrapper-40 input[type="checkbox"]:before,
+          .checkbox-wrapper-40 input[type="checkbox"]:after {
+            background: #ff5600 !important;
+          }
+        }
+      }
+
+      &::after {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        content: "";
+        background: rgb(#ededed, 0.1);
+        border-radius: 10px;
+        width: 100%;
+        height: 2px;
+      }
+
+      &:nth-child(1)::after {
+        width: 0;
+      }
+
+      &:nth-child(2)::after {
+        width: 0;
+      }
+
+      h4 {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #ff5600;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .btn {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .quiz-text-content {
+    position: relative;
+    padding-bottom: 43px;
+    &::after {
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      content: "";
+      background: rgb(#ededed, 0.1);
+      border-radius: 10px;
+      width: 100%;
+      height: 2px;
+    }
+    h4 {
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ff5600;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      color: #ededed;
+      opacity: 0.6;
+      text-align: center;
+    }
+  }
+}

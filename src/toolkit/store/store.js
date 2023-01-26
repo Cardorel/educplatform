@@ -1,12 +1,14 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import storage from "redux-persist/lib/storage";
 import { persistStore, persistReducer } from "redux-persist";
+import dataReducer from "../reducers/getusersCollection";
 import userIDReducer from "../reducers/getIDSlice";
 import userReducer from "../reducers/getCurrentUserSlice";
 import videoReducer from "../reducers/getVideoSlice";
 import ModalReducer from "../reducers/getModalSlice";
 import CurrentDataReducer from "../reducers/getCurrentData";
 import SetUserDataReducer from "../reducers/setUserData";
+import setCourseDataReducer from "../reducers/setCourseData";
 
 const rootReducer = combineReducers({
   user: userReducer,
@@ -15,6 +17,8 @@ const rootReducer = combineReducers({
   modal: ModalReducer,
   currentData: CurrentDataReducer,
   setUser: SetUserDataReducer,
+  dataReducer,
+  course: setCourseDataReducer,
 });
 
 const persistConfig = {

@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { products } from "../../assets/consts/data";
+import { certificateData } from "../../assets/consts/data";
 import HomeContact from "../contact/HomeContact";
 import FormatLearning from "../formatLearning/FormatLearning";
 import Certificat from "./certificat/Certificat";
@@ -19,12 +19,7 @@ export default function Student() {
     <div className="student">
       <HeaderStudent />
       <Recommandation />
-      <WhatNext data={products} title="Що вивчати далі" />
-      <Skill
-        firstText="Отримайте необхідні навички за допомогою понад 100 000 відеокурсів"
-        secondText="Обирайте курси, які викладають реальні експерти"
-        thirdText="Навчайтеся у своєму власному темпі з постійним доступом  на мобільному та  комп’ютері"
-      />
+      <WhatNext data={certificateData} title="Що вивчати далі" />
       <Certificat />
       <Skill
         title="ПОКРАЩУЙТЕ СВОЇ ЗНАННЯ ТА ЗАБЕЗПЕЧУЙТЕ СВІЙ КАР’ЄРНИЙ РОЗВИТОК 
@@ -34,15 +29,23 @@ export default function Student() {
         thirdText="Justo odio aliquet ut donec tempor suscipit"
       />
       <div className="course-student">
-        <CourseStudent
-          data={products.slice(0, 4)}
-          title="Курси підвищення кваліфікації"
-          handleMore={handleMore}
-        />
-        <CourseStudent
-          data={products.slice(0, 4)}
-          title="Короткі та корисні курси для Вас"
-        />
+        <div className="training-course">
+          <CourseStudent
+            data={certificateData
+              .sort(() => 0.51245 - Math.random())
+              .slice(0, 4)}
+            title="Курси підвищення кваліфікації"
+            handleMore={handleMore}
+          />
+        </div>
+        <div className="userful-course">
+          <CourseStudent
+            data={certificateData
+              .sort(() => 0.51245 - Math.random())
+              .slice(0, 4)}
+            title="Короткі та корисні курси для Вас"
+          />
+        </div>
       </div>
       <Mentor />
       <FormatLearning />

@@ -2,6 +2,7 @@
   display: flex;
   column-gap: 167px;
   width: 100%;
+  margin-top: 127px;
 
   &-content {
     display: flex;
@@ -37,6 +38,7 @@
       font-weight: 300;
       font-size: 30px;
       line-height: 36px;
+
       color: #ededed;
     }
 
@@ -63,7 +65,7 @@
 
   .image {
     width: 100%;
-    height: 350px;
+    height: 567px;
     border-radius: 30px;
     object-fit: cover;
   }
@@ -109,9 +111,10 @@
     margin-top: 10px;
     color: #ededed;
     position: absolute;
-    bottom: 0;
+    bottom: 38px;
     left: 0;
     right: 0;
     z-index: 1;
+    padding: 0 38px;
   }
 }

@@ -6,11 +6,14 @@ import CertificateRightContent from "./CertificateRightContent";
 export default function CertificatRight() {
   return (
     <div className="certificat-right">
-      {certificateData?.slice(0, 6).map((data) => (
-        <Link key={data?.id} to={`/student/${data?.id}`}>
-          <CertificateRightContent {...data} />
-        </Link>
-      ))}
+      {certificateData
+        ?.filter((d) => d.kind === "Професійна сертифікація")
+        .slice(0, 6)
+        .map((data) => (
+          <Link key={data?.id} to={`/student/${data?.id}`}>
+            <CertificateRightContent {...data} />
+          </Link>
+        ))}
     </div>
   );
 }

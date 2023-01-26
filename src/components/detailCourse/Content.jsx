@@ -1,25 +1,41 @@
 import { Image } from "react-bootstrap";
-import Finance from "../../assets/svg/interest/finance.svg";
-import Technology from "../../assets/svg/interest/it.svg";
-import Add from "../../assets/svg/interest/add.svg";
-import Right from "../../assets/svg/interest/right.svg";
-import Science from "../../assets/svg/interest/science.svg";
-import CrossWhite from "../../assets/svg/crossWhite.svg";
 import Blocked from "../../assets/svg/blocked.svg";
 
-export default function Content({ text, src, color, isTrue }) {
-  const img = { Finance, Technology, Right, Science, Add };
+export default function Content({
+  id,
+  image,
+  title,
+  text = "Курс",
+  isClicked,
+  handleClickVideo,
+  indx,
+}) {
   return (
-    <div className="col">
+    <div
+      className="col"
+      role="button"
+      disabled={isClicked}
+      onClick={() => handleClickVideo(id, indx)}
+    >
       <div className="col-right">
-        <Image src={img[src]} alt="img-user" />
+        <Image src={image} alt="img-user" className="img-user" />
         <div className="text-content">
-          <p className="name">{text}</p>
+          <h5>
+            {text} {id}
+          </h5>
+          <p className="name" title={title}>
+            {title}
+          </p>
         </div>
       </div>
-      <div className="col-left" style={{ backgroundColor: color }}>
-        <Image src={!isTrue ? Blocked : CrossWhite} alt="message" />
-      </div>
+      <button
+        className={`col-left ${
+          (isClicked || indx === 0) && "clicked"
+        } certificate-btn`}
+        style={{ backgroundColor: "#FF5600" }}
+      >
+        {(isClicked || indx !== 0) && <Image src={Blocked} alt="message" />}
+      </button>
     </div>
   );
 }

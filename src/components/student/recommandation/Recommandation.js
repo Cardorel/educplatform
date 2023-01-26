@@ -42,7 +42,6 @@ export default function Recommandation() {
         thirdPlaceholder={null}
       />
       <div className="btn-content">
-        <Button text="ПРОПУСТИТИ" padding="23px 50px" />
         <Button text="ПРОДОВЖИТИ" padding="23px 50px" />
       </div>
     </div>

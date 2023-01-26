@@ -4,11 +4,14 @@ import { headerData } from "../../assets/consts/data";
 import PlusIcon from "../../assets/svg/plusIconRose.svg";
 import "./aboutHeader.scss";
 import Button from "../common/Button";
+import { useNavigate } from "react-router-dom";
 
 export default function AboutHeader() {
   const { title, abouts } = headerData;
+  const navigate = useNavigate();
+  const handleClick = () => navigate("/joinUs");
   return (
-    <Row className="header header-about-container">
+    <Row className="header-home header-about-container">
       <h3 className="header-title">{title}</h3>
       <div className="header-about">
         <div className="header-about-left">
@@ -27,12 +30,7 @@ export default function AboutHeader() {
           <Button
             text="Спробуйте безкоштовний 30-денний пробний період"
             padding="33px 91px"
-          />
-        </div>
-        <div className="header-about-right">
-          <Image
-            src="https://firebasestorage.googleapis.com/v0/b/movna-28240.appspot.com/o/education%2Fimage%2045.png?alt=media&token=f4ce7753-f4fc-409c-9562-e416beeb8be7"
-            alt="image-header"
+            handleClick={handleClick}
           />
         </div>
       </div>

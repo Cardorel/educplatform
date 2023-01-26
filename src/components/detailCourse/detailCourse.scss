@@ -3,14 +3,199 @@
 .header-course-container {
   background: url("../../assets//images/file_bg.png") no-repeat center center
     fixed;
-  padding: 46px 256px 46px 110px;
+
+  padding: 46px 256px 46px 84px;
   .header-course-content {
     display: flex;
     margin-top: 91px;
-    gap: 77px;
+    gap: 47px;
+    .title {
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ededed;
+      margin-bottom: 21px;
+    }
+  }
+
+  .teacher-about {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .tab-content {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      margin-top: 45px;
+      width: 550px;
+
+      h4 {
+        font-family: "e-Ukraine Head";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        color: #ff5600;
+        opacity: 0.8;
+        margin: 0;
+      }
+
+      .desc {
+        font-family: "e-Ukraine Head";
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #ff5600;
+        opacity: 0.6;
+      }
+
+      .para {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ededed;
+      }
+    }
+
+    .tab-course {
+      display: flex;
+      gap: 1px;
+
+      .tab {
+        background: none;
+        border: none;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #ededed;
+        padding: 30px 10px;
+        background: rgb(#ededed, 0.1);
+
+        &:first-child {
+          border-radius: 15px 0 0 15px;
+        }
+
+        &.active {
+          background: rgb(#ff5600, 0.1);
+        }
+
+        &:focus {
+          background: rgb(#ff5600, 0.1);
+        }
+
+        &:last-child {
+          border-radius: 0 15px 15px 0;
+        }
+      }
+    }
+
+    .box-header {
+      background: rgb(#ededed, 0.5);
+    }
+  }
+
+  .knowledge {
+    &-course {
+      margin-top: 80px;
+    }
+
+    &-title {
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 100;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ff5600;
+      opacity: 0.8;
+      position: relative;
+      margin: 0;
+
+      &::after {
+        position: absolute;
+        right: 0;
+        top: 15px;
+        content: "";
+        background: rgb(#ededed, 0.1);
+        border-radius: 10px;
+        width: 40%;
+        height: 2px;
+      }
+    }
+
+    &-content {
+      display: flex;
+      margin-top: 80px;
+
+      ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        li {
+          display: flex;
+          gap: 15px;
+          margin: 0;
+          align-items: center;
+
+          img {
+            width: 25px;
+            height: 25px;
+          }
+
+          span {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            color: #ededed;
+          }
+        }
+      }
+    }
+  }
+
+  .detail-course {
+    .title {
+      font-family: "e-Ukraine Head";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 36px;
+      color: #ff5600;
+      max-width: 750px;
+      margin-bottom: 22px;
+    }
   }
 
   .course-user {
+    .img-user {
+      width: 82px;
+      height: 50px;
+    }
+
+    .clicked {
+      background-color: #ededed !important;
+    }
+
+    .certificate {
+      .certificate-btn {
+        background-color: #ededed !important;
+      }
+    }
+
     .title-user {
       font-family: "e-Ukraine Head";
       font-style: normal;
@@ -27,6 +212,7 @@
       overflow: auto;
       max-height: 650px;
       direction: rtl;
+      padding-left: 30px;
       .col {
         display: flex;
         border-radius: 15px 0px 0px 15px;
@@ -44,12 +230,26 @@
           .text-content {
             padding-right: 12px;
             width: 250px;
+
+            h5 {
+              font-weight: 300;
+              font-size: 16px;
+              line-height: 19px;
+              color: #ededed;
+            }
+
             .name {
               font-weight: 100;
-              font-size: 20px;
+              font-size: 16px;
               line-height: 24px;
               color: #ededed;
               margin-bottom: 5px;
+
+              --max-line: 1;
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: var(--max-line);
             }
 
             p {
@@ -69,6 +269,8 @@
           align-items: center;
           border-radius: 0 15px 15px 0;
           position: relative;
+          border: none;
+          min-width: 95px;
 
           img {
             z-index: 1;
@@ -95,6 +297,7 @@
 
 .video-content {
   position: relative;
+  width: 100%;
   border-radius: 15px;
   .top-video-content {
     position: absolute;
@@ -191,9 +394,19 @@
         background: none;
         color: #ffffff;
 
+        &:focus {
+          border: none;
+          outline: none;
+        }
+
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
+
+        option {
+          color: #0f0f0f;
+          font-size: 10px;
+        }
       }
     }
   }

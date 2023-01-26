@@ -26,6 +26,8 @@ export default function BottomVideoContent({
   handleRange,
   handleVolum,
   handleFull,
+  currentTime,
+  duration,
 }) {
   return (
     <div className="bottom-video-content">
@@ -52,15 +54,20 @@ export default function BottomVideoContent({
           <Image src={NextIco} alt="next-ico" />
         </button>
         <div className="img-ico">
-          <span>0:00</span>
+          <span>{currentTime}</span>
           <span>/</span>
-          <span>10:00</span>
+          <span>{duration}</span>
         </div>
       </div>
       <div className="bottom-video-row">
-        <div className="img-ico youtube">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.youtube.com/watch?v=fgdpvwEWJ9M"
+          className="img-ico youtube"
+        >
           <Image src={YoutubeIco} alt="youtube-ico" />
-        </div>
+        </a>
         <div className="bottom-video-row">
           <div>
             <select defaultValue="1">

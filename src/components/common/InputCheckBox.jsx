@@ -5,18 +5,21 @@ export default function InputCheckBox({
   value,
   handleChangeByChecking,
   isChecked,
+  classed,
 }) {
   return (
-    <div className="checkbox-wrapper-40">
-      <label>
-        <input
-          type="checkbox"
-          value={value}
-          checked={isChecked}
-          onChange={handleChangeByChecking}
-        />
-        <span className="checkbox">{labelText}</span>
-      </label>
+    <div className={classed}>
+      <div className="checkbox-wrapper-40">
+        <label>
+          <input
+            type="checkbox"
+            value={value}
+            checked={isChecked}
+            onChange={handleChangeByChecking}
+          />
+          <span className="checkbox">{labelText}</span>
+        </label>
+      </div>
     </div>
   );
 }

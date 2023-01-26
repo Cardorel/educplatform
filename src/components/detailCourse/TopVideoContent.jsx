@@ -3,10 +3,12 @@ import { Image } from "react-bootstrap";
 import Like from "../../assets/svg/like.svg";
 import ImgVideo from "../../assets/svg/imgVideo.svg";
 
-export default function TopVideoContent() {
+export default function TopVideoContent({ title, indx }) {
   return (
     <div className="top-video-content">
-      <p className="text">Курс 1: Наука про дані, що це?</p>
+      <p className="text">
+        Курс {indx + 1}: {title}
+      </p>
       <div className="left-video">
         <div className="top-content">
           <Image src={Like} alt="like" />

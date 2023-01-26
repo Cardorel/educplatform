@@ -1,28 +1,35 @@
 import { Image } from "react-bootstrap";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { getCurrentUserData } from "../../toolkit/reducers/getCurrentData";
+import { setCourse } from "../../toolkit/reducers/setCourseData";
 import HeaderBottom from "./HeaderBottom";
 
-export const HeaderDetailContent = ({
-  description,
-  teachers,
-  price,
-  startCourse,
-  title,
-  image,
-  profilLogoUrl,
-  purchaseTitle,
-  purchaseText,
-  devise,
-  plan,
-}) => {
+export const HeaderDetailContent = (detailData) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const { data } = useSelector((state) => state?.course);
+
+  console.log(data?.refNumber);
+
+  const {
+    description,
+    detailContent: { teachers },
+    price,
+    startCourse,
+    title,
+    image,
+    profilLogoUrl,
+    purchaseTitle,
+    purchaseText,
+    devise,
+    plan,
+  } = detailData;
   const handlePayment = () => {
     dispatch(
       getCurrentUserData({ plan, price, purchaseTitle, purchaseText, devise })
     );
+    dispatch(setCourse(detailData));
     navigate("/payment");
   };
   return (
@@ -51,15 +58,22 @@ export const HeaderDetailContent = ({
                 <span>+ {teachers.length - 1} інших</span>
               )}
             </p>
-            <p>
-              <span>Варість навчання:</span>
-              <span className="price">
-                {price > 0 ? price + " грн" : "Безкоштовно"}
-              </span>
-            </p>
+            {data?.refNumber === undefined && (
+              <p>
+                <span>Варість навчання:</span>
+                <span className="price">
+                  {price > 0 ? price + " грн" : "Безкоштовно"}
+                </span>
+              </p>
+            )}
           </div>
           <button className="header-detail-content-btn" onClick={handlePayment}>
-            <span className="go-to-btn">ПРОЙТИ НАВЧАННЯ</span>
+            <span className="go-to-btn">
+              {" "}
+              {data?.refNumber === undefined
+                ? "ПРОЙТИ НАВЧАННЯ"
+                : "Перейти до курсу"}
+            </span>
             <span>Початок {startCourse}</span>
           </button>
         </div>

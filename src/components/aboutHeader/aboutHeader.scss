@@ -1,8 +1,18 @@
 .header {
   width: 100%;
   position: relative;
+
+  &-home {
+    background-image: url("../../assets/images/home-img.jpg");
+    background-size: cover;
+    max-height: 970px;
+  }
+
+  .row {
+    margin: 0;
+  }
+
   &-title {
-    text-align: center;
     font-weight: 500;
     font-size: 75px;
     line-height: 90px;
@@ -14,8 +24,8 @@
     display: flex;
     gap: 91px;
 
-    &-container{
-        padding: 0 125px 237px;
+    &-container {
+      padding: 0 125px 237px;
     }
 
     &-left {
@@ -27,6 +37,7 @@
         li {
           position: relative;
           list-style: none;
+          width: 778px;
           img {
             width: 28.56px;
             height: 28.56px;

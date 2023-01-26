@@ -147,7 +147,7 @@
     translate(calc(var(--borderWidth) / -2), calc(var(--borderWidth) / -2))
     scaleX(1);
   transition: transform 200ms ease-in 200ms;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 .checkbox-wrapper-40 input[type="checkbox"]:after {
   width: calc(var(--borderWidth) * 5);

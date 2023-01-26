@@ -4,7 +4,7 @@ import Button from "../../common/Button";
 import Raiting from "./Raiting";
 
 export default function ProductContent({
-  url,
+  image,
   id,
   title,
   name,
@@ -16,7 +16,7 @@ export default function ProductContent({
   return (
     <div className="product-content" key={id}>
       <div className="product-image-content">
-        <Image className="product-image" alt="product-image" src={url} />
+        <Image className="product-image" alt="product-image" src={image} />
       </div>
       <h3 className="product-title">{title}</h3>
       <p className="product-name">{name}</p>

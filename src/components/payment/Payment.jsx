@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useId, useState } from "react";
 import PaymentLeftContent from "./PaymentLeftContent";
 import PaymentRightContent from "./PaymentRightContent";
 import "./payment.scss";
@@ -7,20 +7,21 @@ import {
   formattingCartDate,
   formattingCartNumber,
 } from "./formatting";
-import { useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import ModalPayment from "./ModalPayment";
+import { setCourse } from "../../toolkit/reducers/setCourseData";
 
 export default function Payment() {
   const [cvv, setCvv] = useState("");
+  const [showed, setShowed] = useState(false);
   const [dateCart, setDateCart] = useState("");
   const [nmumberCart, setNummberCart] = useState("");
-  const { data } = useSelector((state) => state?.currentData);
-  const navigate = useNavigate();
-
+  const refNumber = useId();
+  const dispatch = useDispatch();
+  const { data } = useSelector((state) => state?.course);
   const handleChangeDateCart = (e) => {
     setDateCart(formattingCartDate(e.target.value));
   };
-
   const handleChangeNummberCart = (e) => {
     setNummberCart(formattingCartNumber(e.target.value));
   };
@@ -31,7 +32,8 @@ export default function Payment() {
 
   const handleClickSubmit = () => {
     setTimeout(() => {
-      navigate("/all-courses");
+      dispatch(setCourse({ ...data, refNumber }));
+      setShowed(true);
     }, 1000);
   };
 
@@ -48,6 +50,7 @@ export default function Payment() {
         handleChangetCvv={handleChangetCvv}
         data={data}
       />
+      {showed && <ModalPayment />}
     </div>
   );
 }
