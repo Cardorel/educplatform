@@ -5,7 +5,7 @@ import MainModal from "../modal/MainModal";
 
 export default function ModalPayment() {
   const navigation = useNavigate();
-  const goToCourse = () => navigation(`/all-courses`);
+  const goToCourse = () => navigation(`/course/detail-course/2`);
   return (
     <MainModal>
       <div className="payment-modal">

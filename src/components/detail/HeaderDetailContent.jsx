@@ -9,9 +9,6 @@ export const HeaderDetailContent = (detailData) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { data } = useSelector((state) => state?.course);
-
-  console.log(data?.refNumber);
-
   const {
     description,
     detailContent: { teachers },

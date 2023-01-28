@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 
-export default function Content() {
+export default function Content({ text, img }) {
   return (
     <div className="content">
       <div className="img-content">
