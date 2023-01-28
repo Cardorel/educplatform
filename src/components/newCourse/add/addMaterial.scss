@@ -1,0 +1,80 @@
+.add-material {
+  position: relative;
+  padding-top: 30px;
+  margin-top: 40px;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: rgba(237, 237, 237, 0.02);
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  h4 {
+    font-family: "e-Ukraine Head";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ededed;
+  }
+
+  &-container {
+    margin-top: 50px;
+    background: #0f0f0f;
+    box-shadow: 0px 1px 0px #ff8001;
+    border-radius: 15px;
+    padding: 33px 52px;
+
+    .add-material-row {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .input-content {
+        width: 100%;
+        .image-search {
+          top: 10px;
+        }
+
+        input {
+          width: 100%;
+          background: rgba(237, 237, 237, 0.02);
+          padding-top: 17px;
+          padding-bottom: 17px;
+        }
+      }
+    }
+
+    .add-material-content {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 36px;
+      padding: 30px 0;
+
+      label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(237, 237, 237, 0.02);
+        box-shadow: inset 0px -2px 0px #ededed;
+        border-radius: 15px;
+        padding: 50px 0;
+
+        p {
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          color: #ededed;
+          opacity: 0.5;
+          margin-bottom: 0;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

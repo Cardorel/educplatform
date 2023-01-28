@@ -51,6 +51,9 @@ import Video from "./components/video/Video";
 import Certificat from "./components/certificat/Certificat";
 import Bookmark from "./components/bookmark/Bookmark";
 import DetailCourse from "./components/detailCourse/DetailCourse";
+import NewCourse from "./components/newCourse/NewCourse";
+import EditCourse from "./components/editCourse/EditCourse";
+import Tutor from "./components/tutor/Tutor";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -79,6 +82,9 @@ const router = createBrowserRouter(
           <Route path="/video" element={<Video />} />
           <Route path="/certificat" element={<Certificat />} />
           <Route path="/bookmark" element={<Bookmark />} />
+          <Route path="/new-course" element={<NewCourse />} />
+          <Route path="/tutor" element={<Tutor />} />
+          <Route path="/edit-course/:id" element={<EditCourse />} />
           <Route
             path="/course/detail-course/:course"
             element={<DetailCourse />}

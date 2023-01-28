@@ -13855,6 +13855,52 @@ export const communityData = {
   ],
 };
 
+export const accessUser = [
+  {
+    id: 1,
+    text: "Всі",
+    isActive: false,
+  },
+  {
+    id: 2,
+    text: "Окремі студенти",
+    isActive: true,
+  },
+  {
+    id: 3,
+    text: "За підпискою",
+    isActive: false,
+  },
+  {
+    id: 4,
+    text: "Приватне",
+    isActive: false,
+  },
+];
+
+export const colors = [
+  {
+    id: 1,
+    color: "#FF8001",
+    isActive: true,
+  },
+  {
+    id: 2,
+    color: "#FF5600",
+    isActive: false,
+  },
+  {
+    id: 3,
+    color: "#8E1010",
+    isActive: false,
+  },
+  {
+    id: 4,
+    color: "#10788E",
+    isActive: false,
+  },
+];
+
 export const aboutUsData = {
   aboutUs: [
     {

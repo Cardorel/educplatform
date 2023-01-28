@@ -1,6 +1,8 @@
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
+import { getStorage } from "firebase/storage";
 import "firebase/compat/firestore";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_apiKey,
@@ -36,9 +38,13 @@ export const getCollectionInFireBase = async (collections) => {
 
 /* User auth */
 
-export const createUser = async (userAuth, Otherprops) => {
+export const createUser = async (
+  collection = "users",
+  userAuth,
+  Otherprops
+) => {
   if (!userAuth) return;
-  const userRef = await firestore.doc(`users/${userAuth.uid}`);
+  const userRef = await firestore.doc(`${collection}/${userAuth.uid}`);
   const snapshot = await userRef.get();
 
   if (!snapshot.exists) {
@@ -76,9 +82,11 @@ export const editUser = async (userAuth, Otherprops) => {
   }
 };
 
-firebase.initializeApp(firebaseConfig);
+const app = firebase.initializeApp(firebaseConfig);
 export const authentification = firebase.auth();
 export const firestore = firebase.firestore();
+export const storage = getStorage(app);
+export const fs = getFirestore(app);
 const googleProvider = new firebase.auth.GoogleAuthProvider();
 googleProvider.setCustomParameters({ prompt: "select_account" });
 export const LogInWithGoogle = () =>

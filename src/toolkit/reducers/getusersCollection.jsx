@@ -1,13 +1,12 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { fetchAsyncCollection } from "../fetchCollection/fetchCollection";
+import { useFetchAsyncCollection } from "../fetchCollection/fetchCollection";
 
-export const getDataAsync = createAsyncThunk("getDataAsync", async (id) => {
-  return await fetchAsyncCollection("users");
+export const getDataAsync = createAsyncThunk("getDataAsync", async () => {
+  return await useFetchAsyncCollection("users");
 });
 
 const initialState = {
-  status: "idle",
-  data: [],
+  data: null,
 };
 
 export const dataSlice = createSlice({
@@ -15,14 +14,9 @@ export const dataSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: (builder) => {
-    builder
-      .addCase(getDataAsync.pending, (state) => {
-        state.status = "loading";
-      })
-      .addCase(getDataAsync.fulfilled, (state, action) => {
-        state.data = action.payload.filter((d) => d.isActive);
-        state.status = "idle";
-      });
+    builder.addCase(getDataAsync.fulfilled, (state, action) => {
+      state.data = action.payload;
+    });
   },
 });
 

@@ -11,16 +11,15 @@ import {
   isEmailValidation,
   isPasswordValidation,
 } from "../validation/validation";
-import { useDispatch, useSelector } from "react-redux";
-import { getUserAsync } from "../../toolkit/reducers/authSlice";
+import { useDispatch } from "react-redux";
 import { getUserID } from "../../toolkit/reducers/getIDSlice";
 import JoinContainer from "../joinUs/JoinContainer";
 import { getDataAsync } from "../../toolkit/reducers/getusersCollection";
+import { fetchSignInMethodsForEmail } from "firebase/auth";
 
 export default function SignIn() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const { data } = useSelector((state) => state?.currentData);
   const [userData, setUserData] = useState({
     email: "",
     password: "",
@@ -47,14 +46,8 @@ export default function SignIn() {
           user: { _delegate },
         } = user;
         savedSession && localStorage.setItem("userId", _delegate.uid);
-        dispatch(getUserAsync(_delegate.uid));
         dispatch(getUserID(_delegate.uid));
-        if (data && user) {
-          navigate("/payment", { replace: true });
-        } else {
-          navigate("/student", { replace: true });
-        }
-
+        navigate("/student", { replace: true });
         setUserData({
           email: "",
           password: "",
@@ -68,13 +61,17 @@ export default function SignIn() {
   const handleLogInWithGoogle = async () => {
     const googleData = await LogInWithGoogle();
     const { _delegate } = googleData?.user;
-    dispatch(getUserAsync(_delegate.uid));
     dispatch(getDataAsync(_delegate.uid));
-    if (data && googleData) {
-      navigate("/payment", { replace: true });
-    } else {
-      navigate("/student", { replace: true });
-    }
+
+    fetchSignInMethodsForEmail(authentification, _delegate.email).then(
+      (result) => {
+        if (result?.length === 0) {
+          navigate("/complete-info", { replace: true });
+        } else {
+          navigate("/student", { replace: true });
+        }
+      }
+    );
   };
   return (
     <JoinContainer>

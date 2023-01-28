@@ -4,7 +4,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import SwiperAboutUsContent from "../aboutUs/SwiperContent";
 
-export default function AboutUsSwiper({ lists, handleClickModal }) {
+export default function AboutUsSwiper({ lists, handleClickModal, init = 1 }) {
   return (
     <Swiper
       cssMode={true}
@@ -15,7 +15,7 @@ export default function AboutUsSwiper({ lists, handleClickModal }) {
       slidesPerView={"auto"}
       spaceBetween={30}
       keyboard={true}
-      initialSlide={1}
+      initialSlide={init}
       modules={[Navigation, Pagination, Mousewheel, Keyboard]}
       className="about-us-Swiper"
     >
