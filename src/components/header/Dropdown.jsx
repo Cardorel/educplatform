@@ -5,10 +5,10 @@ export default function Dropdown({ setShowed }) {
   return (
     <div className="dropdown">
       <div className="dropdown-content">
-        <Link to="" onClick={() => setShowed((d) => !d)}>
+        <Link to="/tutor" onClick={() => setShowed((d) => !d)}>
           <span>Cтатус</span>
         </Link>
-        <Link to="" onClick={() => setShowed((d) => !d)}>
+        <Link to="/" onClick={() => setShowed((d) => !d)}>
           Про роботодавця
         </Link>
         <Link to="/wallet" onClick={() => setShowed((d) => !d)}>
