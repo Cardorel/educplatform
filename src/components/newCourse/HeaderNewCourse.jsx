@@ -9,13 +9,20 @@ export default function HeaderNewCourse({
   handleTextNameOnChange,
   handleUserMentorOnChange,
   handleFileOnChange,
+  imgHeader,
 }) {
+  console.log(imgHeader);
   return (
     <div className="header-new-course">
       <h4 className="header-new-course-title">Створіть новий курс:</h4>
       <div className="content">
         <label className="content-upload" htmlFor="header-img">
           <div>
+            {imgHeader.length > 0 && (
+              <div className="upload-img-header">
+                <Image src={imgHeader} alt="cross-white" />
+              </div>
+            )}
             <div className="content-img">
               <Image src={CrossWhite} alt="cross-white" />
             </div>

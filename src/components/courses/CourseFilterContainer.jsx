@@ -49,6 +49,7 @@ export default function CourseFilterContainer({
   };
   const handleChangeSearchByCertificateProgram = (e) => {
     const checked = e.target.checked;
+    console.log(checked);
     setsearchByshortCourse(false);
     setsearchByCertificateTraining(false);
     setsearchByCertificateProgram(checked);

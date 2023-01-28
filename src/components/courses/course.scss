@@ -2,7 +2,7 @@
   position: relative;
   background-image: url("../../assets/images/all-course-bg.png");
   background-repeat: no-repeat;
-  padding: 46px 270px 46px 110px;
+  padding: 46px 270px 46px 86px;
 
   &-right {
     margin-top: 86px;
@@ -11,7 +11,7 @@
   &-all {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 76px;
+    gap: 36px;
     .header {
       display: flex;
       justify-content: space-between;
@@ -56,7 +56,7 @@
   &-by-subject {
     background: rgba(237, 237, 237, 0.02);
     border-radius: 15px;
-    padding: 50px;
+    padding: 30px;
     margin-top: 45px;
 
     .content {
@@ -65,7 +65,7 @@
       gap: 45px;
 
       .course-content {
-        padding: 35px;
+        padding: 25px;
         background: rgb(#ededed, 0.1);
         border-radius: 15px;
         &-img {
@@ -342,14 +342,7 @@
       gap: 20px;
       flex-direction: column;
       padding-left: 27px;
-      max-height: 150px;
-      overflow-y: auto;
-      direction: rtl;
       padding-top: 10px;
-
-      & > * {
-        direction: ltr;
-      }
     }
   }
 }

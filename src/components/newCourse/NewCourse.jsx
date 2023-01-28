@@ -142,6 +142,7 @@ export default function NewCourse() {
         <HeaderNewCourse
           textName={textName}
           userMentor={userMentor}
+          imgHeader={imgHeader}
           handleFileOnChange={(e) =>
             uploadFile(e.target.files[0], setImgHeader)
           }

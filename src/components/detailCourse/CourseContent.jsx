@@ -18,11 +18,13 @@ export default function CourseContent({
           />
         ))}
         <div className="certificate" role="button" onClick={handleCertificate}>
-          <Content
-            title="тестування"
-            text="Сертифікаційне"
-            image={Certificat}
-          />
+          <a download="certificate.png" href="../../assets/images">
+            <Content
+              title="тестування"
+              text="Сертифікаційне"
+              image={Certificat}
+            />
+          </a>
         </div>
       </div>
     </div>

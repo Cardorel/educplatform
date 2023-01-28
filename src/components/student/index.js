@@ -44,6 +44,7 @@ export default function Student() {
               .sort(() => 0.51245 - Math.random())
               .slice(0, 4)}
             title="Короткі та корисні курси для Вас"
+            onClick={handleMore}
           />
         </div>
       </div>

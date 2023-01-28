@@ -4,7 +4,7 @@ import Button from "../common/Button";
 
 export default function StartInterface() {
   const navigate = useNavigate();
-  const handleClickToNextPage = () => navigate("/interface");
+  const handleClickToNextPage = () => navigate("/student");
   return (
     <div className="interface-register">
       <h4>Почнемо знайомство з інтерфейсом?</h4>

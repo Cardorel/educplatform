@@ -22,6 +22,7 @@
       position: absolute;
       right: 180px;
       z-index: 1;
+      bottom: -30px;
 
       .top {
         position: absolute;
@@ -36,7 +37,7 @@
       .bottom {
         position: absolute;
         bottom: 0;
-        top: 440px;
+        top: 380px;
         left: 86px;
         img {
           position: fixed;
@@ -46,8 +47,12 @@
 
     &-content {
       position: relative;
-      padding-bottom: 27px;
+      padding-bottom: 24px;
       z-index: 1;
+
+      img {
+        width: 28px;
+      }
       &::after {
         position: absolute;
         content: "";
@@ -62,7 +67,7 @@
     }
 
     &-col {
-      padding: 27px 0 0;
+      padding: 24px 0 0;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -89,7 +94,7 @@
 
       &.first-col {
         position: relative;
-        padding-bottom: 27px;
+        padding-bottom: 24px;
         &::after {
           position: absolute;
           content: "";

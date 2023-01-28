@@ -1,5 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import Button from "../../common/Button";
 import Raiting from "./Raiting";
 
@@ -12,7 +13,10 @@ export default function ProductContent({
   price,
   offerPrice,
 }) {
-  const handleClick = () => {};
+  const naviagte = useNavigate();
+  const handleClick = () => {
+    naviagte(`student/${id}`);
+  };
   return (
     <div className="product-content" key={id}>
       <div className="product-image-content">
@@ -25,8 +29,12 @@ export default function ProductContent({
         <Raiting number={rating} />
       </div>
       <div className="price-content">
-        <p className="price">{price} грн</p>
-        <p className="price-offered">{offerPrice} грн</p>
+        <p className="price">{price * (1 - offerPrice / 100)} грн</p>
+        {offerPrice !== 0 && (
+          <p className="price-offered">
+            {price === 0 ? "безкоштовно" : price + " грн"}
+          </p>
+        )}
       </div>
       <div className="product-btn">
         <Button

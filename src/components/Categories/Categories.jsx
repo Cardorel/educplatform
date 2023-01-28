@@ -1,5 +1,5 @@
 import React from "react";
-import { products } from "../../assets/consts/data";
+import { certificateData } from "../../assets/consts/data";
 import Feedback from "../feedback/Feedback";
 import WhatNextContent from "../student/whatNext/WhatNextContent";
 import "./categories.scss";
@@ -17,7 +17,7 @@ export default function Categories() {
       <Feedback />
       <div className="category-prop">
         <WhatNextContent
-          data={products}
+          data={certificateData}
           text="Курси, які можуть Вас зацікавити"
         />
       </div>

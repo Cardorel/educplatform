@@ -1,27 +1,97 @@
 .header-container {
   background: #040404;
-  padding: 16px 61px;
+  padding: 0 61px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   position: relative;
 
+  &.padding {
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+
   .with-user-content {
-    display: flex;
-    gap: 45px;
+    display: grid;
     align-items: center;
+    grid-template-columns: repeat(3, 110px);
 
     .icon-content {
       position: relative;
-      .bar-message {
+      padding: 39px;
+
+      img {
+        width: 40px;
+        height: 41px;
+      }
+
+      width: 100%;
+      &.bar-user {
+        background-color: #ededed !important;
+        border-radius: 15px 15px 0 0;
+        padding: 20px 39px;
+      }
+
+      .dropdown {
         position: absolute;
-        top: 0;
-        right: 1px;
-        height: 7px;
-        width: 7px;
-        border-radius: 50%;
-        background: #ff5600;
+        right: 0;
+        width: 350px;
+        top: 80px;
+        z-index: 999;
+
+        &-content {
+          display: flex;
+          flex-direction: column;
+          background: #ededed;
+          padding: 25px 25px 6px;
+          border-top-left-radius: 15px;
+        }
+
+        a {
+          font-family: "e-Ukraine Head";
+          font-style: normal;
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 24px;
+          color: #040404;
+          position: relative;
+          padding: 10px 0;
+          display: block;
+          text-align: center;
+
+          span {
+            width: 100%;
+            display: block;
+          }
+
+          &::after {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: #8e1010;
+            border-radius: 5px;
+            height: 2px;
+            content: "";
+          }
+        }
+
+        button {
+          background: #040404;
+          border-radius: 0px 0px 15px 15px;
+          display: block;
+          padding: 18px 0;
+          width: 100%;
+          border: none;
+
+          font-family: "e-Ukraine Head";
+          font-style: normal;
+          font-weight: 100;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ededed;
+        }
       }
     }
   }

@@ -24,7 +24,7 @@ export default function Header() {
 
   const handleLogOutClick = () => navigate("/log-out");
   return (
-    <div className="header-container">
+    <div className={`header-container ${!user && "padding"}`}>
       <Link to="/">
         <Logo />
       </Link>

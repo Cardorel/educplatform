@@ -3,7 +3,7 @@ import HeaderDetail from "./HeaderDetail";
 import "./detail.scss";
 import AboutCertificate from "./AboutCertificate";
 import Skills from "./Skills";
-import { certificateData, products } from "../../assets/consts/data";
+import { certificateData } from "../../assets/consts/data";
 import AboutProfessionCertificat from "./AboutProfessionCertificat";
 import TeacherDetail from "./TeacherDetail";
 import SeveralCourse from "./SeveralCourse";
@@ -55,7 +55,10 @@ export default function Detail() {
       <Certificate advs={advs} logoUrl={logoUrl} />
       <ProgrammTeacher teachers={teachers} />
       <div className="similary-product what-next-container ">
-        <WhatNextContent data={products} text="Інші схожі програми і курси" />
+        <WhatNextContent
+          data={certificateData}
+          text="Інші схожі програми і курси"
+        />
       </div>
       {currentVideo && (
         <ModalApp

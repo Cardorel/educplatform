@@ -35,27 +35,27 @@ export default function Menu() {
               alt="profil-image"
             />
           </Link>
-          <Link to="/wallet" className="menu-col">
+          <div role="button" disabled className="menu-col">
             <Image src={CalendarIcon} alt="calendar-icon" />
-          </Link>
-          <Link to="/chat" className="menu-col">
+          </div>
+          <div className="menu-col">
             <Image src={ChatIcon} alt="chat-icon" />
-          </Link>
-          <Link to="/video" className="menu-col">
+          </div>
+          <div to="/video" className="menu-col">
             <Image src={VideoIcon} alt="video-icon" />
-          </Link>
-          <Link to="" className="menu-col">
+          </div>
+          <div className="menu-col">
             <Image src={CallIco} alt="chat-icon" />
-          </Link>
-          <Link to="" className="menu-col">
+          </div>
+          <div className="menu-col">
             <Image src={MoodIcon} alt="video-icon" />
-          </Link>
-          <Link to="/portofolio" className="menu-col">
+          </div>
+          <div to="/portofolio" className="menu-col">
             <Image src={ChallengeIco} alt="challenge-icon" />
-          </Link>
-          <Link to="/club" className="menu-col">
+          </div>
+          <div className="menu-col">
             <Image src={FlagIco} alt="flag-icon" />
-          </Link>
+          </div>
         </div>
       </div>
     </div>

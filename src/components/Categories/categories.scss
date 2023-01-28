@@ -62,11 +62,21 @@
 
   &-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 420px);
     gap: 40px 70px;
-    height: max-content;
+
+    .home-work-image-content {
+      img {
+        height: 350px;
+      }
+
+      .title {
+        bottom: 10px;
+      }
+    }
+
     & > .home-image-container {
-      width: 420px;
+      width: 100%;
       height: 350px;
 
       img {

@@ -20,18 +20,18 @@ export default function Filter({
             <div className="filter-content">
               <InputCheckBox
                 labelText="Короткостроковий курс"
-                handleChange={handleChangeSearchByshortCourse}
+                handleChangeByChecking={handleChangeSearchByshortCourse}
                 isChecked={searchByshortCourse}
               />
               <InputCheckBox
                 labelText="Підвищення кваліфікації"
-                handleChange={handleChangeSearchBycertificateTraining}
+                handleChangeByChecking={handleChangeSearchBycertificateTraining}
                 isChecked={searchBycertificateTraining}
               />
               <InputCheckBox
                 labelText="Сертифікаційна програма"
-                value={searchByCertificateProgram.value}
-                handleChange={handleChangeSearchByCertificateProgram}
+                value={searchByCertificateProgram}
+                handleChangeByChecking={handleChangeSearchByCertificateProgram}
                 isChecked={searchByCertificateProgram}
               />
             </div>
